@@ -1,0 +1,179 @@
+{
+  "version": "3.0.0",
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\node_modules\\electron\\dist\\electron.exe",
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\audio-intro-source-1793260918204",
+  "packaged": false,
+  "startedAt": "2026-10-29T08:01:58.204Z",
+  "checks": [
+    {
+      "name": "入场中的整排模型与详情共享自研信号匣几何，无原品牌片头",
+      "detail": {
+        "intro": {
+          "phase": "running",
+          "active": true,
+          "completed": false,
+          "elapsed": 0.6872999999994411,
+          "progress": 0.15072368421040377
+        },
+        "parts": 7
+      }
+    },
+    {
+      "name": "欢迎与阵列完成后开始本地三轨循环配乐",
+      "detail": {
+        "preferences": {
+          "enabled": true,
+          "sound": true,
+          "music": true,
+          "typing": true,
+          "soundVolume": 0.35,
+          "musicVolume": 0.22
+        },
+        "status": "playing",
+        "saved": true,
+        "contextState": "running",
+        "currentTime": 12.741333333333333,
+        "musicReady": true,
+        "musicStartCount": 1,
+        "sourceCount": 3,
+        "musicStartedAt": 12.730666666666666,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 0.010666666666667268,
+        "completedLoops": 0,
+        "outputRms": 0.0001251004654888738,
+        "outputPeak": 0.0008722309721633792,
+        "effectCount": 7,
+        "playedKeys": 4,
+        "error": "",
+        "muted": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "傅里叶解析与重新合成的文字声音触发",
+      "detail": true
+    },
+    {
+      "name": "主页进入实验台后同一音源和起播时间，仍有输出",
+      "detail": {
+        "preferences": {
+          "enabled": true,
+          "sound": true,
+          "music": true,
+          "typing": true,
+          "soundVolume": 0.35,
+          "musicVolume": 0.22
+        },
+        "status": "playing",
+        "saved": true,
+        "contextState": "running",
+        "currentTime": 18.44,
+        "musicReady": true,
+        "musicStartCount": 1,
+        "sourceCount": 3,
+        "musicStartedAt": 12.730666666666666,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 5.709333333333335,
+        "completedLoops": 0,
+        "outputRms": 0.011459344568525898,
+        "outputPeak": 0.02825462445616722,
+        "effectCount": 16,
+        "playedKeys": 8,
+        "error": "",
+        "muted": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "后台 frame 与其他窗口不能更改声音",
+      "detail": true
+    },
+    {
+      "name": "实际跨过完整循环边界，无重新创建音源且输出继续",
+      "detail": {
+        "preferences": {
+          "enabled": true,
+          "sound": true,
+          "music": true,
+          "typing": true,
+          "soundVolume": 0.35,
+          "musicVolume": 0.22
+        },
+        "status": "playing",
+        "saved": true,
+        "contextState": "running",
+        "currentTime": 66.072,
+        "musicReady": true,
+        "musicStartCount": 1,
+        "sourceCount": 3,
+        "musicStartedAt": 12.730666666666666,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 0.008000000000002672,
+        "completedLoops": 1,
+        "outputRms": 0.0021272426873428156,
+        "outputPeak": 0.007315775379538536,
+        "effectCount": 17,
+        "playedKeys": 8,
+        "error": "",
+        "muted": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "总开关实际静音，音量与文字音偏好独立保存",
+      "detail": true
+    },
+    {
+      "name": "返回主页不重播入场，两处设置同步且解除静音延续播放",
+      "detail": true
+    },
+    {
+      "name": "越界音量与未知偏好字段被拒绝",
+      "detail": true
+    },
+    {
+      "name": "重启保持关闭与音量偏好；减少动态直接完成入场且不偷偷播放",
+      "detail": {
+        "preferences": {
+          "enabled": false,
+          "sound": true,
+          "music": true,
+          "typing": false,
+          "soundVolume": 0.35,
+          "musicVolume": 0.17
+        },
+        "status": "muted",
+        "saved": true,
+        "contextState": "not-created",
+        "currentTime": 0,
+        "musicReady": true,
+        "musicStartCount": 0,
+        "sourceCount": 0,
+        "musicStartedAt": null,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 0,
+        "completedLoops": 0,
+        "outputRms": 0,
+        "outputPeak": 0,
+        "effectCount": 0,
+        "playedKeys": 0,
+        "error": "",
+        "muted": true,
+        "disposed": false
+      }
+    },
+    {
+      "name": "跳过入场立即恢复可操作的四实验索引",
+      "detail": true
+    },
+    {
+      "name": "无渲染异常、外网资源或旧 GLB 请求",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "scope": "实际 Electron、本地配乐输出电平与跨页面连续播放、入场模型与偏好持久化；独立数据，不调用在线模型。",
+  "passed": true,
+  "rendererErrors": [],
+  "finishedAt": "2026-10-29T08:03:10.035Z"
+}

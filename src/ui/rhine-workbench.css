@@ -1,0 +1,282 @@
+/* 控小助 1.0 · instrument workspace.
+   Visual layer only: experiment state, layout breakpoints and chart colours stay independent. */
+:root {
+  --bg: #17212e;
+  --surface: #1c2938;
+  --surface-raised: #29394d;
+  --surface-inset: #14202e;
+  --border: #35465b;
+  --text: #e7eef8;
+  --muted: #a9b9ce;
+  --radius: 5px;
+  font-family: "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+.app-chrome, .control-lab, .modal, .ai-drawer { font-kerning: normal; }
+.control-lab :is(.parameter-pane, .workspace-view, .run-history), .modal, .ai-drawer-body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.app-chrome { padding-inline: 26px; border-bottom-color: var(--border); background: var(--bg); }
+.app-brand strong { font-size: 17px; font-weight: 650; letter-spacing: .14em; }
+.app-brand .muted { color: var(--muted); font-size: 11px; letter-spacing: .06em; }
+.app-brand .brand-mark.small { background: transparent; border-color: var(--border); color: var(--accent); border-radius: 4px; }
+.chrome-actions { gap: 12px; }
+.chrome-actions .version { font-family: "Cascadia Mono", Consolas, monospace; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.control-lab .module-navigation { background: var(--bg); border-bottom: 1px solid var(--border); padding-inline: 26px; }
+.control-lab .module-navigation nav { gap: 22px; }
+.control-lab .module-navigation nav button { padding-inline: 3px; gap: 9px; color: var(--muted); transition: color 150ms, border-color 150ms; }
+.control-lab .module-navigation nav button:hover { background: transparent; color: var(--text); }
+.control-lab .module-navigation nav button.active { color: var(--accent); background: transparent; }
+.control-lab .module-navigation nav button strong { font-size: 12px; letter-spacing: .04em; }
+.control-lab .module-navigation nav button span { font-size: 9px; font-variant-numeric: tabular-nums; opacity: .85; }
+.control-lab .module-footer { font-size: 10px; letter-spacing: .03em; }
+.control-lab .eyebrow { color: var(--muted); font-size: 10px; font-weight: 400; letter-spacing: .1em; }
+.control-lab h1 { font-weight: 600; letter-spacing: .055em; }
+.control-lab h2, .modal h2 { font-weight: 600; letter-spacing: .035em; }
+.control-lab .hint { color: var(--muted); }
+/* Shared controls keep a clear primary action and quiet secondary actions. */
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button {
+  border-radius: 4px;
+  min-height: 34px;
+  padding-inline: 13px;
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .02em;
+  transition: background-color 140ms, border-color 140ms, color 140ms;
+}
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button:hover:not(:disabled) { background: var(--surface-raised); border-color: #637a98; }
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button.primary { background: var(--accent); border-color: var(--accent); color: #172234; font-weight: 600; }
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button.primary:hover:not(:disabled) { background: #b0cdff; border-color: #b0cdff; }
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button.danger-subtle { color: var(--danger); }
+body :is(.control-lab, .app-chrome, .modal, .ai-drawer) .button.danger-subtle:hover:not(:disabled) { background: #40292d; border-color: #805258; }
+:is(.control-lab, .modal, .ai-drawer) .field > span { font-size: 11px; letter-spacing: .02em; color: var(--muted); }
+:is(.control-lab, .modal, .ai-drawer) .field input,
+:is(.control-lab, .modal, .ai-drawer) .field select,
+:is(.control-lab, .modal, .ai-drawer) .field textarea {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--surface-inset);
+  color: var(--text);
+  transition: border-color 140ms;
+}
+:is(.control-lab, .modal, .ai-drawer) .field input:hover:not(:disabled),
+:is(.control-lab, .modal, .ai-drawer) .field select:hover:not(:disabled),
+:is(.control-lab, .modal, .ai-drawer) .field textarea:hover:not(:disabled) { border-color: #607794; }
+:is(.control-lab, .modal, .ai-drawer) .field input[aria-invalid="true"] { border-color: var(--danger); }
+:is(.control-lab, .modal, .ai-drawer) .field input[type="number"] { font-family: "Cascadia Mono", Consolas, monospace; font-size: 14px; font-variant-numeric: tabular-nums; }
+:is(.control-lab, .modal, .ai-drawer) .field input:disabled { color: #7a8ba2; background: var(--bg); }
+.control-lab summary, .ai-drawer summary { font-size: 12px; line-height: 1.7; font-weight: 500; color: var(--muted); }
+.control-lab summary:hover, .ai-drawer summary:hover { color: var(--text); }
+.control-lab .tag { padding: 1px 6px; border-radius: 3px; font-size: 10px; background: transparent; }
+.control-lab .status { border-radius: 3px; font-size: 10px; padding: 1px 6px; }
+/* A fine-lined parameter rail and an open plotting surface replace nested boxes. */
+.control-lab .workbench { --workspace-gap: 20px; padding-top: 20px; }
+.control-lab .workbench-toolbar { margin-bottom: 15px; }
+.control-lab .workbench-toolbar h1 { font-size: 24px; line-height: 1.35; }
+.control-lab .workbench-toolbar .eyebrow { margin-bottom: 5px; }
+.control-lab .guide-strip { background: transparent; border: 1px solid var(--border); border-radius: 4px; padding: 8px 14px; margin-bottom: 16px; }
+.control-lab .guide-steps { gap: 18px; }
+.control-lab .guide-steps button { justify-content: flex-start; padding: 4px 2px 8px; font-size: 11px; color: var(--muted); }
+.control-lab .guide-steps button span { border: 0; border-radius: 0; width: 19px; height: 19px; font-family: "Cascadia Mono", Consolas, monospace; font-size: 10px; color: inherit; background: transparent; }
+.control-lab .guide-steps button.active { color: var(--accent); border-color: var(--accent); }
+.control-lab .guide-steps button.active span { background: transparent; }
+.control-lab .guide-copy { padding-top: 7px; gap: 18px; }
+.control-lab .guide-copy > p { color: var(--muted); line-height: 1.6; }
+.control-lab .guide-copy .button { min-height: 27px; padding: 3px 9px; font-size: 11px; }
+.control-lab .parameter-pane { padding-right: 8px; }
+.control-lab .configuration-stack { gap: 0; background: transparent; }
+.control-lab .configuration-stack .panel { padding: 18px 14px; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; background: transparent; }
+.control-lab .configuration-stack .panel:first-child { padding-top: 16px; }
+.control-lab .configuration-stack .panel:last-child { border-bottom: 0; padding-bottom: 12px; }
+.control-lab .configuration-stack h2 { font-size: 14px; }
+.control-lab .configuration-stack .section-heading { margin-bottom: 17px; align-items: center; }
+.control-lab .configuration-stack .section-heading > .muted { font-size: 9px; }
+.control-lab .configuration-stack .field { margin-bottom: 12px; }
+.control-lab .configuration-stack .field-grid { gap: 0 13px; }
+.control-lab .configuration-stack .hint { font-size: 11px; }
+.control-lab .configuration-stack details { margin-top: 14px; padding-top: 11px; }
+.control-lab .segmented { border: 1px solid var(--border); border-radius: 4px; background: transparent; padding: 3px; gap: 2px; }
+.control-lab .segmented .button { border-color: transparent; min-height: 28px; padding: 4px 11px; background: transparent; }
+.control-lab .segmented .button.selected { background: var(--surface-raised); color: var(--accent); border-color: var(--border); }
+.control-lab .controller-panel > .segmented { display: flex; width: 100%; }
+.control-lab .controller-panel > .segmented .button { flex: 1; }
+.control-lab .workbench-main { border-left: 1px solid var(--border); padding-left: 20px; }
+.control-lab .workspace-tabs { background: transparent; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; padding: 0; gap: 20px; }
+.control-lab .workspace-tabs > button { padding: 12px 2px; font-size: 12px; background: transparent; letter-spacing: .02em; }
+.control-lab .workspace-tabs > button:hover { background: transparent; color: var(--text); }
+.control-lab .workspace-tabs > button[aria-selected="true"] { background: transparent; color: var(--accent); }
+.control-lab .workspace-tabs > button > span { border: 0; font-size: 10px; padding: 0; }
+.control-lab .workspace-view.panel, .control-lab .learning-view > .panel { border: 0; border-radius: 0; padding: 20px 3px 14px 0; background: transparent; }
+.control-lab .workspace-view .section-heading { margin-bottom: 16px; }
+.control-lab .workspace-view .section-heading h2 { font-size: 15px; }
+.control-lab .chart-panel .section-heading .hint { margin-top: 6px; font-size: 11px; }
+.control-lab .chart-panel .segmented .button { font-size: 11px; padding: 4px 10px; }
+.control-lab .workspace-view .chart-readout { padding: 8px 0 12px; gap: 7px 17px; }
+.control-lab .chart-readout strong { font-variant-numeric: tabular-nums; }
+.control-lab .response-chart .grid-line { stroke: #304053; }
+.control-lab .response-chart svg text { fill: #a0b2c9; }
+.control-lab .response-chart svg .axis-label { fill: var(--muted); }
+.control-lab .chart-comparison-control { padding-block: 5px; gap: 8px; }
+.control-lab .chart-comparison-control > .hint { color: #91a5c0; }
+.control-lab .workspace-view .result-summary { margin-top: 12px; margin-bottom: 12px; padding-top: 12px; }
+.control-lab .workspace-view .metric-grid { gap: 0; border-block: 1px solid var(--border); }
+.control-lab .workspace-view .metric { background: transparent; border: 0; border-left: 1px solid var(--border); border-radius: 0; padding: 13px 13px 15px; }
+.control-lab .workspace-view .metric:first-child { border-left: 0; padding-left: 0; }
+.control-lab .workspace-view .metric > span { font-size: 11px; margin-bottom: 7px; line-height: 1.6; }
+.control-lab .workspace-view .metric > strong { font-size: 23px; letter-spacing: -.03em; font-variant-numeric: tabular-nums; color: var(--text); }
+.control-lab .workspace-view .metric > .hint { margin-top: 6px; color: var(--muted); }
+.control-lab .workspace-view > details { border-top: 0; margin-top: 9px; }
+.control-lab .candidate { border-radius: 4px; border-color: var(--border); border-top-color: #60738f; background: var(--surface); padding: 18px; }
+.control-lab .candidate-list { gap: 14px; }
+.control-lab .candidate .controller-code { padding-block: 8px; border-block: 1px solid var(--border); }
+.control-lab .comparison-table { font-variant-numeric: tabular-nums; }
+.control-lab .comparison-table th { background: transparent; padding-block: 12px; font-size: 11px; }
+.control-lab .comparison-table td { padding-block: 12px; }
+.control-lab .run-item { padding: 16px 10px; }
+.control-lab .run-item.active { border-radius: 0; background: var(--surface); border-left: 2px solid var(--accent); }
+.control-lab .prediction { background: var(--surface); border-left-width: 1px; padding-block: 14px; }
+/* Archive lists retain the same readable hierarchy as the 3D experiment files. */
+.control-lab .page { padding-top: 34px; }
+.control-lab .page-heading h1 { font-size: 28px; line-height: 1.4; }
+.control-lab .page-heading p:not(.eyebrow) { font-size: 13px; line-height: 1.8; }
+.control-lab .page-heading { margin-bottom: 26px; }
+.control-lab .library-intro { font-size: 11px; gap: 30px; padding-bottom: 18px; margin-bottom: 22px; }
+.control-lab .case-grid { gap: 22px; }
+.control-lab .case-card { border: 1px solid var(--border); border-radius: 4px; padding: 26px; background: transparent; }
+.control-lab .case-meta { margin-bottom: 18px; }
+.control-lab .case-number { font-size: 26px; font-weight: 300; letter-spacing: -.03em; font-variant-numeric: tabular-nums; color: var(--muted); }
+.control-lab .case-card h2 { font-size: 21px; font-weight: 600; letter-spacing: .06em; margin-bottom: 12px; }
+.control-lab .case-card p { font-size: 13px; line-height: 1.85; color: var(--muted); }
+.control-lab .case-card h3 { font-size: 11px; font-weight: 500; color: var(--muted); }
+.control-lab .case-card li { line-height: 1.8; color: var(--muted); }
+.control-lab .case-card > .button { align-self: stretch; margin-top: 13px; justify-content: space-between; padding-block: 9px; }
+.control-lab .case-card > .button::after { content: '→'; font-size: 18px; font-weight: 400; line-height: 1; }
+.control-lab .compact-panel { padding: 21px 0; background: transparent; border: 0; border-block: 1px solid var(--border); border-radius: 0; }
+.control-lab .records-list { gap: 0; border-top: 1px solid var(--border); }
+.control-lab .record-card { border: 0; border-bottom: 1px solid var(--border); border-radius: 0; padding: 25px 8px; background: transparent; }
+.control-lab .record-card h2 { font-size: 18px; }
+.control-lab .record-actions { gap: 10px; flex-wrap: wrap; }
+.control-lab .verification-grid > .panel { border: 0; border-top: 1px solid var(--border); border-radius: 0; background: transparent; padding: 24px 0; }
+.control-lab .verification-grid { gap: 10px 32px; }
+.control-lab .verification-grid li { line-height: 1.85; }
+/* Floating tools remain solid and legible; no glow or decorative bloom. */
+.modal { background: var(--surface); border: 1px solid #4e6582; border-radius: 6px; box-shadow: 0 20px 80px #08111d80; padding: 26px; }
+.modal > header { padding-bottom: 17px; margin-bottom: 20px; border-bottom: 1px solid var(--border); }
+.modal > header h2 { font-size: 21px; }
+.modal .section-toolbar { gap: 14px; }
+.modal .section-toolbar .button { white-space: normal; }
+.modal-actions { border-top: 1px solid var(--border); padding-top: 18px; }
+.appearance-settings { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-bottom: 18px; margin-bottom: 18px; border-bottom: 1px solid var(--border); }
+.appearance-settings h3 { margin-bottom: 3px; font-size: 13px; font-weight: 600; }
+.appearance-settings p { margin: 0; }
+.appearance-settings .segmented { flex-shrink: 0; }
+body .ai-launcher { border-radius: 7px; border-color: #75658e; background: var(--surface); box-shadow: 0 6px 22px #08111d55; min-height: 43px; font-size: 12px; font-weight: 500; }
+body .ai-launcher-mark { border-radius: 4px; background: transparent; }
+body .ai-drawer { border-radius: 6px; border-top-width: 1px; background: var(--surface); box-shadow: 0 18px 65px #08111d88; }
+body .ai-drawer-header { padding: 19px 20px 13px; }
+body .ai-drawer-header h2 { font-size: 18px; font-weight: 600; letter-spacing: .05em; }
+body .ai-drawer-header .eyebrow { letter-spacing: .08em; }
+body .ai-drawer-body { padding: 18px 18px 22px 20px; }
+body .ai-drawer-context { padding-inline: 20px; padding-bottom: 14px; }
+body .ai-drawer .ai-setup-callout { background: transparent; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; padding: 0 0 17px; margin-bottom: 18px; }
+body .ai-drawer-footer { padding: 12px 20px; background: transparent; }
+body .ai-drawer .ai-session { padding-top: 18px; margin-top: 16px; }
+body .ai-drawer .proposal { border-radius: 4px; }
+body .ai-drawer .field textarea { line-height: 1.8; }
+@media (min-width: 1000px) {
+  .control-lab .workbench-grid { grid-template-columns: 290px minmax(0, 1fr); }
+  .control-lab .workspace-view .chart-plot { height: clamp(160px, calc(100dvh - 650px), 340px); }
+}
+@media (min-width: 1550px) {
+  .control-lab .workbench-grid { grid-template-columns: 320px minmax(0, 1fr); }
+  .control-lab .workbench { padding-inline: 32px; --workspace-gap: 26px; }
+  .control-lab .workbench-main { padding-left: 26px; }
+}
+/* Short desktop windows keep the five values in view without reducing the
+   chart's readable minimum height or changing the independent scroll panes. */
+@media (min-width: 1000px) and (max-height: 1000px) {
+  .control-lab .workbench { padding-top: 14px; }
+  .control-lab .workbench-toolbar { margin-bottom: 10px; }
+  .control-lab .workbench .guide-strip { padding-block: 6px; margin-bottom: 8px; }
+  .control-lab .workspace-tabs > button { padding-block: 10px; }
+  .control-lab .workspace-view.panel { padding-top: 14px; }
+  .control-lab .workspace-view .section-heading { margin-bottom: 10px; }
+  .control-lab .workspace-view .chart-readout { padding-block: 6px 7px; }
+  .control-lab .workspace-view .result-summary { margin-block: 9px; padding-top: 9px; }
+  .control-lab .workspace-view .metric { padding-block: 9px 10px; }
+  .control-lab .workspace-view .metric > span { margin-bottom: 5px; }
+  .control-lab .workspace-view .metric > .hint { margin-top: 4px; }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .control-lab .workbench { padding: 14px 17px; --workspace-gap: 14px; }
+  .control-lab .workbench-grid { grid-template-columns: 250px minmax(0, 1fr); }
+  .control-lab .workbench-main { padding-left: 14px; }
+  .control-lab .configuration-stack .panel { padding-inline: 8px; }
+  .control-lab .workspace-tabs { gap: 14px; }
+  .control-lab .workspace-tabs > button { font-size: 11px; padding: 11px 1px; }
+  .control-lab .workspace-view .metric { padding-inline: 9px; }
+  .control-lab .workspace-view .metric > span { font-size: 10px; }
+  .control-lab .workspace-view .metric > strong { font-size: 19px; }
+  .control-lab .chart-panel .segmented .button { padding: 4px 7px; font-size: 10px; }
+  .control-lab .guide-steps { gap: 12px; }
+  .control-lab .guide-copy > p { font-size: 10px; }
+}
+@media (min-width: 1000px) and (max-height: 840px) {
+  /* The navigation has room for the assistant on short screens. Keeping its
+     launcher here leaves the chart and all five result columns unobstructed. */
+  body .ai-launcher { top: 60px; right: 180px; bottom: auto; min-height: 32px; padding: 3px 11px 3px 7px; }
+  body .ai-launcher-mark { width: 24px; height: 24px; }
+}
+@media (min-width: 1000px) and (max-height: 740px) {
+  .control-lab .workbench-toolbar { margin-bottom: 8px; }
+  .control-lab .workbench .guide-strip { padding-block: 4px; }
+  .control-lab .workbench .guide-copy { min-height: 28px; }
+  .control-lab .workbench .guide-steps button { padding-block: 3px 6px; }
+  .control-lab .workspace-tabs > button { padding-block: 8px; }
+  .control-lab .workspace-view.panel { padding-top: 10px; }
+  .control-lab .workspace-view .section-heading { margin-bottom: 6px; }
+  .control-lab .workspace-view .chart-readout { padding-block: 4px 5px; }
+  .control-lab .chart-comparison-control { padding-block: 3px; }
+  .control-lab .workspace-view .result-summary { margin-block: 7px; padding-top: 7px; }
+  .control-lab .workspace-view .metric { padding-block: 7px 8px; }
+  .control-lab .workspace-view .metric > strong { line-height: 1.3; }
+}
+@media (max-width: 999px) {
+  .control-lab .workbench { padding: 16px; }
+  .control-lab .workbench-main { padding-left: 14px; }
+  .control-lab .workspace-tabs { gap: 6px; }
+  .control-lab .workspace-tabs > button { padding: 10px 5px; font-size: 11px; }
+  .control-lab .workspace-view .metric { border-left: 0; border-bottom: 1px solid var(--border); padding: 12px 8px; }
+  .control-lab .workspace-view .metric:first-child { padding-left: 8px; }
+  .control-lab .workspace-view .metric > strong { font-size: 20px; }
+  .control-lab .guide-steps { gap: 5px; }
+}
+@media (max-width: 760px) {
+  .app-chrome { padding-inline: 13px; }
+  .chrome-actions { gap: 6px; }
+  .app-chrome .button { padding-inline: 9px; font-size: 11px; }
+  .control-lab .module-navigation { padding-inline: 13px; }
+  .control-lab .module-navigation nav { gap: 9px; }
+  .control-lab .module-navigation nav button strong { font-size: 11px; }
+  .control-lab .page { padding: 25px 17px; }
+  .control-lab .page-heading h1 { font-size: 25px; }
+  .control-lab .workbench { padding: 15px 12px 82px; }
+  .control-lab .workbench-toolbar h1 { font-size: 22px; }
+  .control-lab .workbench-main { padding-left: 0; border-left: 0; border-top: 1px solid var(--border); }
+  .control-lab .parameter-pane { padding-right: 0; }
+  .control-lab .configuration-stack { gap: 14px; }
+  .control-lab .configuration-stack .panel { padding-inline: 0; }
+  .control-lab .guide-steps button { font-size: 10px; justify-content: center; }
+  .control-lab .guide-strip { padding-inline: 9px; }
+  .control-lab .case-card { padding: 22px; }
+  .control-lab .library-intro { gap: 10px 18px; }
+  .control-lab .workspace-view.panel, .control-lab .learning-view > .panel { padding-top: 17px; }
+  .control-lab .workspace-view .chart-plot { height: 250px; }
+  body .ai-drawer-header { padding: 16px 15px 12px; }
+  body .ai-drawer-context { padding-inline: 15px; }
+  body .ai-drawer-body { padding: 16px 15px; }
+  body .ai-drawer-footer { padding-inline: 15px; }
+}

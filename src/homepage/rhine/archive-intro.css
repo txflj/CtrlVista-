@@ -1,0 +1,29 @@
+/* Array introduction uses the existing scene, palette and responsive stage. */
+#stage[data-intro="waiting"] .three-scene { opacity: 0; }
+#stage[data-intro="waiting"] :is(.archive-ui, .system-nav, .system-footer),
+#stage[data-intro="running"] :is(.archive-ui, .system-nav, .system-footer) {
+  opacity: var(--intro-ui, 0);
+  transition: none;
+}
+#stage[data-intro="running"] .three-scene { pointer-events: none; }
+.array-intro-ui { position: absolute; inset: 0; z-index: 8; pointer-events: none; }
+.array-intro-copy { position: absolute; left: 53%; top: 47%; color: var(--theme-ink); }
+.array-intro-copy > span { display: block; font-size: 23px; font-weight: 500; letter-spacing: 2px; min-height: 32px; }
+.array-intro-copy > small { display: block; margin-top: 14px; color: var(--theme-muted); font-size: 11px; letter-spacing: 2px; }
+.array-intro-skip { position: absolute; right: 59px; bottom: 65px; pointer-events: auto; padding: 12px 17px; border: 1px solid var(--theme-line); border-radius: 4px; background: rgba(var(--theme-panel-rgb), .8); color: var(--theme-ink); font-size: 13px; }
+.array-intro-skip small { margin-left: 18px; color: var(--theme-muted); font-size: 10px; }
+.array-intro-skip:hover { border-color: var(--theme-accent); }
+#stage[data-intro="done"] .array-intro-ui { display: none; }
+[data-layout="portrait"] .array-intro-copy { left: 26px; top: 42%; }
+[data-layout="portrait"] .array-intro-skip { right: 24px; bottom: 46px; }
+
+.home-audio-settings { margin: 22px 0 8px; border-top: 1px solid var(--theme-line); }
+.home-audio-settings h3 { margin: 24px 0 6px; font-size: 17px; font-weight: 500; }
+.home-audio-settings .home-setting-row { padding: 16px 0; }
+.home-audio-settings button[aria-pressed="true"] { color: var(--theme-accent); border-color: var(--theme-accent); }
+.home-audio-volume { display: flex; align-items: center; gap: 12px; width: 220px; }
+.home-audio-volume input { width: 160px; accent-color: var(--theme-accent); cursor: pointer; }
+.home-audio-volume output { min-width: 38px; text-align: right; font-size: 13px; color: var(--theme-muted); }
+.home-audio-status { color: var(--theme-muted); font-size: 12px; line-height: 1.7; }
+[data-layout="portrait"] .home-audio-volume { width: 155px; gap: 7px; }
+[data-layout="portrait"] .home-audio-volume input { width: 105px; }

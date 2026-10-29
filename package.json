@@ -1,0 +1,37 @@
+{
+  "name": "kongxiaozhu-desktop",
+  "version": "3.0.0",
+  "private": true,
+  "description": "控小助 AI 控制实验工作台",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "electron .",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node scripts/package.mjs",
+    "prebuild": "node scripts/patch-rolling-number.mjs"
+  },
+  "dependencies": {
+    "@kitlangton/rolling-number": "0.4.1",
+    "ml-matrix": "6.15.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.183.0"
+  },
+  "devDependencies": {
+    "electron": "44.9.3",
+    "prettier": "3.9.6",
+    "vite": "8.3.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/txflj/CtrlVista-.git"
+  },
+  "homepage": "https://github.com/txflj/CtrlVista-#readme",
+  "bugs": {
+    "url": "https://github.com/txflj/CtrlVista-/issues"
+  }
+}

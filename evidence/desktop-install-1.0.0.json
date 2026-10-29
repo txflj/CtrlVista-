@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "passed": true,
+  "verifiedAt": "2026-10-28T11:05:27.1005715Z",
+  "installedFrom": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-1.0.0-安装包.exe",
+  "installDirectory": "<USER_HOME>\\Desktop\\控小助程序",
+  "shortcut": "<USER_HOME>\\Desktop\\控小助.lnk",
+  "previousVersion": "0.1.2",
+  "backupDirectory": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\desktop-backups\\20261028-190215-451",
+  "verifiedPayloadFiles": 209,
+  "preservedExperimentFiles": 14,
+  "settingsAndExperimentHashesUnchanged": true,
+  "uninstallRegistered": true,
+  "launchedProcessId": 34644,
+  "launchedPath": "<USER_HOME>\\Desktop\\控小助程序\\控小助.exe",
+  "windowTitle": "控小助 · 控制实验工作台",
+  "scope": "正式安装。finish-desktop-v1.ps1 已通过安装退出码、全量文件哈希、升级前后实验与设置哈希、快捷方式、卸载注册核验；首次隐藏启动未取到可见句柄，通过软件单实例唤起后确认实际桌面窗口。没有调用在线模型。"
+}

@@ -1,0 +1,148 @@
+{
+  "startedAt": "2026-10-28T10:25:13.790Z",
+  "fixture": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\ui-race-1793183113781",
+  "checks": [
+    {
+      "name": "切换等待保存期间返回的运行被补存",
+      "details": {
+        "savedRuns": 1,
+        "currentCase": "position",
+        "events": [
+          {
+            "action": "simulate",
+            "version": 1
+          },
+          {
+            "action": "save-start",
+            "sequence": 1,
+            "id": "8b906661-c090-4084-b713-558a39330f83",
+            "runs": 0
+          },
+          {
+            "action": "save-end",
+            "sequence": 1,
+            "id": "8b906661-c090-4084-b713-558a39330f83",
+            "runs": 0
+          },
+          {
+            "action": "save-start",
+            "sequence": 2,
+            "id": "8b906661-c090-4084-b713-558a39330f83",
+            "runs": 1
+          },
+          {
+            "action": "save-end",
+            "sequence": 2,
+            "id": "8b906661-c090-4084-b713-558a39330f83",
+            "runs": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "删除排空保存队列且晚回计算不复活实验",
+      "details": {
+        "exists": false,
+        "current": null,
+        "savesAfterDelete": [],
+        "events": [
+          {
+            "action": "simulate",
+            "version": 1
+          },
+          {
+            "action": "save-start",
+            "sequence": 1,
+            "id": "13ebc62a-ced5-42eb-a77f-1fda33106322",
+            "runs": 0
+          },
+          {
+            "action": "save-end",
+            "sequence": 1,
+            "id": "13ebc62a-ced5-42eb-a77f-1fda33106322",
+            "runs": 0
+          },
+          {
+            "action": "save-start",
+            "sequence": 2,
+            "id": "13ebc62a-ced5-42eb-a77f-1fda33106322",
+            "runs": 0
+          },
+          {
+            "action": "save-end",
+            "sequence": 2,
+            "id": "13ebc62a-ced5-42eb-a77f-1fda33106322",
+            "runs": 0
+          },
+          {
+            "action": "delete",
+            "id": "13ebc62a-ced5-42eb-a77f-1fda33106322"
+          }
+        ]
+      }
+    },
+    {
+      "name": "prepareClose 补存后封存且拒绝晚回写",
+      "details": {
+        "savedRuns": 1,
+        "currentRuns": 1,
+        "version": 1,
+        "events": [
+          {
+            "action": "simulate",
+            "version": 1
+          },
+          {
+            "action": "simulate",
+            "version": 1
+          },
+          {
+            "action": "save-start",
+            "sequence": 1,
+            "id": "5ad25d76-92f2-4929-87d0-2824918db82f",
+            "runs": 0
+          },
+          {
+            "action": "save-end",
+            "sequence": 1,
+            "id": "5ad25d76-92f2-4929-87d0-2824918db82f",
+            "runs": 0
+          },
+          {
+            "action": "save-start",
+            "sequence": 2,
+            "id": "5ad25d76-92f2-4929-87d0-2824918db82f",
+            "runs": 1
+          },
+          {
+            "action": "save-end",
+            "sequence": 2,
+            "id": "5ad25d76-92f2-4929-87d0-2824918db82f",
+            "runs": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "旧配置结果保留历史但不覆盖当前方案",
+      "details": {
+        "version": 2,
+        "runs": [
+          2,
+          1
+        ],
+        "activeVersion": 2,
+        "savedRuns": 2
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "真实 React Hook 在独立 Electron 页面中挂载；延迟 API 使用内存 Map，不启动正式 main.cjs，不访问正式数据或真实在线模型。关闭项验证 prepareClose，不替代原生窗口关闭集成测试。",
+  "runtime": {
+    "electron": "44.9.3",
+    "chromium": "152.0.7977.167"
+  },
+  "status": "passed",
+  "rendererErrors": [],
+  "finishedAt": "2026-10-28T10:25:15.519Z"
+}

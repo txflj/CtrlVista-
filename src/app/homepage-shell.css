@@ -1,0 +1,10 @@
+.app-shell-home { height: 100dvh; overflow: hidden; }
+.homepage-host { position: fixed; inset: 0; z-index: 25; background: var(--bg); }
+.homepage-host > iframe { display: block; width: 100%; height: 100%; border: 0; }
+.homepage-fallback { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 32px; background: var(--bg); text-align: center; }
+.homepage-fallback > p { color: var(--muted); }
+.shell-navigation-error { margin: 12px 24px; }
+@media (min-width: 1000px) {
+  .module-content:has(> .workbench[hidden]) { height: auto; min-height: 0; }
+  .module-content:has(> .workbench[hidden]) > .toast { position: sticky; top: 110px; bottom: auto; left: auto; right: auto; width: auto; margin: 10px 25px 0; pointer-events: auto; }
+}

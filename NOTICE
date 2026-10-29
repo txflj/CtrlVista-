@@ -1,0 +1,20 @@
+CtrlVista · 控小助
+Copyright (c) 2026 txflj
+
+The project-authored code is licensed under MIT; see LICENSE.
+Third-party code and assets retain their original copyright and license notices.
+
+The homepage scene, array navigation, transitions, synthesized interaction sounds,
+and Observatory music are adapted from LBEILC/RhineLabUI, commit
+12cc5e4013acb9408f753ff71de6b8492299b7c8.
+Copyright (c) 2026 LBEILC. MIT License.
+See third-party/RhineLabUI/LICENSE, NOTICE.md, and AUDIO-NOTICE.md.
+
+The current version uses project-authored procedural signal-cartridge geometry.
+Upstream archive GLB models, original PV footage/audio samples, and third-party
+font assets are excluded from this public snapshot.
+
+Other dependencies retain their licenses; see THIRD_PARTY.md and package-lock.json.
+AI assisted development and brand design; measured verification and its limits
+are documented in docs/VALIDATION.md. No exclusive claim is made over established
+control algorithms, the DFT, third-party code, or upstream music.

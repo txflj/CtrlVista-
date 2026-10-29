@@ -1,0 +1,62 @@
+{
+  "version": "0.1.2",
+  "previousVersion": "0.1.2",
+  "installer": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-0.1.2-安装包.exe",
+  "startedAt": "2026-10-28T10:17:18.698Z",
+  "testRoot": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\installer-0.1.2-1793182638473",
+  "checks": [
+    {
+      "name": "非空无关目录拒绝覆盖",
+      "detail": true
+    },
+    {
+      "name": "程序子目录存在目录联接时拒绝覆盖",
+      "detail": true
+    },
+    {
+      "name": "全新安装后逐文件 SHA-256 一致",
+      "detail": 196
+    },
+    {
+      "name": "安装后无需 Node.js PATH，计算线程完成电机实验",
+      "detail": {
+        "overshoot": 0,
+        "overshootAbsolute": 0,
+        "settlingTime": 0.98,
+        "steadyError": 0,
+        "recoveryTime": null,
+        "controlPeak": 2,
+        "maxDisturbanceDeviation": null,
+        "finalValue": 1,
+        "tailError": 0,
+        "toleranceBand": 0.02,
+        "trackingObservedFor": 10
+      }
+    },
+    {
+      "name": "运行中的程序拒绝覆盖，未强制退出",
+      "detail": true
+    },
+    {
+      "name": "覆盖升级后逐文件 SHA-256 一致",
+      "detail": 196
+    },
+    {
+      "name": "升级后实验、模型设置保持一致，旧运行结果可复现",
+      "detail": true
+    },
+    {
+      "name": "运行中的程序拒绝卸载，未强制退出",
+      "detail": true
+    },
+    {
+      "name": "卸载移除程序并保留独立实验与设置数据",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "scope": "同一个完整安装包的本机隔离安装、覆盖升级、运行锁拦截与卸载验证；KXISOLATED=1 仅跳过真实桌面/开始菜单快捷方式与系统卸载注册。应用使用独立测试数据目录，未访问真实 API。",
+  "installerSha256": "9678e166e0bf7757dbfa9e43689f02999db7f95d6e1b09e3eccf668eeac46384",
+  "passed": true,
+  "finishedAt": "2026-10-28T10:17:42.302Z"
+}

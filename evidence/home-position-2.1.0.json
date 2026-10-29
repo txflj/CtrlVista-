@@ -1,0 +1,116 @@
+{
+  "version": "2.1.0",
+  "checks": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "layout": "desktop",
+      "callout": {
+        "top": 360,
+        "bottom": 662.3333435058594,
+        "left": 969.9896240234375,
+        "right": 1919.9896240234375
+      },
+      "header": {
+        "top": 124,
+        "bottom": 165,
+        "left": 1414.34375,
+        "right": 1861
+      },
+      "footer": {
+        "top": 903,
+        "bottom": 949,
+        "left": 1005,
+        "right": 1285
+      },
+      "name": {
+        "top": 515.8333740234375,
+        "bottom": 556.3333740234375,
+        "left": 1027.9896240234375,
+        "right": 1679.9896240234375
+      },
+      "button": {
+        "top": 614.3333740234375,
+        "bottom": 662.3333740234375,
+        "left": 1027.9896240234375,
+        "right": 1265.9896240234375
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "layout": "desktop",
+      "callout": {
+        "top": 300,
+        "bottom": 551.9444274902344,
+        "left": 727.4913330078125,
+        "right": 1439.9912719726562
+      },
+      "header": {
+        "top": 103.33333587646484,
+        "bottom": 137.50000381469727,
+        "left": 1018.6198120117188,
+        "right": 1390.8333740234375
+      },
+      "footer": {
+        "top": 752.5,
+        "bottom": 790.8333358764648,
+        "left": 753.75,
+        "right": 987.0833435058594
+      },
+      "name": {
+        "top": 429.861083984375,
+        "bottom": 463.611083984375,
+        "left": 775.8246459960938,
+        "right": 1319.1580200195312
+      },
+      "button": {
+        "top": 511.9444274902344,
+        "bottom": 551.9444274902344,
+        "left": 775.8246459960938,
+        "right": 974.1579895019531
+      }
+    },
+    {
+      "width": 1040,
+      "height": 720,
+      "layout": "compact",
+      "callout": {
+        "top": 188,
+        "bottom": 374.3333435058594,
+        "left": 551.1979370117188,
+        "right": 1019.9896240234375
+      },
+      "header": {
+        "top": 16,
+        "bottom": 60,
+        "left": 726.3854370117188,
+        "right": 1020.0000305175781
+      },
+      "footer": {
+        "top": 612,
+        "bottom": 658,
+        "left": 812,
+        "right": 1020
+      },
+      "name": {
+        "top": 276.3333435058594,
+        "bottom": 309.3333435058594,
+        "left": 551.1979370117188,
+        "right": 1019.9896240234375
+      },
+      "button": {
+        "top": 329.3333435058594,
+        "bottom": 374.3333435058594,
+        "left": 551.1979370117188,
+        "right": 751.1979370117188
+      }
+    }
+  ],
+  "screenshots": [
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\home-position-2.1.0-1920.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\home-position-2.1.0-1440.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\home-position-2.1.0-1040.png"
+  ],
+  "passed": true
+}

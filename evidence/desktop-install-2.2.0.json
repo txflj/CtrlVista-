@@ -1,0 +1,22 @@
+{
+  "version": "2.2.0",
+  "passed": true,
+  "verifiedAt": "2026-10-29T05:41:01.9500294Z",
+  "installedFrom": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-2.2.0-安装包.exe",
+  "installerSha256": "dcd36de8b83a60f7a76265ae2b7d59fe71844265944890e190814f8fc4ce4242",
+  "installDirectory": "<USER_HOME>\\Desktop\\控小助程序",
+  "shortcut": "<USER_HOME>\\Desktop\\控小助.lnk",
+  "previousVersion": "2.1.0",
+  "backupDirectory": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\desktop-backups\\20261029-133722-763",
+  "verifiedPayloadFiles": 219,
+  "preservedExperimentFiles": 27,
+  "settingsAndExperimentHashesUnchanged": true,
+  "preservationVerification": "install-verified-desktop.ps1 已在安装后、启动前逐一核对 settings.json 与 experiments/*.json 的前后 SHA-256 和数量相同；该次运行仅在随后的启动进程窗口检测处报错。未再次覆盖或修改用户数据。",
+  "uninstallRegistered": true,
+  "startupPending": false,
+  "startupVerification": "首次仅检测 Start-Process 返回对象的窗口句柄未找到窗口；随后通过软件单实例唤醒，并按已核验的完整安装路径查找实际主窗口，确认标题、有效窗口句柄及正常响应。",
+  "scope": "正式桌面更新：正常保存退出、旧程序完整备份、同一已验收 EXE 安装、全量文件哈希、实验与设置保留、快捷方式和卸载注册、实际窗口启动。未调用在线模型。",
+  "launchedProcessId": 32876,
+  "launchedPath": "<USER_HOME>\\Desktop\\控小助程序\\控小助.exe",
+  "windowTitle": "控小助 · 控制实验工作台"
+}

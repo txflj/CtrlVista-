@@ -1,0 +1,12 @@
+.audio-settings { padding: 18px 0; margin-bottom: 16px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.audio-settings-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+.audio-settings-heading h3 { margin: 0 0 8px; }
+.audio-settings-heading .hint { margin: 0 0 15px; max-width: 410px; }
+.audio-settings-heading .button { flex-shrink: 0; }
+.audio-setting-grid { display: grid; grid-template-columns: minmax(130px, .9fr) minmax(200px, 1.3fr); gap: 14px 20px; align-items: center; }
+.audio-setting-grid .check, .audio-setting-grid p { margin: 0; }
+.audio-volume { display: flex; align-items: center; gap: 10px; color: var(--text-secondary); font-size: 12px; }
+.audio-volume input { min-width: 60px; flex: 1; accent-color: var(--accent); }
+.audio-volume output { min-width: 32px; text-align: right; font-variant-numeric: tabular-nums; }
+.audio-settings > .hint { margin-bottom: 0; }
+@media (max-width: 600px) { .audio-setting-grid { grid-template-columns: 1fr; gap: 12px; } .audio-settings-heading { gap: 10px; } }

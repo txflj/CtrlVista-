@@ -1,0 +1,858 @@
+{
+  "generatedAt": "2026-10-28T10:23:07.427Z",
+  "engineVersion": "1.0.0",
+  "scope": "本机计算案例评测；没有调用真实模型 API，没有进行学生试用。自动整定初始种子包含同案例参考控制器。",
+  "allReferencesPass": true,
+  "allFinerSamplesPass": true,
+  "allReproductionsPass": true,
+  "cases": [
+    {
+      "caseId": "motor",
+      "name": "电机调速",
+      "initial": {
+        "status": "completed",
+        "verdict": "fail",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": null,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 0.9216988718416961,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0.08700125350927468,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 10
+        }
+      },
+      "reference": {
+        "controller": {
+          "type": "PI",
+          "kp": 2,
+          "ki": 4,
+          "kd": 0,
+          "tf": 0.05
+        },
+        "status": "completed",
+        "verdict": "pass",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": 0.98,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 2,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 10
+        }
+      },
+      "finerSampling": {
+        "dt": 0.005,
+        "verdict": "pass",
+        "absoluteMetricDifference": {
+          "overshoot": 0,
+          "settlingTime": 0,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 0
+        }
+      },
+      "repeatedRun": {
+        "pass": true,
+        "metrics": [
+          {
+            "key": "overshoot",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "overshootAbsolute",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "settlingTime",
+            "original": 0.98,
+            "recomputed": 0.98,
+            "pass": true
+          },
+          {
+            "key": "steadyError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "recoveryTime",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "controlPeak",
+            "original": 2,
+            "recomputed": 2,
+            "pass": true
+          },
+          {
+            "key": "maxDisturbanceDeviation",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "finalValue",
+            "original": 1,
+            "recomputed": 1,
+            "pass": true
+          },
+          {
+            "key": "tailError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "toleranceBand",
+            "original": 0.02,
+            "recomputed": 0.02,
+            "pass": true
+          },
+          {
+            "key": "trackingObservedFor",
+            "original": 10,
+            "recomputed": 10,
+            "pass": true
+          }
+        ],
+        "curveMaxError": 0,
+        "tolerances": {
+          "absolute": 1e-8,
+          "relative": 0.000001,
+          "time": 0.010000001
+        },
+        "summary": "配置、运行状态、采样曲线和指标均满足公开复算容差"
+      },
+      "autotune": {
+        "budget": 48,
+        "seed": 42,
+        "evaluated": 48,
+        "elapsedMs": 50.845600000000005,
+        "summary": "在声明的 PI 参数范围内实际计算 48 组（预算 48，随机种子 42），13 组达标，0 组因不稳定或数值问题排除。展示评分最优的至多 3 组，仍需查看各项取舍。",
+        "candidates": [
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 2,
+              "ki": 4,
+              "kd": 0,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 0.98,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 2,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 0,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 10
+            }
+          },
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 3.633897043,
+              "ki": 5.698945947,
+              "kd": 0,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 1.01,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 3.633897043,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 3.892651045944717e-8,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 10
+            }
+          },
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 0.7059432672,
+              "ki": 2.190494021,
+              "kd": 0,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 1.962891137074041,
+              "overshootAbsolute": 0.01962891137074041,
+              "settlingTime": 1.34,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 1.0798609466108589,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 3.1292601510024554e-8,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "caseId": "position",
+      "name": "机械定位",
+      "initial": {
+        "status": "completed",
+        "verdict": "fail",
+        "metrics": {
+          "overshoot": 48.388832753306566,
+          "overshootAbsolute": 0.48388832753306565,
+          "settlingTime": 22.64,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 3.0934534300507557,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0.0054646411280008245,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 25
+        }
+      },
+      "reference": {
+        "controller": {
+          "type": "PID",
+          "kp": 2,
+          "ki": 1,
+          "kd": 3,
+          "tf": 0.05
+        },
+        "status": "completed",
+        "verdict": "pass",
+        "metrics": {
+          "overshoot": 7.5389463396585255,
+          "overshootAbsolute": 0.07538946339658525,
+          "settlingTime": 8.62,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 2,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0.000007475888423869037,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 25
+        }
+      },
+      "finerSampling": {
+        "dt": 0.01,
+        "verdict": "pass",
+        "absoluteMetricDifference": {
+          "overshoot": 3.552713678800501e-13,
+          "settlingTime": 0,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 0.004185420564465581
+        }
+      },
+      "repeatedRun": {
+        "pass": true,
+        "metrics": [
+          {
+            "key": "overshoot",
+            "original": 7.5389463396585255,
+            "recomputed": 7.5389463396585255,
+            "pass": true
+          },
+          {
+            "key": "overshootAbsolute",
+            "original": 0.07538946339658525,
+            "recomputed": 0.07538946339658525,
+            "pass": true
+          },
+          {
+            "key": "settlingTime",
+            "original": 8.62,
+            "recomputed": 8.62,
+            "pass": true
+          },
+          {
+            "key": "steadyError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "recoveryTime",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "controlPeak",
+            "original": 2,
+            "recomputed": 2,
+            "pass": true
+          },
+          {
+            "key": "maxDisturbanceDeviation",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "finalValue",
+            "original": 1,
+            "recomputed": 1,
+            "pass": true
+          },
+          {
+            "key": "tailError",
+            "original": 0.000007475888423869037,
+            "recomputed": 0.000007475888423869037,
+            "pass": true
+          },
+          {
+            "key": "toleranceBand",
+            "original": 0.02,
+            "recomputed": 0.02,
+            "pass": true
+          },
+          {
+            "key": "trackingObservedFor",
+            "original": 25,
+            "recomputed": 25,
+            "pass": true
+          }
+        ],
+        "curveMaxError": 0,
+        "tolerances": {
+          "absolute": 1e-8,
+          "relative": 0.000001,
+          "time": 0.020000001
+        },
+        "summary": "配置、运行状态、采样曲线和指标均满足公开复算容差"
+      },
+      "autotune": {
+        "budget": 48,
+        "seed": 42,
+        "evaluated": 48,
+        "elapsedMs": 52.506600000000006,
+        "summary": "在声明的 PID 参数范围内实际计算 48 组（预算 48，随机种子 42），3 组达标，8 组因不稳定或数值问题排除。展示评分最优的至多 3 组，仍需查看各项取舍。",
+        "candidates": [
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 2.177643471,
+              "ki": 0.4839999778,
+              "kd": 4.471818644,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0.5118301233187017,
+              "overshootAbsolute": 0.005118301233187017,
+              "settlingTime": 7.06,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 2.177643471,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 0.9999999999999999,
+              "tailError": 0.00048366025250135003,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          },
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 4.599443885,
+              "ki": 0.624523448,
+              "kd": 7.307080369,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0.37813343903434493,
+              "overshootAbsolute": 0.0037813343903434493,
+              "settlingTime": 5.88,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 4.599443885,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 0.9999999999999998,
+              "tailError": 0.0007389428232091877,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          },
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 2,
+              "ki": 1,
+              "kd": 3,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 7.5389463396585255,
+              "overshootAbsolute": 0.07538946339658525,
+              "settlingTime": 8.62,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 2,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 0.000007475888423869037,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "caseId": "temperature",
+      "name": "温度调节",
+      "initial": {
+        "status": "completed",
+        "verdict": "fail",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": null,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 1.4407177886043336,
+          "maxDisturbanceDeviation": 0.44113010256153584,
+          "finalValue": 1,
+          "tailError": 0.2055244582882063,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 25
+        }
+      },
+      "reference": {
+        "controller": {
+          "type": "PI",
+          "kp": 4,
+          "ki": 0.5,
+          "kd": 0,
+          "tf": 0.1
+        },
+        "status": "completed",
+        "verdict": "pass",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": 7.85,
+          "steadyError": 0,
+          "recoveryTime": 18.450000000000003,
+          "controlPeak": 4,
+          "maxDisturbanceDeviation": 0.09449463420797999,
+          "finalValue": 1,
+          "tailError": 0.0013475889875890212,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 25
+        }
+      },
+      "finerSampling": {
+        "dt": 0.025,
+        "verdict": "pass",
+        "absoluteMetricDifference": {
+          "overshoot": 0,
+          "settlingTime": 0.024999999999999467,
+          "steadyError": 0,
+          "recoveryTime": 0.025000000000005684,
+          "controlPeak": 0
+        }
+      },
+      "repeatedRun": {
+        "pass": true,
+        "metrics": [
+          {
+            "key": "overshoot",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "overshootAbsolute",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "settlingTime",
+            "original": 7.85,
+            "recomputed": 7.85,
+            "pass": true
+          },
+          {
+            "key": "steadyError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "recoveryTime",
+            "original": 18.450000000000003,
+            "recomputed": 18.450000000000003,
+            "pass": true
+          },
+          {
+            "key": "controlPeak",
+            "original": 4,
+            "recomputed": 4,
+            "pass": true
+          },
+          {
+            "key": "maxDisturbanceDeviation",
+            "original": 0.09449463420797999,
+            "recomputed": 0.09449463420797999,
+            "pass": true
+          },
+          {
+            "key": "finalValue",
+            "original": 1,
+            "recomputed": 1,
+            "pass": true
+          },
+          {
+            "key": "tailError",
+            "original": 0.0013475889875890212,
+            "recomputed": 0.0013475889875890212,
+            "pass": true
+          },
+          {
+            "key": "toleranceBand",
+            "original": 0.02,
+            "recomputed": 0.02,
+            "pass": true
+          },
+          {
+            "key": "trackingObservedFor",
+            "original": 25,
+            "recomputed": 25,
+            "pass": true
+          }
+        ],
+        "curveMaxError": 0,
+        "tolerances": {
+          "absolute": 1e-8,
+          "relative": 0.000001,
+          "time": 0.050000001
+        },
+        "summary": "配置、运行状态、采样曲线和指标均满足公开复算容差"
+      },
+      "autotune": {
+        "budget": 48,
+        "seed": 42,
+        "evaluated": 48,
+        "elapsedMs": 61.10210000000001,
+        "summary": "在声明的 PI 参数范围内实际计算 48 组（预算 48，随机种子 42），5 组达标，0 组因不稳定或数值问题排除。展示评分最优的至多 3 组，仍需查看各项取舍。",
+        "candidates": [
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 4,
+              "ki": 0.5,
+              "kd": 0,
+              "tf": 0.1
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 7.85,
+              "steadyError": 0,
+              "recoveryTime": 18.450000000000003,
+              "controlPeak": 4,
+              "maxDisturbanceDeviation": 0.09449463420797999,
+              "finalValue": 1,
+              "tailError": 0.0013475889875890212,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          },
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 7.267794085,
+              "ki": 0.7123682433,
+              "kd": 0,
+              "tf": 0.1
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 6.95,
+              "steadyError": 0,
+              "recoveryTime": 16.15,
+              "controlPeak": 7.267794085,
+              "maxDisturbanceDeviation": 0.06433242982750453,
+              "finalValue": 1,
+              "tailError": 0.0020737913713886336,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          },
+          {
+            "controller": {
+              "type": "PI",
+              "kp": 8.076898981,
+              "ki": 2.010592715,
+              "kd": 0,
+              "tf": 0.1
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 5.4188666679669595,
+              "overshootAbsolute": 0.054188666679669595,
+              "settlingTime": 9.25,
+              "steadyError": 0,
+              "recoveryTime": 6.399999999999999,
+              "controlPeak": 8.076898981,
+              "maxDisturbanceDeviation": 0.05047943560830459,
+              "finalValue": 1,
+              "tailError": 8.075423042486207e-7,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "caseId": "challenge",
+      "name": "综合挑战",
+      "initial": {
+        "status": "completed",
+        "verdict": "fail",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": null,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 1.0317371189055584,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0.030997517775056327,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 20
+        }
+      },
+      "reference": {
+        "controller": {
+          "type": "PID",
+          "kp": 2,
+          "ki": 1,
+          "kd": 0.7,
+          "tf": 0.05
+        },
+        "status": "completed",
+        "verdict": "pass",
+        "metrics": {
+          "overshoot": 0,
+          "overshootAbsolute": 0,
+          "settlingTime": 3.12,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 2.0413345150523403,
+          "maxDisturbanceDeviation": null,
+          "finalValue": 1,
+          "tailError": 0.0000016758912098069345,
+          "toleranceBand": 0.02,
+          "trackingObservedFor": 20
+        }
+      },
+      "finerSampling": {
+        "dt": 0.01,
+        "verdict": "pass",
+        "absoluteMetricDifference": {
+          "overshoot": 0,
+          "settlingTime": 0,
+          "steadyError": 0,
+          "recoveryTime": null,
+          "controlPeak": 0.0009691667895674883
+        }
+      },
+      "repeatedRun": {
+        "pass": true,
+        "metrics": [
+          {
+            "key": "overshoot",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "overshootAbsolute",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "settlingTime",
+            "original": 3.12,
+            "recomputed": 3.12,
+            "pass": true
+          },
+          {
+            "key": "steadyError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "recoveryTime",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "controlPeak",
+            "original": 2.0413345150523403,
+            "recomputed": 2.0413345150523403,
+            "pass": true
+          },
+          {
+            "key": "maxDisturbanceDeviation",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "finalValue",
+            "original": 1,
+            "recomputed": 1,
+            "pass": true
+          },
+          {
+            "key": "tailError",
+            "original": 0.0000016758912098069345,
+            "recomputed": 0.0000016758912098069345,
+            "pass": true
+          },
+          {
+            "key": "toleranceBand",
+            "original": 0.02,
+            "recomputed": 0.02,
+            "pass": true
+          },
+          {
+            "key": "trackingObservedFor",
+            "original": 20,
+            "recomputed": 20,
+            "pass": true
+          }
+        ],
+        "curveMaxError": 0,
+        "tolerances": {
+          "absolute": 1e-8,
+          "relative": 0.000001,
+          "time": 0.020000001
+        },
+        "summary": "配置、运行状态、采样曲线和指标均满足公开复算容差"
+      },
+      "autotune": {
+        "budget": 48,
+        "seed": 42,
+        "evaluated": 48,
+        "elapsedMs": 44.54250000000002,
+        "summary": "在声明的 PID 参数范围内实际计算 48 组（预算 48，随机种子 42），7 组达标，6 组因不稳定或数值问题排除。展示评分最优的至多 3 组，仍需查看各项取舍。",
+        "candidates": [
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 2,
+              "ki": 1,
+              "kd": 0.7,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 3.12,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 2.0413345150523403,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 0.0000016758912098069345,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 20
+            }
+          },
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 0.9750155785,
+              "ki": 0.5928105567,
+              "kd": 0.1551235793,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 0,
+              "overshootAbsolute": 0,
+              "settlingTime": 7.1,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 1.0603669558154736,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 0.00006805619554695053,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 20
+            }
+          },
+          {
+            "controller": {
+              "type": "PID",
+              "kp": 4.27549086,
+              "ki": 1.541636046,
+              "kd": 2.330959055,
+              "tf": 0.05
+            },
+            "verdict": "pass",
+            "metrics": {
+              "overshoot": 2.8378680479427043,
+              "overshootAbsolute": 0.028378680479427043,
+              "settlingTime": 5.52,
+              "steadyError": 0,
+              "recoveryTime": null,
+              "controlPeak": 4.300109645689043,
+              "maxDisturbanceDeviation": null,
+              "finalValue": 1,
+              "tailError": 0.0000604730435018741,
+              "toleranceBand": 0.02,
+              "trackingObservedFor": 20
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

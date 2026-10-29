@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "passed": true,
+  "verifiedAt": "2026-10-28T14:52:25.5037679Z",
+  "installedFrom": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-2.0.0-安装包.exe",
+  "installerSha256": "423036f2df0544d601ff95f24a1d8c8e74275e036225009a9ca095714beadf48",
+  "installDirectory": "<USER_HOME>\\Desktop\\控小助程序",
+  "shortcut": "<USER_HOME>\\Desktop\\控小助.lnk",
+  "previousVersion": "1.0.1",
+  "backupDirectory": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\desktop-backups\\20261028-225215-615",
+  "verifiedPayloadFiles": 207,
+  "preservedExperimentFiles": 22,
+  "settingsAndExperimentHashesUnchanged": true,
+  "uninstallRegistered": true,
+  "startupPending": false,
+  "scope": "正式桌面安装；全量程序哈希、实验与设置字节保留、快捷方式和卸载注册、实际窗口启动。没有调用在线模型。",
+  "launchedProcessId": 39132,
+  "launchedPath": "<USER_HOME>\\Desktop\\控小助程序\\控小助.exe"
+}

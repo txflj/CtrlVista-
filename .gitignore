@@ -1,0 +1,9 @@
+node_modules/
+dist/
+release/
+.test-data/
+.test-service-data/
+evidence/screenshots/
+.cache/
+*.log
+.env*

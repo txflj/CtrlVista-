@@ -1,0 +1,4493 @@
+{
+  "version": "3.0.0",
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\node_modules\\electron\\dist\\electron.exe",
+  "packaged": false,
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\welcome-source-1793260783784",
+  "startedAt": "2026-10-29T07:59:43.785Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "完整浅色欢迎 8 秒、四个代表帧、最多三个主题提示音；底层阵列和配乐均未提前开始",
+      "detail": {
+        "trace": [
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 0.7817999999999999,
+              "progress": 0.09772499999999999,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 0.8544999999999998,
+              "progress": 0.10681249999999998,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 0.9574999999999998,
+              "progress": 0.11968749999999997,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.0364,
+              "progress": 0.12955,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.1092000000000004,
+              "progress": 0.13865000000000005,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.181800000000001,
+              "progress": 0.14772500000000013,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.2485000000000017,
+              "progress": 0.15606250000000021,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.3212000000000017,
+              "progress": 0.1651500000000002,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.3879000000000021,
+              "progress": 0.17348750000000027,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 0
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.4547000000000023,
+              "progress": 0.1818375000000003,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.5212000000000023,
+              "progress": 0.1901500000000003,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.5879000000000025,
+              "progress": 0.19848750000000032,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.6607000000000032,
+              "progress": 0.2075875000000004,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.7394000000000038,
+              "progress": 0.21742500000000048,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.8122000000000038,
+              "progress": 0.22652500000000048,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.8850000000000042,
+              "progress": 0.23562500000000053,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 1.951700000000004,
+              "progress": 0.2439625000000005,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.0182000000000038,
+              "progress": 0.25227500000000047,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.0850000000000035,
+              "progress": 0.26062500000000044,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.1515000000000026,
+              "progress": 0.26893750000000033,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.2182000000000017,
+              "progress": 0.2772750000000002,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.284900000000002,
+              "progress": 0.28561250000000027,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.3516000000000012,
+              "progress": 0.29395000000000016,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.4243,
+              "progress": 0.3030375,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.490999999999999,
+              "progress": 0.3113749999999999,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.5698999999999987,
+              "progress": 0.32123749999999984,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.648499999999997,
+              "progress": 0.33106249999999965,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.751699999999996,
+              "progress": 0.3439624999999995,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.8121999999999954,
+              "progress": 0.3515249999999994,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.878799999999995,
+              "progress": 0.3598499999999994,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 2.951599999999994,
+              "progress": 0.3689499999999992,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.0181999999999936,
+              "progress": 0.3772749999999992,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.084899999999993,
+              "progress": 0.38561249999999914,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.1516999999999924,
+              "progress": 0.39396249999999905,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.218299999999992,
+              "progress": 0.402287499999999,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.2909999999999915,
+              "progress": 0.41137499999999894,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.351699999999991,
+              "progress": 0.41896249999999885,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.430399999999991,
+              "progress": 0.42879999999999885,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.49699999999999,
+              "progress": 0.43712499999999876,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.5698999999999903,
+              "progress": 0.4462374999999988,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.6364999999999896,
+              "progress": 0.4545624999999987,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.7091999999999894,
+              "progress": 0.4636499999999987,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.7697999999999885,
+              "progress": 0.47122499999999856,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.8486999999999876,
+              "progress": 0.48108749999999845,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.921299999999987,
+              "progress": 0.4901624999999984,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 3.994099999999987,
+              "progress": 0.4992624999999984,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.060799999999986,
+              "progress": 0.5075999999999983,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.121499999999985,
+              "progress": 0.5151874999999981,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.188099999999985,
+              "progress": 0.5235124999999982,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.260799999999985,
+              "progress": 0.5325999999999981,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.327499999999983,
+              "progress": 0.5409374999999979,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.394099999999981,
+              "progress": 0.5492624999999977,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.460699999999981,
+              "progress": 0.5575874999999976,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.52739999999998,
+              "progress": 0.5659249999999975,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.594099999999979,
+              "progress": 0.5742624999999973,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.666899999999978,
+              "progress": 0.5833624999999972,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.733499999999976,
+              "progress": 0.591687499999997,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.8122999999999765,
+              "progress": 0.6015374999999971,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.878999999999975,
+              "progress": 0.6098749999999968,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 4.939599999999975,
+              "progress": 0.6174499999999968,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.048699999999972,
+              "progress": 0.6310874999999965,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.115499999999971,
+              "progress": 0.6394374999999963,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.18199999999997,
+              "progress": 0.6477499999999963,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.24259999999997,
+              "progress": 0.6553249999999963,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.31539999999997,
+              "progress": 0.6644249999999963,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.3880999999999695,
+              "progress": 0.6735124999999962,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.460799999999968,
+              "progress": 0.682599999999996,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.539499999999967,
+              "progress": 0.6924374999999958,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.600299999999966,
+              "progress": 0.7000374999999958,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.666899999999966,
+              "progress": 0.7083624999999958,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.739599999999965,
+              "progress": 0.7174499999999956,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.812399999999963,
+              "progress": 0.7265499999999954,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.872899999999963,
+              "progress": 0.7341124999999954,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 5.939599999999962,
+              "progress": 0.7424499999999953,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.000099999999962,
+              "progress": 0.7500124999999952,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.078999999999961,
+              "progress": 0.7598749999999951,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.145699999999961,
+              "progress": 0.7682124999999951,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.2124999999999595,
+              "progress": 0.7765624999999949,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.27299999999996,
+              "progress": 0.784124999999995,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.34559999999996,
+              "progress": 0.793199999999995,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.412299999999958,
+              "progress": 0.8015374999999948,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.472999999999956,
+              "progress": 0.8091249999999945,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.545699999999956,
+              "progress": 0.8182124999999945,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.612399999999955,
+              "progress": 0.8265499999999943,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.678999999999953,
+              "progress": 0.8348749999999941,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.745699999999951,
+              "progress": 0.8432124999999939,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.812399999999951,
+              "progress": 0.8515499999999939,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.879099999999952,
+              "progress": 0.859887499999994,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 1
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 6.945699999999951,
+              "progress": 0.8682124999999938,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.012299999999949,
+              "progress": 0.8765374999999936,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.085099999999947,
+              "progress": 0.8856374999999934,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.151699999999947,
+              "progress": 0.8939624999999933,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.218399999999945,
+              "progress": 0.9022999999999931,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.284999999999942,
+              "progress": 0.9106249999999928,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.351799999999941,
+              "progress": 0.9189749999999927,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.4184999999999395,
+              "progress": 0.9273124999999924,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.51539999999994,
+              "progress": 0.9394249999999925,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.5820999999999374,
+              "progress": 0.9477624999999922,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.654799999999936,
+              "progress": 0.956849999999992,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.727499999999934,
+              "progress": 0.9659374999999918,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.806299999999934,
+              "progress": 0.9757874999999917,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.878999999999931,
+              "progress": 0.9848749999999914,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "running",
+              "elapsed": 7.945699999999933,
+              "progress": 0.9932124999999916,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "fading",
+              "elapsed": 8.012399999999932,
+              "progress": 1,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "fading",
+              "elapsed": 8.085199999999933,
+              "progress": 1,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "fading",
+              "elapsed": 8.151899999999932,
+              "progress": 1,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "fading",
+              "elapsed": 8.230699999999937,
+              "progress": 1,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          },
+          {
+            "welcome": {
+              "phase": "fading",
+              "elapsed": 8.30329999999994,
+              "progress": 1,
+              "completed": false,
+              "reason": null
+            },
+            "audio": {
+              "sourceCount": 0,
+              "musicStartCount": 0,
+              "effectCount": 2
+            },
+            "intro": {
+              "phase": "waiting",
+              "active": false,
+              "completed": false,
+              "elapsed": 0,
+              "progress": 0
+            },
+            "active": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "16x10 阵列入场延后启动且四阶段使用当前信号匣，完成前无背景配乐",
+      "detail": {
+        "trace": [
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.06370000000037179,
+              "progress": 0.01396929824569557
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.13640000000037256,
+              "progress": 0.02991228070183609
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.20310000000037326,
+              "progress": 0.04453947368429238
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.2637000000003718,
+              "progress": 0.057828947368502595
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.31820000000037185,
+              "progress": 0.06978070175446752
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.38490000000037267,
+              "progress": 0.08440789473692384
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.4394000000003727,
+              "progress": 0.09635964912288876
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.5001000000003734,
+              "progress": 0.10967105263166084
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.560700000000372,
+              "progress": 0.12296052631587107
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.6214000000003727,
+              "progress": 0.13627192982464315
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.6879000000003727,
+              "progress": 0.15085526315797648
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.1728000000003715,
+              "progress": 0.25719298245622185
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.2396000000003724,
+              "progress": 0.2718421052632396
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.2941000000003726,
+              "progress": 0.28379385964920456
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.3546000000003728,
+              "progress": 0.29706140350885374
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.4215000000003724,
+              "progress": 0.31173245614043255
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.4880000000003724,
+              "progress": 0.3263157894737659
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.548600000000373,
+              "progress": 0.33960526315797657
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.6152000000003714,
+              "progress": 0.35421052631587097
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.6698000000003719,
+              "progress": 0.3661842105263974
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.737000000000373,
+              "progress": 0.38092105263166076
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.8155000000003731,
+              "progress": 0.3981359649123626
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.888200000000372,
+              "progress": 0.41407894736850265
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.9548000000003727,
+              "progress": 0.42868421052639755
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.0153000000003725,
+              "progress": 0.4419517543860466
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.0820000000003724,
+              "progress": 0.45657894736850274
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.1425000000003713,
+              "progress": 0.46984649122815164
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.2092000000003695,
+              "progress": 0.4844736842106074
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.2638000000003693,
+              "progress": 0.4964473684211337
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.948700000000364,
+              "progress": 0.6466447368421852
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.021400000000363,
+              "progress": 0.6625877192983253
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.0882000000003615,
+              "progress": 0.6772368421053425
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.1123000000003618,
+              "progress": 0.6825219298246408
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.2092000000003615,
+              "progress": 0.7037719298246408
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.2092000000003615,
+              "progress": 0.7037719298246408
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.3427000000003613,
+              "progress": 0.7330482456141144
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.409300000000361,
+              "progress": 0.7476535087720091
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.482000000000361,
+              "progress": 0.7635964912281493
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.5608000000003597,
+              "progress": 0.7808771929825351
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.6396000000003603,
+              "progress": 0.7981578947369212
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.706300000000359,
+              "progress": 0.8127850877193771
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.7790000000003587,
+              "progress": 0.8287280701755173
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.851700000000357,
+              "progress": 0.8446710526316573
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.9244000000003574,
+              "progress": 0.8606140350877978
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "欢迎自然结束后先播放阵列入场，入场完成才启动三轨配乐",
+      "detail": {
+        "preferences": {
+          "enabled": true,
+          "sound": true,
+          "music": true,
+          "typing": true,
+          "soundVolume": 0.35,
+          "musicVolume": 0.22
+        },
+        "status": "playing",
+        "saved": true,
+        "contextState": "running",
+        "currentTime": 13.952,
+        "musicReady": true,
+        "musicStartCount": 1,
+        "sourceCount": 3,
+        "musicStartedAt": 12.930666666666665,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 1.0213333333333345,
+        "completedLoops": 0,
+        "outputRms": 0.010035901696874173,
+        "outputPeak": 0.02268838882446289,
+        "effectCount": 7,
+        "playedKeys": 4,
+        "error": "",
+        "muted": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "真实窗口 HICON 与批准标志一致，品牌资源可载入；打包版另校验 EXE 九尺寸资源",
+      "detail": {
+        "native": {
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "rmseOnWhite": 0.003693598662630201,
+          "alphaIntersectionOverUnion": 1
+        },
+        "resources": [
+          {
+            "name": "mark.svg",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "name": "icon-512.png",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "app.ico",
+            "width": 256,
+            "height": 256
+          }
+        ],
+        "embedded": null
+      }
+    },
+    {
+      "name": "进入实验台再回主页不重播两段开场，不重启音乐，并实际跨过三轨配乐循环边界",
+      "detail": {
+        "inWorkbench": {
+          "preferences": {
+            "enabled": true,
+            "sound": true,
+            "music": true,
+            "typing": true,
+            "soundVolume": 0.35,
+            "musicVolume": 0.22
+          },
+          "status": "playing",
+          "saved": true,
+          "contextState": "running",
+          "currentTime": 20.6,
+          "musicReady": true,
+          "musicStartCount": 1,
+          "sourceCount": 3,
+          "musicStartedAt": 12.930666666666665,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 7.669333333333336,
+          "completedLoops": 0,
+          "outputRms": 0.019096018288840784,
+          "outputPeak": 0.039078228175640106,
+          "effectCount": 15,
+          "playedKeys": 8,
+          "error": "",
+          "muted": false,
+          "disposed": false
+        },
+        "continued": {
+          "preferences": {
+            "enabled": true,
+            "sound": true,
+            "music": true,
+            "typing": true,
+            "soundVolume": 0.35,
+            "musicVolume": 0.22
+          },
+          "status": "playing",
+          "saved": true,
+          "contextState": "running",
+          "currentTime": 66.272,
+          "musicReady": true,
+          "musicStartCount": 1,
+          "sourceCount": 3,
+          "musicStartedAt": 12.930666666666665,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0.008000000000002672,
+          "completedLoops": 1,
+          "outputRms": 0.0021272426873428156,
+          "outputPeak": 0.007315775379538536,
+          "effectCount": 16,
+          "playedKeys": 8,
+          "error": "",
+          "muted": false,
+          "disposed": false
+        }
+      }
+    },
+    {
+      "name": "旧版保存的深色、静音、文字音和音量偏好在欢迎阶段恢复，静音未触发主题声音",
+      "detail": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 1.7402999999994442,
+          "progress": 0.21753749999993052,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": true,
+        "welcomeTheme": "dark"
+      }
+    },
+    {
+      "name": "Esc 仅跳过欢迎，不穿透到阵列或实验入口",
+      "detail": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.0334999999992549,
+        "progress": 0.007346491227906776
+      }
+    },
+    {
+      "name": "16x9 阵列入场延后启动且四阶段使用当前信号匣，完成前无背景配乐",
+      "detail": {
+        "trace": [
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.039499999999254895,
+              "progress": 0.008662280701590986
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.10029999999925485,
+              "progress": 0.02199561403492431
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.16689999999925498,
+              "progress": 0.03660087719281908
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.227399999999255,
+              "progress": 0.049868421052468206
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.29409999999925507,
+              "progress": 0.06449561403492436
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.35469999999925494,
+              "progress": 0.07778508771913487
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.40929999999925476,
+              "progress": 0.08975877192966114
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.4698999999992546,
+              "progress": 0.10304824561387163
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.536499999999255,
+              "progress": 0.11765350877176646
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.6031999999992547,
+              "progress": 0.13228070175422252
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.6636999999992546,
+              "progress": 0.1455482456138716
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 0.7243999999992545,
+              "progress": 0.15885964912264355
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.0455999999992551,
+              "progress": 0.22929824561387177
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.1001999999992556,
+              "progress": 0.24127192982439816
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.166799999999256,
+              "progress": 0.255877192982293
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.2213999999992562,
+              "progress": 0.26785087719281936
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.2820999999992568,
+              "progress": 0.28116228070159144
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.3425999999992573,
+              "progress": 0.29442982456124067
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.4031999999992577,
+              "progress": 0.3077192982454513
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.4698999999992581,
+              "progress": 0.32234649122790754
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.536499999999259,
+              "progress": 0.33695175438580244
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.603199999999259,
+              "progress": 0.35157894736825857
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.6638999999992592,
+              "progress": 0.36489035087703053
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.72449999999926,
+              "progress": 0.3781798245612413
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.7850999999992603,
+              "progress": 0.39146929824545185
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.8455999999992605,
+              "progress": 0.404736842105101
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.9183999999992607,
+              "progress": 0.4207017543858028
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 1.9728999999992611,
+              "progress": 0.43265350877176784
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.039599999999261,
+              "progress": 0.44728070175422396
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.094199999999261,
+              "progress": 0.4592543859647502
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.1486999999992604,
+              "progress": 0.47120614035071506
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.2092999999992595,
+              "progress": 0.48449561403492536
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.275999999999259,
+              "progress": 0.49912280701738143
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.9366999999992522,
+              "progress": 0.6440131578945729
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 2.9972999999992522,
+              "progress": 0.6573026315787834
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.063999999999251,
+              "progress": 0.6719298245612393
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.1123999999992495,
+              "progress": 0.6825438596489583
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.1608999999992493,
+              "progress": 0.6931798245612389
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.2578999999992493,
+              "progress": 0.7144517543858003
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.3306999999992497,
+              "progress": 0.7304166666665022
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.4032999999992493,
+              "progress": 0.746337719298081
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.4699999999992484,
+              "progress": 0.760964912280537
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.536699999999248,
+              "progress": 0.775592105262993
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.6154999999992476,
+              "progress": 0.7928728070173789
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.6942999999992474,
+              "progress": 0.8101535087717648
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.7669999999992467,
+              "progress": 0.8260964912279051
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.8336999999992467,
+              "progress": 0.8407236842103611
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.906399999999246,
+              "progress": 0.8566666666665014
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 3.973099999999245,
+              "progress": 0.8712938596489573
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 4.421599999999238,
+              "progress": 0.9696491228068504
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 4.488299999999238,
+              "progress": 0.9842763157893066
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          },
+          {
+            "intro": {
+              "phase": "running",
+              "active": true,
+              "completed": false,
+              "elapsed": 4.5489999999992365,
+              "progress": 0.9975877192980783
+            },
+            "musicReady": false,
+            "musicStartCount": 0,
+            "sourceCount": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "跳过欢迎按钮只完成当前欢迎，不触发底层按钮或直接跳过阵列",
+      "detail": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.13009999999999994,
+        "progress": 0.028530701754385955
+      }
+    },
+    {
+      "name": "跳过欢迎后焦点交给主页，下一次独立 Esc 可直接跳过阵列",
+      "detail": true
+    },
+    {
+      "name": "减少动态直接完成欢迎和阵列，保留静音，不阻塞实验索引且不重播",
+      "detail": {
+        "intro": {
+          "phase": "done",
+          "active": false,
+          "completed": true,
+          "elapsed": 4.559999999999999,
+          "progress": 0.9999999999999998
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": true,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        }
+      }
+    },
+    {
+      "name": "无 renderer 异常、外网资源或旧 GLB 请求；两种比例共八张真实入场覆盖帧",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    {
+      "file": "evidence/screenshots/welcome-source-light-1.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "welcome": {
+        "phase": "running",
+        "elapsed": 0.8544999999999998,
+        "progress": 0.10681249999999998,
+        "completed": false,
+        "reason": null
+      },
+      "targetSeconds": 0.8
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-light-2.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "welcome": {
+        "phase": "running",
+        "elapsed": 2.648499999999997,
+        "progress": 0.33106249999999965,
+        "completed": false,
+        "reason": null
+      },
+      "targetSeconds": 2.6
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-light-3.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "welcome": {
+        "phase": "running",
+        "elapsed": 4.939599999999975,
+        "progress": 0.6174499999999968,
+        "completed": false,
+        "reason": null
+      },
+      "targetSeconds": 4.9
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-light-4.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "welcome": {
+        "phase": "running",
+        "elapsed": 7.4184999999999395,
+        "progress": 0.9273124999999924,
+        "completed": false,
+        "reason": null
+      },
+      "targetSeconds": 7.4
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x10-early.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.6879000000003727,
+        "progress": 0.15085526315797648
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x10-middle.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 2.2638000000003693,
+        "progress": 0.4964473684211337
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x10-late.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 3.9244000000003574,
+        "progress": 0.8606140350877978
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x10-settled.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "done",
+        "active": false,
+        "completed": true,
+        "elapsed": 4.559999999999999,
+        "progress": 0.9999999999999998
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-native-icon.png",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "rmseOnWhite": 0.003693598662630201,
+      "alphaIntersectionOverUnion": 1
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-dark-muted.png",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "state": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 1.7039999999994437,
+          "progress": 0.21299999999993047,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": true,
+        "welcomeTheme": "dark"
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x9-early.png",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.7243999999992545,
+        "progress": 0.15885964912264355
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x9-middle.png",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 2.275999999999259,
+        "progress": 0.49912280701738143
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x9-late.png",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 3.973099999999245,
+        "progress": 0.8712938596489573
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-array-16x9-settled.png",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "done",
+        "active": false,
+        "completed": true,
+        "elapsed": 4.559999999999999,
+        "progress": 0.9999999999999998
+      },
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "file": "evidence/screenshots/welcome-source-reduced-motion.png",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "done",
+        "active": false,
+        "completed": true,
+        "elapsed": 4.559999999999999,
+        "progress": 0.9999999999999998
+      },
+      "audio": {
+        "preferences": {
+          "enabled": false,
+          "sound": true,
+          "music": true,
+          "typing": false,
+          "soundVolume": 0.31,
+          "musicVolume": 0.17
+        },
+        "status": "muted",
+        "saved": true,
+        "contextState": "not-created",
+        "currentTime": 0,
+        "musicReady": true,
+        "musicStartCount": 0,
+        "sourceCount": 0,
+        "musicStartedAt": null,
+        "loopDuration": 53.333333333333336,
+        "playbackPosition": 0,
+        "completedLoops": 0,
+        "outputRms": 0,
+        "outputPeak": 0,
+        "effectCount": 0,
+        "playedKeys": 0,
+        "error": "",
+        "muted": true,
+        "disposed": false
+      }
+    }
+  ],
+  "launches": [
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "runtime": {
+        "version": "3.0.0",
+        "dataPath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\welcome-source-1793260783784"
+      },
+      "attached": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 2.7552999999999996,
+          "progress": 0.34441249999999995,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": true,
+            "sound": true,
+            "music": true,
+            "typing": true,
+            "soundVolume": 0.35,
+            "musicVolume": 0.22
+          },
+          "status": "ready",
+          "saved": true,
+          "contextState": "running",
+          "currentTime": 2.541333333333333,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 1,
+          "playedKeys": 0,
+          "error": "",
+          "muted": false,
+          "disposed": false
+        },
+        "theme": "light",
+        "shellInert": true,
+        "welcomeTheme": "light"
+      },
+      "reloaded": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 0.7757,
+          "progress": 0.0969625,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": true,
+            "sound": true,
+            "music": true,
+            "typing": true,
+            "soundVolume": 0.35,
+            "musicVolume": 0.22
+          },
+          "status": "ready",
+          "saved": true,
+          "contextState": "running",
+          "currentTime": 0.7706666666666667,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": false,
+          "disposed": false
+        },
+        "theme": "light",
+        "shellInert": true,
+        "welcomeTheme": "light"
+      },
+      "preferencesBeforeReload": {
+        "kx-color-theme-v1": "light",
+        "kx-home-settings-v1": "{\"dark\":false,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": null
+      },
+      "preferencesAfterReload": {
+        "kx-color-theme-v1": "light",
+        "kx-home-settings-v1": "{\"dark\":false,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": null
+      }
+    },
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "runtime": {
+        "version": "3.0.0",
+        "dataPath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\welcome-source-1793260783784"
+      },
+      "attached": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 0.9919000000001863,
+          "progress": 0.12398750000002329,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": true,
+        "welcomeTheme": "dark"
+      },
+      "reloaded": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 0.7947999999994411,
+          "progress": 0.09934999999993013,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": true,
+        "welcomeTheme": "dark"
+      },
+      "preferencesBeforeReload": {
+        "kx-color-theme-v1": "dark",
+        "kx-home-settings-v1": "{\"dark\":true,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      },
+      "preferencesAfterReload": {
+        "kx-color-theme-v1": "dark",
+        "kx-home-settings-v1": "{\"dark\":true,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "runtime": {
+        "version": "3.0.0",
+        "dataPath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\welcome-source-1793260783784"
+      },
+      "attached": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 1.9936999999999998,
+          "progress": 0.24921249999999998,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "light",
+        "shellInert": true,
+        "welcomeTheme": "light"
+      },
+      "reloaded": {
+        "welcome": {
+          "phase": "running",
+          "elapsed": 1.4030000000003728,
+          "progress": 0.1753750000000466,
+          "completed": false,
+          "reason": null
+        },
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": false,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "light",
+        "shellInert": true,
+        "welcomeTheme": "light"
+      },
+      "preferencesBeforeReload": {
+        "kx-color-theme-v1": "light",
+        "kx-home-settings-v1": "{\"dark\":false,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      },
+      "preferencesAfterReload": {
+        "kx-color-theme-v1": "light",
+        "kx-home-settings-v1": "{\"dark\":false,\"reduced\":false,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "runtime": {
+        "version": "3.0.0",
+        "dataPath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\welcome-source-1793260783784"
+      },
+      "attached": {
+        "welcome": null,
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": true,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": false,
+        "welcomeTheme": null
+      },
+      "reloaded": {
+        "welcome": null,
+        "audio": {
+          "preferences": {
+            "enabled": false,
+            "sound": true,
+            "music": true,
+            "typing": false,
+            "soundVolume": 0.31,
+            "musicVolume": 0.17
+          },
+          "status": "muted",
+          "saved": true,
+          "contextState": "not-created",
+          "currentTime": 0,
+          "musicReady": true,
+          "musicStartCount": 0,
+          "sourceCount": 0,
+          "musicStartedAt": null,
+          "loopDuration": 53.333333333333336,
+          "playbackPosition": 0,
+          "completedLoops": 0,
+          "outputRms": 0,
+          "outputPeak": 0,
+          "effectCount": 0,
+          "playedKeys": 0,
+          "error": "",
+          "muted": true,
+          "disposed": false
+        },
+        "theme": "dark",
+        "shellInert": false,
+        "welcomeTheme": null
+      },
+      "preferencesBeforeReload": {
+        "kx-color-theme-v1": "dark",
+        "kx-home-settings-v1": "{\"dark\":true,\"reduced\":true,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      },
+      "preferencesAfterReload": {
+        "kx-color-theme-v1": "dark",
+        "kx-home-settings-v1": "{\"dark\":true,\"reduced\":true,\"quality\":\"performance\"}",
+        "kx-audio-preferences-v1": "{\"enabled\":false,\"sound\":true,\"music\":true,\"typing\":false,\"soundVolume\":0.31,\"musicVolume\":0.17}"
+      }
+    }
+  ],
+  "scope": "独立用户数据中的实际 Electron 欢迎、阵列入场、声音门控、偏好恢复、跨页面连续播放与 Windows 窗口图标；无在线 AI。",
+  "rendererErrors": [],
+  "externalRequests": [],
+  "oldModelRequests": [],
+  "finishedAt": "2026-10-29T08:01:09.392Z"
+}

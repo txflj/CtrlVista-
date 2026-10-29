@@ -1,0 +1,130 @@
+{
+  "version": "2.2.0",
+  "verifiedAt": "2026-10-29T04:40:43.056Z",
+  "sounds": [
+    {
+      "sound": "page-open",
+      "rms": 0.0012390541515309747,
+      "peak": 0.029497919604182243,
+      "nonfinite": false
+    },
+    {
+      "sound": "page-close",
+      "rms": 0.0008785830214621413,
+      "peak": 0.030934147536754608,
+      "nonfinite": false
+    },
+    {
+      "sound": "ui-tick",
+      "rms": 0.00044727178241360977,
+      "peak": 0.02003992535173893,
+      "nonfinite": false
+    },
+    {
+      "sound": "text-reveal",
+      "rms": 0.000342496596196058,
+      "peak": 0.021166715770959854,
+      "nonfinite": false
+    },
+    {
+      "sound": "key",
+      "rms": 0.0001624426797764104,
+      "peak": 0.013345272280275822,
+      "nonfinite": false
+    },
+    {
+      "sound": "tick",
+      "rms": 0.0023690363711757127,
+      "peak": 0.075935497879982,
+      "nonfinite": false
+    },
+    {
+      "sound": "column",
+      "rms": 0.002821985032618242,
+      "peak": 0.07593623548746109,
+      "nonfinite": false
+    },
+    {
+      "sound": "open",
+      "rms": 0.004179678440673462,
+      "peak": 0.08271633088588715,
+      "nonfinite": false
+    },
+    {
+      "sound": "confirm",
+      "rms": 0.001295680913429035,
+      "peak": 0.027021031826734543,
+      "nonfinite": false
+    },
+    {
+      "sound": "back",
+      "rms": 0.0023644567602124173,
+      "peak": 0.07626663148403168,
+      "nonfinite": false
+    },
+    {
+      "sound": "scan",
+      "rms": 0.0012755989560252986,
+      "peak": 0.021610194817185402,
+      "nonfinite": false
+    },
+    {
+      "sound": "array",
+      "rms": 0.0033004642377989376,
+      "peak": 0.04411054030060768,
+      "nonfinite": false
+    },
+    {
+      "sound": "inspect",
+      "rms": 0.0006386212491442809,
+      "peak": 0.01822865754365921,
+      "nonfinite": false
+    },
+    {
+      "sound": "explode",
+      "rms": 0.003549353864038438,
+      "peak": 0.06291335076093674,
+      "nonfinite": false
+    },
+    {
+      "sound": "assemble",
+      "rms": 0.002581104792458261,
+      "peak": 0.04803605377674103,
+      "nonfinite": false
+    }
+  ],
+  "music": [
+    {
+      "name": "atmosphere",
+      "duration": 53.333333333333336,
+      "channels": 2,
+      "rms": 0.05787793722342571,
+      "peak": 0.28635352849960327,
+      "nonfinite": false
+    },
+    {
+      "name": "motif",
+      "duration": 53.333333333333336,
+      "channels": 2,
+      "rms": 0.05515740407478357,
+      "peak": 0.2419700175523758,
+      "nonfinite": false
+    },
+    {
+      "name": "pulse",
+      "duration": 53.333333333333336,
+      "channels": 2,
+      "rms": 0.017827908186878995,
+      "peak": 0.11312736570835114,
+      "nonfinite": false
+    }
+  ],
+  "mix": {
+    "rms": 0.011766787892915348,
+    "peak": 0.0553266741335392,
+    "nonfinite": false,
+    "loopBoundaryDelta": 4.377216100692749e-8,
+    "duration": 106.76666666666667
+  },
+  "scope": "浏览器 OfflineAudioContext 信号生成、Ogg 解码与双循环渲染；不是人工听感评价。"
+}

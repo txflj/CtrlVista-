@@ -1,0 +1,82 @@
+/* AI is an on-demand instrument; the experiment stays usable while it is open. */
+.ai-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 20px;
+  z-index: 45;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 5px 15px 5px 6px;
+  border: 1px solid #796294;
+  border-radius: 26px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 5px 18px #080d1766;
+  font-size: 13px;
+  font-weight: 600;
+}
+.ai-launcher:hover { background: var(--surface-raised); border-color: #c6a8f0; }
+.ai-launcher-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: #302c42; color: #c6a8f0; }
+.ai-launcher-mark svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.ai-launcher-state { color: var(--muted); font-size: 11px; font-weight: 400; }
+.ai-drawer {
+  position: fixed;
+  top: 110px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  width: min(430px, calc(100vw - 40px));
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid #796294;
+  border-top: 2px solid #c6a8f0;
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 16px 48px #080d1780;
+}
+.ai-drawer-header { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; gap: 12px; padding: 17px 18px 12px; }
+.ai-drawer-header .eyebrow { color: #c6a8f0; font-size: 10px; letter-spacing: .04em; margin-bottom: 4px; }
+.ai-drawer-header h2 { font-size: 17px; margin: 0; }
+.ai-drawer-header .button { min-height: 29px; padding: 4px 9px; font-size: 12px; }
+.ai-drawer-context { display: flex; flex: 0 0 auto; align-items: center; gap: 7px 10px; padding: 0 18px 12px; border-bottom: 1px solid var(--border); color: var(--muted); font-size: 11px; }
+.ai-drawer-context > span:first-child { min-width: 0; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ai-context-version { font-family: Consolas, "Microsoft YaHei UI", monospace; white-space: nowrap; }
+.ai-connection-state { white-space: nowrap; color: var(--muted); }
+.ai-connection-state.working { color: #c6a8f0; }
+.ai-drawer-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding: 17px 16px 20px 18px; }
+.ai-drawer .ai-setup-callout { margin: 0 0 16px; padding: 12px; }
+.ai-setup-callout .button { min-height: 30px; padding: 5px 8px; font-size: 11px; }
+.ai-drawer .field > span { font-size: 12px; }
+.ai-drawer .field textarea { font-size: 13px; min-height: 92px; }
+.ai-request-actions { display: flex; align-items: flex-start; flex-direction: column; gap: 8px; }
+.ai-request-actions > .button { width: 100%; }
+.ai-request-actions > .hint { font-size: 11px; }
+.ai-natural-settings { margin-top: 20px; }
+.ai-natural-settings > summary { font-size: 12px; line-height: 1.6; }
+.ai-drawer .proposal { padding: 12px; }
+.ai-drawer .proposal p { font-size: 12px; }
+.ai-drawer pre { max-height: 270px; font-size: 11px; }
+.ai-drawer-history { margin-top: 24px; }
+.ai-history-heading { display: flex; align-items: center; justify-content: space-between; color: var(--muted); font-size: 11px; }
+.ai-history-heading h3 { font-size: 12px; font-weight: 500; margin: 0; }
+.ai-drawer .ai-session { margin-top: 10px; padding-top: 14px; }
+.ai-drawer .ai-session > .section-heading { display: block; margin-bottom: 8px; }
+.ai-drawer .ai-session .section-heading strong { display: block; margin-bottom: 4px; }
+.ai-drawer .ai-session p { font-size: 12px; }
+.ai-drawer .ai-session .hint { font-size: 11px; }
+.ai-drawer-footer { display: flex; flex: 0 0 auto; justify-content: space-between; align-items: center; gap: 10px; border-top: 1px solid var(--border); padding: 11px 16px 11px 18px; background: var(--surface-inset); }
+.ai-drawer-footer > .hint { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10px; }
+.ai-drawer-footer .button { padding: 5px 9px; min-height: 30px; font-size: 12px; }
+@media (max-width: 760px) {
+  .ai-launcher { right: 14px; bottom: 14px; }
+  .ai-drawer { top: 104px; right: 10px; bottom: 10px; width: min(430px, calc(100vw - 20px)); }
+  .ai-drawer-header { padding: 14px 14px 10px; }
+  .ai-drawer-context { padding: 0 14px 10px; gap: 7px; }
+  .ai-drawer-body { padding: 14px; }
+  .ai-drawer-footer { padding: 10px 14px; }
+}

@@ -1,0 +1,151 @@
+/* Application light appearance follows the homepage's warm ivory instrument
+   palette. Import after the existing workspace styles; dark appearance is
+   deliberately unaffected. Layout, interaction and experiment state stay here
+   only through inherited colours, never through alternate markup. */
+:root[data-color-theme="light"] {
+  color-scheme: light;
+  --bg: #e8e5e1;
+  --surface: #f4f2ef;
+  --surface-raised: #dedbd5;
+  --surface-inset: #eeece8;
+  --border: #bdb8af;
+  --text: #20251f;
+  --muted: #676b65;
+  /* Small secondary text needs more contrast than the homepage's large labels. */
+  --text-secondary: #5e635c;
+  --accent: #416ea8;
+  --accent-fill: #416ea8;
+  --link: #315e96;
+  --success: #276b55;
+  --warning: #815d20;
+  --danger: #9f3f4c;
+  --chart-series-1: #416ea8;
+  --chart-series-2: #79549e;
+  --chart-series-3: #247b77;
+  --chart-series-4: #8d671d;
+  --chart-grid: #ccc8c0;
+  --chart-reference: #74776f;
+  --chart-cursor: #555c55;
+  --assistant-accent: #75568f;
+  background: var(--bg);
+  color: var(--text);
+}
+
+:root[data-color-theme="light"] body {
+  background: var(--bg);
+  color: var(--text);
+}
+:root[data-color-theme="light"] :is(.app-chrome, .control-lab, .modal, .ai-drawer,
+  .ai-launcher, .feature-home, .fatal-error, .loading-screen) { --muted: var(--text-secondary); }
+:root[data-color-theme="light"] ::selection { color: var(--text); background: #c6d7ed; }
+:root[data-color-theme="light"] a { color: var(--link); }
+:root[data-color-theme="light"] :is(.muted, .hint, .path-text, .empty-inline, .empty,
+  .module-footer, .module-footer p, .library-intro, .version, .field > span,
+  .field > span small, .check, .chart-readout, .metric > span, .metric strong small,
+  .ai-drawer-context, .ai-history-heading, .ai-launcher-state, .ai-connection-state) {
+  color: var(--text-secondary);
+}
+:root[data-color-theme="light"] :is(summary, .empty h3, .controller-code, .chart-readout strong,
+  .metric > strong, .source-map, .guide-copy > strong, td) { color: var(--text); }
+:root[data-color-theme="light"] summary:hover { color: var(--link); }
+:root[data-color-theme="light"] :is(.case-card p, .case-card h3, .case-card li,
+  .candidate p, .candidate-metrics, .ai-session p, .record-note,
+  .verification-grid .panel > p, .verification-grid li, .guide-copy > p,
+  .result-summary, .chart-comparison-control > .hint) { color: var(--text-secondary); }
+
+/* Shared navigation and paper panels keep the homepage's quiet fine-line frame. */
+:root[data-color-theme="light"] :is(.app-chrome, .module-navigation) {
+  background: var(--bg);
+  border-color: var(--border);
+}
+:root[data-color-theme="light"] .brand-mark {
+  color: var(--text-secondary);
+  background: var(--surface);
+  border-color: var(--border);
+}
+:root[data-color-theme="light"] .module-navigation nav button { color: var(--text-secondary); }
+:root[data-color-theme="light"] .module-navigation nav button span { opacity: 1; }
+:root[data-color-theme="light"] .module-navigation nav button:hover { color: var(--text); background: var(--surface); }
+:root[data-color-theme="light"] .module-navigation nav button.active { color: var(--link); border-color: var(--accent); background: transparent; }
+:root[data-color-theme="light"] .control-lab :is(.page-heading p:not(.eyebrow), .eyebrow) { color: var(--text-secondary); }
+:root[data-color-theme="light"] .case-card { background: var(--surface); border-color: var(--border); }
+:root[data-color-theme="light"] .case-number { color: var(--text-secondary); }
+:root[data-color-theme="light"] .case-challenge { border-color: #aaa89e; }
+:root[data-color-theme="light"] .tag { color: var(--text-secondary); border-color: var(--border); background: transparent; }
+:root[data-color-theme="light"] .guide-strip { background: transparent; border-color: var(--border); }
+:root[data-color-theme="light"] .guide-steps button { color: var(--text-secondary); }
+:root[data-color-theme="light"] .guide-steps button span { border-color: var(--border); }
+:root[data-color-theme="light"] .guide-steps button.active { color: var(--link); border-color: var(--accent); }
+:root[data-color-theme="light"] .guide-steps button.active span { background: transparent; }
+
+/* Filled primary controls and pale input wells read as part of the same tool. */
+:root[data-color-theme="light"] .button { color: var(--text); border-color: var(--border); }
+:root[data-color-theme="light"] .button:hover:not(:disabled) { color: var(--text); background: var(--surface-raised); border-color: #a4a198; }
+:root[data-color-theme="light"] .button.primary { color: #ffffff; background: var(--accent); border-color: var(--accent); }
+:root[data-color-theme="light"] .button.primary:hover:not(:disabled) { color: #ffffff; background: #345d91; border-color: #345d91; }
+:root[data-color-theme="light"] .button.danger-subtle { color: var(--danger); background: transparent; }
+:root[data-color-theme="light"] .button.danger-subtle:hover:not(:disabled) { color: var(--danger); background: #f3e2e5; border-color: #c5959c; }
+:root[data-color-theme="light"] .segmented .button.selected { color: var(--link); background: #d9e5f4; border-color: #9bb0cb; }
+:root[data-color-theme="light"] .field :is(input, textarea, select) { color: var(--text); background: var(--surface-inset); border-color: var(--border); }
+:root[data-color-theme="light"] .field :is(input, textarea, select):hover:not(:disabled) { border-color: #9e9e94; }
+:root[data-color-theme="light"] .field :is(input, textarea)::placeholder { color: var(--text-secondary); opacity: 1; }
+:root[data-color-theme="light"] .field :is(input, textarea, select)[aria-invalid="true"] { border-color: var(--danger); }
+:root[data-color-theme="light"] .check input { accent-color: var(--accent); }
+:root[data-color-theme="light"] :is(button, input, textarea, select, summary, a):focus-visible { outline-color: var(--accent); }
+:root[data-color-theme="light"] .button:disabled,
+:root[data-color-theme="light"] .field :is(input, textarea, select):disabled {
+  color: #7d8077;
+  background: #dedbd5;
+  border-color: #c3beb5;
+  opacity: 1;
+}
+
+/* The chart uses the same data, dash patterns and legend; only its ink changes. */
+:root[data-color-theme="light"] .response-chart svg text { fill: var(--text-secondary); }
+:root[data-color-theme="light"] .response-chart svg .axis-label { fill: var(--text-secondary); }
+:root[data-color-theme="light"] .response-chart .grid-line { stroke: var(--chart-grid); }
+:root[data-color-theme="light"] .reference-line { stroke: var(--chart-reference); }
+:root[data-color-theme="light"] .cursor-line { stroke: var(--chart-cursor); }
+:root[data-color-theme="light"] .metric { border-color: var(--border); background: var(--surface); }
+:root[data-color-theme="light"] .control-lab .workspace-view .metric { background: transparent; }
+:root[data-color-theme="light"] .comparison-table th,
+:root[data-color-theme="light"] th { background: var(--surface-inset); color: var(--text-secondary); }
+:root[data-color-theme="light"] :is(th, td) { border-color: var(--border); }
+:root[data-color-theme="light"] .candidate { background: var(--surface); border-color: var(--border); border-top-color: #aaa99e; }
+:root[data-color-theme="light"] .prediction { background: var(--surface); border-left-color: #aaa99e; }
+:root[data-color-theme="light"] .proposal { background: var(--surface); border-color: #b0b0a4; }
+:root[data-color-theme="light"] .run-item.active { background: var(--surface); }
+:root[data-color-theme="light"] pre { background: var(--surface-inset); color: var(--text); border-color: var(--border); }
+
+/* Status hues stay restrained, and every result still has a written label. */
+:root[data-color-theme="light"] .status { color: var(--text-secondary); border-color: #aaa99e; background: #e9e7e2; }
+:root[data-color-theme="light"] :is(.status-pass, .status-completed) { color: var(--success); border-color: #99bdae; background: #e1eee7; }
+:root[data-color-theme="light"] :is(.status-fail, .status-unstable, .status-invalid, .status-numerical_error) { color: var(--danger); border-color: #cca3aa; background: #f3e5e8; }
+:root[data-color-theme="light"] .status-unknown { color: var(--warning); border-color: #c7b78e; background: #f2ecdf; }
+:root[data-color-theme="light"] :is(.notice, .callout) { color: #4d584b; border-color: #b5b8ad; background: #ecebe5; }
+:root[data-color-theme="light"] :is(.notice.error, .callout.error) { color: #943a48; border-color: #c9a7a0; background: #f2e6e3; }
+:root[data-color-theme="light"] :is(.notice.warning, .callout.warning) { color: #79571e; border-color: #c6b38b; background: #f2ebdc; }
+:root[data-color-theme="light"] .toast { box-shadow: 0 7px 20px #353a291a; }
+:root[data-color-theme="light"] .toast .button { color: inherit; border-color: currentColor; }
+
+/* Settings and the assistant use solid paper surfaces, rather than dark glass. */
+:root[data-color-theme="light"] .modal-backdrop { background: #393b3555; }
+:root[data-color-theme="light"] .modal { background: var(--surface); border-color: #aaa89e; box-shadow: 0 20px 80px #353a292b; }
+:root[data-color-theme="light"] .ai-panel { border-left-color: var(--assistant-accent); }
+:root[data-color-theme="light"] :is(.ai-panel > .section-heading .eyebrow, .ai-drawer-header .eyebrow,
+  .ai-connection-state.working, .ai-launcher-mark) { color: var(--assistant-accent); }
+:root[data-color-theme="light"] .ai-launcher { color: var(--text); background: var(--surface); border-color: #afa7b2; box-shadow: 0 6px 22px #353a291c; }
+:root[data-color-theme="light"] .ai-launcher:hover { background: var(--surface-raised); border-color: var(--assistant-accent); }
+:root[data-color-theme="light"] .ai-launcher:hover .ai-launcher-state { color: var(--text); }
+:root[data-color-theme="light"] .ai-launcher-mark { background: transparent; }
+:root[data-color-theme="light"] .ai-drawer { color: var(--text); background: var(--surface); border-color: #b1aeb1; box-shadow: 0 18px 65px #353a292b; }
+:root[data-color-theme="light"] .ai-drawer-footer { background: var(--surface); }
+:root[data-color-theme="light"] .ai-drawer .ai-setup-callout { color: var(--text-secondary); border-color: var(--border); }
+
+/* In the instrument workbench, typography hierarchy remains identical in both
+   appearances; only previously dark-only small-text colours need replacing. */
+:root[data-color-theme="light"] .control-lab .hint,
+:root[data-color-theme="light"] .control-lab .workspace-view .metric > .hint,
+:root[data-color-theme="light"] .control-lab .module-footer,
+:root[data-color-theme="light"] .workspace-tabs > button { color: var(--text-secondary); }
+:root[data-color-theme="light"] .workspace-tabs > button[aria-selected="true"] { color: var(--link); }

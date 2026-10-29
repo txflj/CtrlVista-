@@ -1,0 +1,109 @@
+/* Desktop integration, kept separate from the reusable upstream surface. */
+[hidden] {
+  display: none !important;
+}
+#stage[data-mode="archive"] .three-scene {
+  transition: none;
+}
+.scene-status {
+  position: absolute;
+  bottom: 130px;
+  left: 59px;
+  max-width: 440px;
+  font-size: 13px;
+  line-height: 1.8;
+  z-index: 9;
+  color: var(--theme-muted);
+  background: rgba(var(--theme-paper-rgb), 0.9);
+  padding: 10px 14px;
+  border-left: 2px solid var(--theme-accent);
+}
+.home-continue {
+  display: block;
+  margin-top: 0;
+  font-size: 13px;
+  color: var(--theme-muted);
+}
+.home-continue:hover {
+  color: var(--theme-accent);
+}
+.home-setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 23px 0;
+  border-bottom: 1px solid var(--theme-line);
+  font-size: 14px;
+}
+.home-setting-row strong {
+  display: block;
+  font-weight: 500;
+}
+.home-setting-row span {
+  display: block;
+  font-size: 12px;
+  color: var(--theme-muted);
+  margin-top: 8px;
+}
+.home-setting-row button,
+.home-setting-row select {
+  padding: 9px 14px;
+  border: 1px solid var(--theme-line);
+  border-radius: 4px;
+  background: var(--theme-field);
+  color: var(--theme-ink);
+  font: inherit;
+  white-space: nowrap;
+}
+.home-attribution {
+  margin-top: 22px;
+  color: var(--theme-muted);
+  font-size: 11px;
+  line-height: 1.8;
+}
+.experiment-flow {
+  font-size: 13px !important;
+  color: var(--theme-muted);
+  margin-top: 18px !important;
+}
+.detail-footnote {
+  gap: 20px;
+  font-size: 10px;
+}
+.archive-hint {
+  white-space: nowrap;
+}
+/* Lift the complete experiment entry into the lighter area above the cartridge
+   edges. Move its wrapper so title, rule, name and action keep their spacing. */
+#stage[data-layout="desktop"] .archive-callout {
+  top: 360px;
+}
+#stage[data-layout="compact"] .archive-callout {
+  top: max(100px, calc(35% - 64px));
+}
+.modal-bottom button[data-action="library"] {
+  font-size: 12px;
+}
+.scene-unavailable .archive-callout {
+  background: var(--theme-panel);
+  padding: 24px;
+  border: 1px solid var(--theme-line);
+}
+.scene-unavailable .viewer-open,
+.scene-unavailable .object-caption small {
+  display: none;
+}
+[data-layout="compact"] .scene-status,
+[data-layout="portrait"] .scene-status {
+  left: 24px;
+  bottom: 95px;
+  font-size: 11px;
+  max-width: 300px;
+}
+
+.system-nav .home-continue {
+  color: var(--theme-accent);
+  border: 1px solid var(--theme-line);
+  padding-inline: 12px;
+}

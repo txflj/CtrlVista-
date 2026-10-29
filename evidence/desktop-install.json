@@ -1,0 +1,22 @@
+{
+  "Date": "2026-10-28",
+  "Version": "0.1.2",
+  "InstallDirectory": "<USER_HOME>\\Desktop\\控小助程序",
+  "Shortcut": "<USER_HOME>\\Desktop\\控小助.lnk",
+  "ExperimentCountBefore": 10,
+  "ExperimentCountAfter": 10,
+  "ExperimentFilesPreserved": true,
+  "SettingsUnchanged": true,
+  "Installation": {
+    "Version": "0.1.2",
+    "PreviousVersion": "0.1.1",
+    "InstallDirectory": "<USER_HOME>\\Desktop\\控小助程序",
+    "Shortcut": "<USER_HOME>\\Desktop\\控小助.lnk",
+    "VerifiedFiles": 196,
+    "BackupDirectory": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\desktop-backups\\20261028-000645-401",
+    "UserDataDirectory": "<USER_HOME>\\AppData\\Roaming\\控小助"
+  },
+  "RunningExecutableVerified": true,
+  "InstalledPackageVersion": "0.1.2",
+  "ShortcutTargetVerified": true
+}

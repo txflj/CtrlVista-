@@ -1,0 +1,209 @@
+{
+  "startedAt": "2026-10-29T08:05:37.804Z",
+  "packaged": true,
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-3.0.0-win32-x64\\控小助.exe",
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\packaged-1793261137803",
+  "checks": [
+    {
+      "name": "桌面窗口加载",
+      "detail": true
+    },
+    {
+      "name": "独立测试数据目录与受限桌面桥",
+      "detail": true
+    },
+    {
+      "name": "电机调速：桌面计算线程达标",
+      "detail": {
+        "overshoot": 0,
+        "overshootAbsolute": 0,
+        "settlingTime": 0.98,
+        "steadyError": 0,
+        "recoveryTime": null,
+        "controlPeak": 2,
+        "maxDisturbanceDeviation": null,
+        "finalValue": 1,
+        "tailError": 0,
+        "toleranceBand": 0.02,
+        "trackingObservedFor": 10
+      }
+    },
+    {
+      "name": "机械定位：桌面计算线程达标",
+      "detail": {
+        "overshoot": 7.5389463396585255,
+        "overshootAbsolute": 0.07538946339658525,
+        "settlingTime": 8.62,
+        "steadyError": 0,
+        "recoveryTime": null,
+        "controlPeak": 2,
+        "maxDisturbanceDeviation": null,
+        "finalValue": 1,
+        "tailError": 0.000007475888423869037,
+        "toleranceBand": 0.02,
+        "trackingObservedFor": 25
+      }
+    },
+    {
+      "name": "温度调节：桌面计算线程达标",
+      "detail": {
+        "overshoot": 0,
+        "overshootAbsolute": 0,
+        "settlingTime": 7.85,
+        "steadyError": 0,
+        "recoveryTime": 18.450000000000003,
+        "controlPeak": 4,
+        "maxDisturbanceDeviation": 0.09449463420797999,
+        "finalValue": 1,
+        "tailError": 0.0013475889875890212,
+        "toleranceBand": 0.02,
+        "trackingObservedFor": 25
+      }
+    },
+    {
+      "name": "综合挑战：桌面计算线程达标",
+      "detail": {
+        "overshoot": 0,
+        "overshootAbsolute": 0,
+        "settlingTime": 3.12,
+        "steadyError": 0,
+        "recoveryTime": null,
+        "controlPeak": 2.0413345150523403,
+        "maxDisturbanceDeviation": null,
+        "finalValue": 1,
+        "tailError": 0.0000016758912098069345,
+        "toleranceBand": 0.02,
+        "trackingObservedFor": 20
+      }
+    },
+    {
+      "name": "桌面整定与后台线程",
+      "detail": true
+    },
+    {
+      "name": "桌面计算复现",
+      "detail": {
+        "pass": true,
+        "metrics": [
+          {
+            "key": "overshoot",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "overshootAbsolute",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "settlingTime",
+            "original": 0.98,
+            "recomputed": 0.98,
+            "pass": true
+          },
+          {
+            "key": "steadyError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "recoveryTime",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "controlPeak",
+            "original": 2,
+            "recomputed": 2,
+            "pass": true
+          },
+          {
+            "key": "maxDisturbanceDeviation",
+            "original": null,
+            "recomputed": null,
+            "pass": true
+          },
+          {
+            "key": "finalValue",
+            "original": 1,
+            "recomputed": 1,
+            "pass": true
+          },
+          {
+            "key": "tailError",
+            "original": 0,
+            "recomputed": 0,
+            "pass": true
+          },
+          {
+            "key": "toleranceBand",
+            "original": 0.02,
+            "recomputed": 0.02,
+            "pass": true
+          },
+          {
+            "key": "trackingObservedFor",
+            "original": 10,
+            "recomputed": 10,
+            "pass": true
+          }
+        ],
+        "curveMaxError": 0,
+        "tolerances": {
+          "absolute": 1e-8,
+          "relative": 0.000001,
+          "time": 0.010000001
+        },
+        "summary": "配置、运行状态、采样曲线和指标均满足公开复算容差"
+      }
+    },
+    {
+      "name": "JSON／CSV／HTML 导出与 JSON 重新导入",
+      "detail": true
+    },
+    {
+      "name": "Windows 密钥加密与实际工具调用闭环（本机模拟服务）",
+      "detail": true
+    },
+    {
+      "name": "设置界面与 DeepSeek 预设",
+      "detail": true
+    },
+    {
+      "name": "固定对照在重复运行和自动预览中保持，手动新方案才推进",
+      "detail": true
+    },
+    {
+      "name": "界面创建实验、调参、预测观察、整定比较、应用和切换页面保留状态",
+      "detail": true
+    },
+    {
+      "name": "界面 AI 实算候选、自然语言提案确认和旧候选重新验证（本机模拟服务）",
+      "detail": true
+    },
+    {
+      "name": "最小桌面窗口宽度无页面横向溢出",
+      "detail": true
+    },
+    {
+      "name": "界面复算、导出、导入恢复",
+      "detail": true
+    },
+    {
+      "name": "渲染器无未处理异常",
+      "detail": true
+    },
+    {
+      "name": "退出后重新打开，实验与 AI 证据仍在",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "scope": "本机 Electron 与本机 HTTP 模拟服务验证，无真实 DeepSeek 请求。",
+  "passed": true,
+  "finishedAt": "2026-10-29T08:06:29.284Z"
+}

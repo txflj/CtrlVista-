@@ -1,0 +1,206 @@
+<div id="kx-response-studio" class="kx-studio" aria-label="控小助主页设计预览">
+  <header class="kx-top">
+    <button class="kx-brand cursor-interaction" type="button" aria-label="控小助，返回主页" data-home><canvas class="kx-mark" width="80" height="80" aria-hidden="true"></canvas><span>控小助<small>CONTROL LAB</small></span></button>
+    <nav aria-label="主页导航"><button type="button" class="kx-nav is-active cursor-interaction" data-home>首页</button><button type="button" class="kx-nav cursor-interaction" data-library>实验库</button><button type="button" class="kx-nav cursor-interaction" data-about>关于控小助</button></nav>
+    <span class="kx-preview">视觉预览</span>
+  </header>
+  <main>
+    <section class="kx-hero" aria-label="控制响应交互演示">
+      <div class="kx-intro">
+        <div class="kx-eyebrow"><span class="kx-dot"></span>你的桌面控制实验室</div>
+        <h1>从一次调参，<br>看懂<span>控制。</span></h1>
+        <p class="kx-lead">让抽象的原理有迹可循。<br>动手实验、观察响应，与 AI 一起验证每个想法。</p>
+        <div class="kx-actions"><button class="kx-primary cursor-interaction" data-library type="button">进入实验工作台 <span aria-hidden="true">↗</span></button><button class="kx-link cursor-interaction" data-icon type="button">查看品牌图标 <span aria-hidden="true">→</span></button></div>
+        <div class="kx-local"><i data-lucide="hard-drive" aria-hidden="true"></i><span>本机仿真<span class="kx-separator">/</span>实验留在你的电脑</span></div>
+      </div>
+      <div class="kx-object" aria-label="响应雕塑的材质与配色">
+        <div class="kx-object-caption"><span>响应之形</span><span class="kx-mono">RESPONSE / STUDY</span></div>
+        <div class="kx-scene" role="img" aria-label="立体响应雕塑。横向为时间，金属片高度为标准二阶系统的响应；拖动可旋转视角，也可使用下方视角按钮。">
+          <canvas class="kx-fallback" aria-hidden="true"></canvas>
+          <div class="kx-render-state" role="status">正在加载立体视图</div>
+        </div>
+        <div class="kx-scene-footer"><span class="kx-drag-hint"><i data-lucide="move" aria-hidden="true"></i>拖动旋转</span><div class="kx-views" aria-label="雕塑视角"><button class="cursor-interaction" type="button" data-view="front">侧视</button><button class="cursor-interaction" type="button" data-view="default">复位</button></div></div>
+      </div>
+    </section>
+    <section class="kx-demo" aria-label="调节阻尼并观察响应">
+      <div class="kx-demo-heading"><span class="kx-eyebrow">先感受一次控制</span><h2>同一个系统，<br>不同的响应。</h2><span class="kx-demo-note">标准二阶系统演示</span></div>
+      <div class="kx-adjust">
+        <label for="kx-zeta">阻尼比 <span class="kx-mono">ζ</span><output id="kx-zeta-value" for="kx-zeta">0.30</output></label>
+        <input id="kx-zeta" type="range" min="0.15" max="1.30" step="0.01" value="0.30" aria-describedby="kx-demo-explain">
+        <div class="kx-range-ends"><span>振荡明显</span><span>平缓接近</span></div>
+        <div id="kx-demo-explain" class="kx-live" aria-live="polite"><span class="kx-response-name">欠阻尼</span><span>理论超调 <b class="kx-overshoot">37.2%</b></span></div>
+      </div>
+      <div class="kx-trace"><div class="kx-trace-label"><span>输出 y(t)</span><span class="kx-legend"><b></b>响应<span class="kx-dashed"></span>目标</span></div><svg role="img" aria-label="标准二阶系统的单位阶跃响应，时间为 0 到 6 秒，目标值为 1" preserveAspectRatio="none"><g class="kx-grid"></g><path class="kx-target"></path><path class="kx-response"></path></svg><div class="kx-trace-bottom"><span>0</span><span>ωₙ = 1.8 rad/s</span><span>6 s</span></div></div>
+    </section>
+    <section class="kx-experiments" id="kx-experiment-index" aria-label="实验入口">
+      <div class="kx-section-heading"><h2>从这里开始</h2><span>三个引导实验，一次综合挑战</span></div>
+      <div class="kx-experiment-grid">
+        <button class="kx-experiment cursor-interaction" data-case="motor" type="button"><span class="kx-case-type">入门 · P / PI</span><strong>电机调速 <span aria-hidden="true">↗</span></strong><span>让速度跟上目标</span><i data-lucide="gauge" aria-hidden="true"></i></button>
+        <button class="kx-experiment cursor-interaction" data-case="position" type="button"><span class="kx-case-type">进阶 · PID</span><strong>机械定位 <span aria-hidden="true">↗</span></strong><span>更快到达，更少振荡</span><i data-lucide="crosshair" aria-hidden="true"></i></button>
+        <button class="kx-experiment cursor-interaction" data-case="temperature" type="button"><span class="kx-case-type">应用 · 扰动抑制</span><strong>温度调节 <span aria-hidden="true">↗</span></strong><span>观察扰动后的恢复</span><i data-lucide="thermometer" aria-hidden="true"></i></button>
+        <button class="kx-experiment cursor-interaction" data-case="challenge" type="button"><span class="kx-case-type">挑战 · 多目标设计</span><strong>综合挑战 <span aria-hidden="true">↗</span></strong><span>找到你的参数方案</span><i data-lucide="sliders-horizontal" aria-hidden="true"></i></button>
+      </div>
+    </section>
+    <footer class="kx-footer"><span>控小助 · AI 控制实验工作台</span><span>试着理解，再去验证。</span></footer>
+  </main>
+  <div class="kx-overlay" hidden>
+    <section class="kx-dialog" role="dialog" aria-modal="true" aria-labelledby="kx-dialog-title"><div class="kx-dialog-top"><span class="kx-eyebrow">控小助</span><button type="button" class="kx-close cursor-interaction" aria-label="关闭预览面板"><i data-lucide="x" aria-hidden="true"></i></button></div><h2 id="kx-dialog-title"></h2><div class="kx-dialog-body"></div></section>
+  </div>
+</div>
+<style>
+#kx-response-studio{--kx-bg:#17212c;--kx-panel:#1d2a38;--kx-inset:#121d28;--kx-text:#e7edf3;--kx-muted:#a4b3c4;--kx-line:#354556;--kx-accent:#a2bfe1;--kx-soft:#859bb3;--kx-button:#c8d9eb;--kx-button-text:#18232f;--kx-figure:#b4c7d6;color-scheme:dark;background:var(--kx-bg);color:var(--kx-text);font-family:"Microsoft YaHei UI","Segoe UI",sans-serif;font-size:14px;line-height:1.6;overflow:hidden;border-radius:16px;position:relative;isolation:isolate}
+#kx-response-studio *{box-sizing:border-box}
+#kx-response-studio button,#kx-response-studio input{font:inherit}
+#kx-response-studio button{color:inherit}
+#kx-response-studio button:focus-visible,#kx-response-studio input:focus-visible{outline:2px solid var(--kx-accent);outline-offset:5px}
+#kx-response-studio [hidden]{display:none!important}
+#kx-response-studio .kx-mono{font-family:"Bahnschrift","Consolas",monospace;font-variant-numeric:tabular-nums}
+#kx-response-studio .kx-top{height:90px;margin:0 36px;border-bottom:1px solid var(--kx-line);display:flex;align-items:center;gap:28px;padding-right:75px}
+#kx-response-studio .kx-brand{padding:0;border:0;background:none;display:flex;align-items:center;gap:11px;text-align:left}
+#kx-response-studio .kx-mark{width:34px;height:34px;display:block}
+#kx-response-studio .kx-brand>span{font-size:20px;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+#kx-response-studio .kx-brand small{display:block;font-family:"Bahnschrift","Consolas",monospace;font-size:9px;line-height:1.2;letter-spacing:.18em;color:var(--kx-muted);font-weight:400}
+#kx-response-studio nav{display:flex;margin-left:auto;gap:22px;background:color-mix(in srgb,var(--kx-panel) 65%,transparent);border:1px solid var(--kx-line);border-radius:30px;padding:0 18px}
+#kx-response-studio .kx-nav{border:0;padding:10px 0;background:none;color:var(--kx-muted);font-size:12px}
+#kx-response-studio .kx-nav.is-active{color:var(--kx-text)}
+#kx-response-studio .kx-preview{font-size:11px;color:var(--kx-muted);border:1px solid var(--kx-line);border-radius:5px;padding:3px 7px;white-space:nowrap}
+#kx-response-studio .kx-hero{display:grid;grid-template-columns:45% 55%;align-items:center;position:relative;min-height:520px;padding:36px 36px 20px}
+#kx-response-studio .kx-intro{position:relative;z-index:1;align-self:center;padding:26px 0}
+#kx-response-studio .kx-eyebrow{font-size:11px;letter-spacing:.12em;color:var(--kx-muted);display:flex;align-items:center;gap:9px}
+#kx-response-studio .kx-dot{display:inline-block;width:5px;height:5px;background:var(--kx-accent);border-radius:50%}
+#kx-response-studio h1{font-size:clamp(35px,5.3vw,58px);line-height:1.38;font-weight:400;letter-spacing:-.06em;margin:26px 0 20px;white-space:nowrap}
+#kx-response-studio h1 span{color:var(--kx-accent)}
+#kx-response-studio .kx-lead{font-size:13px;line-height:1.9;color:var(--kx-muted);margin:0;max-width:330px;letter-spacing:.02em}
+#kx-response-studio .kx-actions{display:flex;align-items:center;gap:20px;margin-top:32px;flex-wrap:wrap}
+#kx-response-studio .kx-primary{background:var(--kx-button);color:var(--kx-button-text);border:1px solid transparent;border-radius:9px;padding:13px 20px;display:flex;align-items:center;gap:24px;font-size:13px;font-weight:500;transition:transform .18s,filter .18s}
+#kx-response-studio .kx-primary:hover{transform:translateY(-2px);filter:brightness(1.06)}
+#kx-response-studio .kx-primary>span{font-size:20px;line-height:1}
+#kx-response-studio .kx-link{border:0;border-bottom:1px solid var(--kx-line);background:none;padding:6px 0;color:var(--kx-muted);font-size:12px;display:flex;gap:12px;align-items:center}
+#kx-response-studio .kx-local{margin-top:32px;color:var(--kx-muted);font-size:11px;display:flex;gap:8px;align-items:center}
+#kx-response-studio .kx-local svg{width:14px;height:14px}
+#kx-response-studio .kx-separator{margin:0 10px;opacity:.5}
+#kx-response-studio .kx-object{position:relative;min-width:0;align-self:stretch;display:flex;flex-direction:column;justify-content:center}
+#kx-response-studio .kx-object-caption{display:flex;justify-content:space-between;gap:10px;color:var(--kx-muted);font-size:11px;letter-spacing:.1em;padding:4px 8px}
+#kx-response-studio .kx-object-caption span:last-child{font-size:10px;letter-spacing:.13em;color:var(--kx-soft)}
+#kx-response-studio .kx-scene{height:365px;position:relative;touch-action:none;cursor:grab;border-radius:8px;background:radial-gradient(ellipse at 50% 52%,color-mix(in srgb,var(--kx-soft) 6%,transparent),transparent 68%)}
+#kx-response-studio .kx-scene:active{cursor:grabbing}
+#kx-response-studio .kx-scene canvas{position:absolute;width:100%;height:100%;inset:0;display:block}
+#kx-response-studio .kx-render-state{position:absolute;left:10px;bottom:6px;color:var(--kx-muted);font-size:11px;pointer-events:none}
+#kx-response-studio .kx-scene-footer{display:flex;justify-content:space-between;align-items:center;font-size:11px;padding:0 8px;color:var(--kx-muted)}
+#kx-response-studio .kx-drag-hint{display:flex;align-items:center;gap:7px}
+#kx-response-studio .kx-drag-hint svg{width:12px;height:12px}
+#kx-response-studio .kx-views{display:flex;gap:12px}
+#kx-response-studio .kx-views button{background:none;border:1px solid transparent;border-radius:5px;font-size:11px;padding:7px 9px;color:var(--kx-muted);transition:background .15s,border-color .15s}
+#kx-response-studio .kx-views button:hover{background:var(--kx-panel);border-color:var(--kx-line);color:var(--kx-text)}
+#kx-response-studio .kx-demo{margin:0 36px;display:grid;grid-template-columns:1.05fr 1.18fr 1.55fr;gap:30px;padding:28px 0;border-top:1px solid var(--kx-line);border-bottom:1px solid var(--kx-line);align-items:center}
+#kx-response-studio .kx-demo h2{margin:8px 0;font-size:21px;font-weight:400;line-height:1.55;letter-spacing:.01em}
+#kx-response-studio .kx-demo-note{font-size:10px;color:var(--kx-muted)}
+#kx-response-studio .kx-adjust label{font-size:12px;display:flex;align-items:baseline;gap:7px}
+#kx-response-studio .kx-adjust output{margin-left:auto;font-family:"Bahnschrift","Consolas",monospace;font-size:29px;line-height:1.3;color:var(--kx-text);font-weight:400;font-variant-numeric:tabular-nums}
+#kx-response-studio .kx-adjust input{width:100%;height:24px;margin:8px 0;accent-color:var(--kx-accent);background:transparent;appearance:none;-webkit-appearance:none}
+#kx-response-studio .kx-adjust input::-webkit-slider-runnable-track{height:3px;background:var(--kx-line);border-radius:3px}
+#kx-response-studio .kx-adjust input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:14px;height:14px;margin-top:-5.5px;border-radius:50%;background:var(--kx-accent);border:3px solid var(--kx-bg);box-shadow:0 0 0 1px var(--kx-accent)}
+#kx-response-studio .kx-adjust input::-moz-range-track{height:3px;background:var(--kx-line);border:0;border-radius:3px}
+#kx-response-studio .kx-adjust input::-moz-range-thumb{width:10px;height:10px;border-radius:50%;background:var(--kx-accent);border:3px solid var(--kx-bg);box-shadow:0 0 0 1px var(--kx-accent)}
+#kx-response-studio .kx-range-ends{display:flex;justify-content:space-between;color:var(--kx-muted);font-size:10px}
+#kx-response-studio .kx-live{display:flex;justify-content:space-between;gap:10px;color:var(--kx-muted);font-size:10px;margin-top:14px}
+#kx-response-studio .kx-live b{font-weight:400;color:var(--kx-text);font-family:"Bahnschrift","Consolas",monospace}
+#kx-response-studio .kx-response-name{color:var(--kx-accent)}
+#kx-response-studio .kx-trace{min-width:0}
+#kx-response-studio .kx-trace-label,#kx-response-studio .kx-trace-bottom{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--kx-muted);gap:6px}
+#kx-response-studio .kx-trace svg{width:100%;height:93px;display:block;margin-top:7px;overflow:visible}
+#kx-response-studio .kx-trace svg path{fill:none}
+#kx-response-studio .kx-grid line{stroke:var(--kx-line);stroke-width:.7}
+#kx-response-studio .kx-response{stroke:var(--kx-accent);stroke-width:2}
+#kx-response-studio .kx-target{stroke:var(--kx-soft);stroke-width:1;stroke-dasharray:4 5}
+#kx-response-studio .kx-legend{display:flex;align-items:center;gap:6px;font-size:9px}
+#kx-response-studio .kx-legend b{display:block;width:12px;height:1px;background:var(--kx-accent)}
+#kx-response-studio .kx-dashed{width:12px;height:0;border-top:1px dashed var(--kx-muted);margin-left:5px}
+#kx-response-studio .kx-experiments{padding:27px 36px 18px}
+#kx-response-studio .kx-section-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+#kx-response-studio .kx-section-heading h2{font-size:16px;font-weight:400;margin:0}
+#kx-response-studio .kx-section-heading>span{font-size:11px;color:var(--kx-muted)}
+#kx-response-studio .kx-experiment-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+#kx-response-studio .kx-experiment{position:relative;min-width:0;padding:18px 14px 36px;text-align:left;background:var(--kx-panel);border:1px solid transparent;border-radius:9px;transition:border-color .2s,transform .2s;display:flex;flex-direction:column;gap:8px}
+#kx-response-studio .kx-experiment:hover{border-color:var(--kx-soft);transform:translateY(-3px)}
+#kx-response-studio .kx-case-type{font-size:9px;letter-spacing:.03em;color:var(--kx-muted)}
+#kx-response-studio .kx-experiment strong{font-size:16px;font-weight:400;display:flex;justify-content:space-between;gap:6px}
+#kx-response-studio .kx-experiment strong span{color:var(--kx-muted);font-size:14px}
+#kx-response-studio .kx-experiment>span:last-of-type{font-size:10px;color:var(--kx-muted)}
+#kx-response-studio .kx-experiment>svg{position:absolute;right:15px;bottom:13px;opacity:.5;width:18px;height:18px}
+#kx-response-studio .kx-footer{padding:25px 36px 27px;display:flex;justify-content:space-between;gap:16px;font-size:10px;color:var(--kx-muted)}
+#kx-response-studio .kx-overlay{position:absolute;inset:0;z-index:8;background:color-mix(in srgb,var(--kx-inset) 88%,transparent);padding:115px 35px 35px;display:flex;align-items:flex-start;justify-content:center}
+#kx-response-studio .kx-dialog{width:560px;max-width:100%;padding:28px;background:var(--kx-panel);border:1px solid var(--kx-line);border-radius:14px;box-shadow:0 20px 70px #0003;min-width:0}
+#kx-response-studio .kx-dialog-top{display:flex;align-items:center;justify-content:space-between}
+#kx-response-studio .kx-close{background:var(--kx-inset);border:1px solid var(--kx-line);border-radius:7px;padding:8px;display:flex;align-items:center;justify-content:center;min-height:36px;min-width:36px}
+#kx-response-studio .kx-close svg{width:16px;height:16px}
+#kx-response-studio .kx-dialog h2{font-size:27px;font-weight:400;margin:17px 0}
+#kx-response-studio .kx-dialog p{font-size:13px;line-height:1.9;color:var(--kx-muted)}
+#kx-response-studio .kx-dialog .kx-experiment-grid{grid-template-columns:1fr 1fr;margin-top:20px}
+#kx-response-studio .kx-dialog .kx-dialog-note{margin-top:22px;font-size:11px;color:var(--kx-muted)}
+#kx-response-studio .kx-icon-board{display:flex;align-items:end;gap:25px;margin:20px 0 24px;flex-wrap:wrap}
+#kx-response-studio .kx-icon-board>div{display:flex;flex-direction:column;align-items:center;gap:12px;color:var(--kx-muted);font-family:"Consolas",monospace;font-size:11px}
+#kx-response-studio .kx-icon-board canvas{border-radius:22%;background:var(--kx-bg);display:block}
+#kx-response-studio .kx-steps{padding-left:18px;font-size:13px;line-height:2.2;color:var(--kx-muted)}
+#kx-response-studio .kx-back{border:1px solid var(--kx-line);padding:9px 15px;border-radius:6px;background:var(--kx-inset);font-size:12px;margin-top:12px}
+#kx-response-studio .kx-brand small{font-size:10px}
+#kx-response-studio .kx-object-caption span:last-child,#kx-response-studio .kx-demo-note,#kx-response-studio .kx-range-ends,#kx-response-studio .kx-live,#kx-response-studio .kx-trace-label,#kx-response-studio .kx-trace-bottom,#kx-response-studio .kx-legend,#kx-response-studio .kx-case-type,#kx-response-studio .kx-experiment>span:last-of-type,#kx-response-studio .kx-footer{font-size:11px}
+@media(min-width:1200px){#kx-response-studio .kx-top{margin:0 56px}#kx-response-studio .kx-hero{padding:40px 56px 28px;min-height:580px}#kx-response-studio .kx-scene{height:410px}#kx-response-studio h1{font-size:64px}#kx-response-studio .kx-demo{margin:0 56px}#kx-response-studio .kx-experiments{padding-left:56px;padding-right:56px}}
+@media(max-width:760px){#kx-response-studio .kx-top{margin:0 24px;height:80px;gap:14px;padding-right:70px}#kx-response-studio nav{gap:15px}#kx-response-studio .kx-preview{display:none}#kx-response-studio .kx-hero{grid-template-columns:1fr;padding:10px 24px 24px}#kx-response-studio .kx-intro{padding-top:26px}#kx-response-studio h1{font-size:46px;margin:20px 0}#kx-response-studio .kx-lead{max-width:100%}#kx-response-studio .kx-object{margin-top:20px}#kx-response-studio .kx-scene{height:320px}#kx-response-studio .kx-demo{margin:0 24px;grid-template-columns:1fr 1.25fr;gap:24px}#kx-response-studio .kx-demo-heading{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}#kx-response-studio .kx-demo-heading h2{margin:0;font-size:18px}#kx-response-studio .kx-demo-heading br{display:none}#kx-response-studio .kx-demo-heading>.kx-eyebrow{display:none}#kx-response-studio .kx-experiment-grid{grid-template-columns:repeat(2,1fr)}#kx-response-studio .kx-experiments{padding:24px}#kx-response-studio .kx-footer{padding:0 24px 25px}}
+@media(max-width:430px){#kx-response-studio .kx-top{margin:0 18px;padding-right:0;height:100px;align-items:flex-start;padding-top:19px;position:relative}#kx-response-studio .kx-brand>span{font-size:18px}#kx-response-studio nav{position:absolute;left:0;bottom:1px;gap:22px}#kx-response-studio .kx-hero{padding-left:18px;padding-right:18px}#kx-response-studio h1{font-size:36px}#kx-response-studio .kx-lead{font-size:12px}#kx-response-studio .kx-actions{gap:17px;margin-top:24px}#kx-response-studio .kx-primary{padding:11px 14px;gap:14px;font-size:12px}#kx-response-studio .kx-link{font-size:11px}#kx-response-studio .kx-local{margin-top:24px;font-size:10px}#kx-response-studio .kx-scene{height:250px}#kx-response-studio .kx-demo{margin:0 18px;grid-template-columns:1fr;gap:24px}#kx-response-studio .kx-demo-heading{display:block}#kx-response-studio .kx-demo-note{display:block;margin-top:5px}#kx-response-studio .kx-trace svg{height:100px}#kx-response-studio .kx-experiments{padding:24px 18px}#kx-response-studio .kx-section-heading{align-items:start;flex-direction:column;gap:5px}#kx-response-studio .kx-experiment{padding:14px 10px 36px}#kx-response-studio .kx-experiment strong{font-size:15px}#kx-response-studio .kx-footer{padding:0 18px 22px;flex-direction:column;gap:5px}#kx-response-studio .kx-overlay{padding:115px 13px 20px}#kx-response-studio .kx-dialog{padding:18px}#kx-response-studio .kx-dialog h2{font-size:23px}#kx-response-studio .kx-icon-board{gap:20px}#kx-response-studio .kx-dialog .kx-experiment-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){#kx-response-studio *{transition:none!important;scroll-behavior:auto!important}}
+@media(pointer:coarse){#kx-response-studio .kx-views button,#kx-response-studio .kx-nav,#kx-response-studio .kx-close{min-height:44px;min-width:44px}#kx-response-studio .kx-adjust input{height:44px}}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(()=>{
+const root=document.getElementById('kx-response-studio');
+const $=s=>root.querySelector(s), $$=s=>Array.from(root.querySelectorAll(s));
+const saved=window.openai?.widgetState;
+const savedDesign=saved?.modelContent?.design;
+const design={theme:savedDesign?.theme==='浅色仪器'?'浅色仪器':'深蓝工作台',material:savedDesign?.material==='陶瓷'?'陶瓷':'金属',density:64};
+let zeta=Math.min(1.3,Math.max(.15,Number(saved?.privateContent?.zeta)||.3));
+let targetZeta=zeta, currentZeta=zeta, renderer,scene,camera,sculpture,ribs,railGeometry,controlsRender=()=>{},resizeScene=()=>{};
+let rotX=.18,rotY=-.37,dirty=true,visible=true,raf=0,lastTime=0,drag=null,opener=null;
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+const NS='http://www.w3.org/2000/svg';
+const palette={dark:{bg:'#17212c',panel:'#1d2a38',inset:'#121d28',text:'#e7edf3',muted:'#a4b3c4',line:'#354556',accent:'#a2bfe1',soft:'#859bb3',button:'#c8d9eb','button-text':'#18232f',figure:'#b4c7d6'},light:{bg:'#edf0f1',panel:'#f6f7f7',inset:'#e4e9ec',text:'#233340',muted:'#566a7d',line:'#ccd5dc',accent:'#476e96',soft:'#7b90a3',button:'#324f6b','button-text':'#f4f7fa',figure:'#7795b1'}};
+function color(name){return getComputedStyle(root).getPropertyValue('--kx-'+name).trim()}
+function response(t,z){const w=1.8;if(Math.abs(z-1)<1e-7)return 1-Math.exp(-w*t)*(1+w*t);if(z<1){const d=Math.sqrt(1-z*z);return 1-Math.exp(-z*w*t)*(Math.cos(w*d*t)+z/d*Math.sin(w*d*t))}const q=Math.sqrt(z*z-1),a=-w*(z-q),b=-w*(z+q);return 1+(b*Math.exp(a*t)-a*Math.exp(b*t))/(a-b)}
+function save(){window.openai?.setWidgetState?.({modelContent:{design:{theme:design.theme,material:design.material},concept:'响应之形：随阻尼变化的叠片响应雕塑'},privateContent:{zeta}})?.catch(()=>{})}
+function drawMark(canvas){const c=canvas.getContext('2d'),s=canvas.width; c.clearRect(0,0,s,s);c.strokeStyle=color('accent');c.lineCap='round';c.lineJoin='round';c.lineWidth=s*.047;for(let i=0;i<3;i++){c.beginPath();const dy=i*s*.14;c.moveTo(s*.15,s*.79-dy);c.bezierCurveTo(s*.30,s*.79-dy,s*.27,s*.40-dy,s*.42,s*.40-dy);c.bezierCurveTo(s*.55,s*.40-dy,s*.49,s*.73-dy,s*.68,s*.70-dy);c.lineTo(s*.85,s*.70-dy);c.stroke()} }
+function drawChart(){const svg=$('.kx-trace svg'),w=Math.max(170,svg.clientWidth),h=svg.clientHeight;svg.setAttribute('viewBox',`0 0 ${w} ${h}`);const px=t=>4+t/6*(w-8),py=y=>h-4-y/1.85*(h-10);let d='';for(let i=0;i<=240;i++){const t=i/40;d+=(i?'L':'M')+px(t).toFixed(2)+' '+py(response(t,zeta)).toFixed(2)+' '};$('.kx-response').setAttribute('d',d);$('.kx-target').setAttribute('d',`M4 ${py(1)} H${w-4}`);const grid=$('.kx-grid');grid.replaceChildren();[0,2,4,6].forEach(t=>{const l=document.createElementNS(NS,'line');Object.entries({x1:px(t),x2:px(t),y1:2,y2:h-4}).forEach(([k,v])=>l.setAttribute(k,v));grid.append(l)})}
+function drawFallback(){const c=$('.kx-fallback'),w=c.clientWidth,h=c.clientHeight;if(!w||!h)return;c.width=w*2;c.height=h*2;const ctx=c.getContext('2d');ctx.scale(2,2);ctx.clearRect(0,0,w,h);const sc=w/8;for(let i=0;i<64;i++){const t=i/63*6, x=w*.13+t/6*w*.73,y=h*.61-response(t,zeta)*h*.29;ctx.beginPath();ctx.moveTo(x-sc*.33,y+sc*.3);ctx.lineTo(x+sc*.33,y-sc*.3);ctx.strokeStyle=color('figure');ctx.lineWidth=Math.max(2,w/250);ctx.stroke()} }
+function updateLabels(){ $('#kx-zeta').value=zeta;$('#kx-zeta-value').textContent=zeta.toFixed(2);$('.kx-response-name').textContent=zeta<1?'欠阻尼':zeta===1?'临界阻尼':'过阻尼';$('.kx-overshoot').textContent=(zeta<1?100*Math.exp(-Math.PI*zeta/Math.sqrt(1-zeta*zeta)):0).toFixed(1)+'%';drawChart();drawFallback();targetZeta=zeta;if(reduced.matches)currentZeta=zeta;dirty=true;requestFrame() }
+function applyDesign(){const p=design.theme==='浅色仪器'?palette.light:palette.dark;Object.entries(p).forEach(([key,value])=>root.style.setProperty('--kx-'+key,value));root.style.colorScheme=design.theme==='浅色仪器'?'light':'dark';$$('.kx-mark,.kx-icon-canvas').forEach(drawMark);drawChart();drawFallback();controlsRender();dirty=true;requestFrame()}
+function updateShape(){if(!ribs)return;const count=ribs.length;for(let i=0;i<count;i++){const t=i/(count-1)*6,dt=.008,dy=(response(t+dt,currentZeta)-response(Math.max(0,t-dt),currentZeta))/(t?2*dt:dt);const m=ribs[i];m.position.set(t*1.08-3.24,(response(t,currentZeta)-.83)*2.05,0);m.rotation.z=Math.atan(dy*2.05/1.08)}if(railGeometry){const p=railGeometry.attributes.position;for(let i=0;i<=180;i++){const t=i/180*6;for(let j=0;j<2;j++)p.setXYZ(i*2+j,t*1.08-3.24,(response(t,currentZeta)-.83)*2.05,j===0?-.91:.91)}p.needsUpdate=true;railGeometry.computeBoundingSphere()} }
+function requestFrame(){if(!raf&&visible&&!document.hidden)raf=requestAnimationFrame(frame)}
+function frame(time){raf=0;if(!visible||document.hidden){lastTime=0;return}const dt=Math.min(.05,(time-lastTime)/1000||.016);lastTime=time;const moving=Math.abs(targetZeta-currentZeta)>.0001;if(moving){currentZeta=reduced.matches?targetZeta:currentZeta+(targetZeta-currentZeta)*Math.min(1,dt*12);dirty=true}if(renderer&&dirty){updateShape();sculpture.rotation.set(rotX,rotY,-.08);renderer.render(scene,camera);dirty=false;root.dataset.rendered='true'}if(moving)requestFrame()}
+function initialize3d(){if(!window.THREE){$('.kx-render-state').textContent='立体视图未加载，已显示静态预览';return}try{
+const T=window.THREE,holder=$('.kx-scene');renderer=new T.WebGLRenderer({antialias:true,alpha:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.75));renderer.outputEncoding=T.sRGBEncoding;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.08;renderer.setClearColor(0,0);renderer.domElement.setAttribute('aria-hidden','true');holder.append(renderer.domElement);
+scene=new T.Scene();camera=new T.PerspectiveCamera(34,1,.1,100);camera.position.set(3.2,3.6,8.4);camera.lookAt(.12,.04,0);scene.add(new T.HemisphereLight(0xd9e7f5,0x263a4e,.68));const key=new T.DirectionalLight(0xf1f0ea,1.15);key.position.set(-3,8,5);scene.add(key);const fill=new T.DirectionalLight(0x83a5c9,.45);fill.position.set(5,1,-4);scene.add(fill);const rim=new T.DirectionalLight(0xaec4d5,.42);rim.position.set(-5,2,-4);scene.add(rim);
+sculpture=new T.Group();scene.add(sculpture);ribs=[];
+const shape=new T.Shape(),rx=.038,rz=.88,rr=.026;shape.moveTo(-rx+rr,-rz);shape.lineTo(rx-rr,-rz);shape.quadraticCurveTo(rx,-rz,rx,-rz+rr);shape.lineTo(rx,rz-rr);shape.quadraticCurveTo(rx,rz,rx-rr,rz);shape.lineTo(-rx+rr,rz);shape.quadraticCurveTo(-rx,rz,-rx,rz-rr);shape.lineTo(-rx,-rz+rr);shape.quadraticCurveTo(-rx,-rz,-rx+rr,-rz);
+const geom=new T.ExtrudeGeometry(shape,{depth:.033,bevelEnabled:true,bevelSegments:2,steps:1,bevelSize:.009,bevelThickness:.009,curveSegments:3});geom.rotateX(Math.PI/2);geom.center();const ribMat=new T.MeshStandardMaterial({color:0x9aafc1,metalness:.48,roughness:.47});const edgeMat=new T.MeshStandardMaterial({color:0x6587a7,metalness:.4,roughness:.52});for(let i=0;i<design.density;i++){const m=new T.Mesh(geom,i%8===0?edgeMat:ribMat);sculpture.add(m);ribs.push(m)}
+railGeometry=new T.BufferGeometry();railGeometry.setAttribute('position',new T.BufferAttribute(new Float32Array(181*2*3),3));const railIndex=[];for(let i=0;i<180;i++)railIndex.push(i*2,(i+1)*2,i*2+1,(i+1)*2+1);railGeometry.setIndex(railIndex);const rails=new T.LineSegments(railGeometry,new T.LineBasicMaterial({color:0x6786a2,transparent:true,opacity:.25}));sculpture.add(rails);
+const targetGeom=new T.BufferGeometry().setFromPoints([new T.Vector3(-3.5,(1-.83)*2.05,-1.35),new T.Vector3(3.5,(1-.83)*2.05,-1.35)]);const target=new T.Line(targetGeom,new T.LineDashedMaterial({color:0x8099ac,dashSize:.07,gapSize:.09,transparent:true,opacity:.6}));target.computeLineDistances();sculpture.add(target);
+const floorGeom=new T.BufferGeometry(),floorPoints=[];for(let i=0;i<=6;i++){const x=-3.24+i*1.08;floorPoints.push(x,-2.08,-1.4,x,-2.08,1.2)}floorPoints.push(-3.24,-2.08,-1.4,3.24,-2.08,-1.4);floorGeom.setAttribute('position',new T.Float32BufferAttribute(floorPoints,3));const floor=new T.LineSegments(floorGeom,new T.LineBasicMaterial({color:0x7895ad,transparent:true,opacity:.12}));sculpture.add(floor);
+controlsRender=()=>{const light=design.theme==='浅色仪器',ceramic=design.material==='陶瓷';ribMat.color.set(light?0x8195a7:0x9aafc1);ribMat.metalness=ceramic?.05:.48;ribMat.roughness=ceramic?.65:.47;edgeMat.color.set(light?0x537999:0x6587a7);target.material.color.set(light?0x567087:0x8099ac);floor.material.opacity=light?.21:.12;renderer.toneMappingExposure=light?.9:1.0;dirty=true;requestFrame()};
+resizeScene=()=>{const w=holder.clientWidth,h=holder.clientHeight;if(!w||!h)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.position.set(3.2,3.6,8.4).multiplyScalar(camera.aspect<1.2?1.2/camera.aspect:1);camera.lookAt(.12,.04,0);camera.updateProjectionMatrix();dirty=true;requestFrame()};new ResizeObserver(resizeScene).observe(holder);
+renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();renderer.domElement.hidden=true;$('.kx-fallback').hidden=false;$('.kx-render-state').hidden=false;$('.kx-render-state').textContent='立体视图暂不可用，已保留响应预览'});
+holder.addEventListener('pointerdown',e=>{if(e.button!==0)return;drag={x:e.clientX,y:e.clientY,rx:rotX,ry:rotY};holder.setPointerCapture(e.pointerId)});holder.addEventListener('pointermove',e=>{if(!drag)return;rotY=Math.max(-1.4,Math.min(1.4,drag.ry+(e.clientX-drag.x)*.008));rotX=Math.max(-.6,Math.min(.8,drag.rx+(e.clientY-drag.y)*.006));dirty=true;requestFrame()});['pointerup','pointercancel','lostpointercapture'].forEach(n=>holder.addEventListener(n,()=>drag=null));
+$('.kx-fallback').hidden=true;$('.kx-render-state').hidden=true;root.dataset.webgl='ready';controlsRender();resizeScene();
+}catch(error){root.dataset.webgl='fallback';if(renderer)renderer.domElement.hidden=true;$('.kx-render-state').textContent='当前环境使用静态预览';$('.kx-fallback').hidden=false;drawFallback()} }
+function showDialog(title,markup){if($('.kx-overlay').hidden)opener=document.activeElement;$('#kx-dialog-title').textContent=title;$('.kx-dialog-body').innerHTML=markup;$('.kx-overlay').hidden=false;root.querySelector('main').inert=true;$('.kx-top').inert=true;globalThis.lucide?.createIcons?.({attrs:{width:16,height:16}});$('.kx-close').focus();root.scrollIntoView({behavior:reduced.matches?'instant':'smooth',block:'start'})}
+function closeDialog(){ $('.kx-overlay').hidden=true;root.querySelector('main').inert=false;$('.kx-top').inert=false;if(opener&&opener.isConnected)opener.focus()}
+const descriptions={motor:{name:'电机调速',focus:'比例作用与积分作用',steps:['设定目标转速，运行初始方案。','调节 Kp，观察响应速度和稳态误差。','加入积分作用，对比参数改变前后的结果。','请 AI 验证改进建议，记录自己的结论。']},position:{name:'机械定位',focus:'阻尼、超调与 PID 参数',steps:['观察二阶对象的初始响应。','尝试降低到达目标后的超调和振荡。','在统一条件下比较不同控制器参数。','验证 AI 建议，保存最终方案与取舍。']},temperature:{name:'温度调节',focus:'目标跟踪与扰动恢复',steps:['设置目标温度并观察初始响应。','启用扰动，观察温度偏移。','调整控制器，比较恢复速度与控制峰值。','保存参数、曲线和实验结论。']},challenge:{name:'综合挑战',focus:'多项指标下的独立设计',steps:['阅读模型与指标约束。','独立设计并运行控制器方案。','比较自己的方案、AI 候选与自动整定方案。','解释改善与代价，导出实验记录。']}};
+function library(){showDialog('选择你的实验',$('.kx-experiment-grid').outerHTML+'<p class="kx-dialog-note">此处预览主页入口，选择实验可查看完整流程；尚未连接已安装的软件。</p>')}
+root.addEventListener('click',e=>{const el=e.target.closest('button');if(!el)return;if(el.hasAttribute('data-home')){closeDialog();root.scrollIntoView({behavior:reduced.matches?'instant':'smooth',block:'start'})}else if(el.hasAttribute('data-library'))library();else if(el.hasAttribute('data-about')){showDialog('每个建议，都值得验证。','<p>控小助是一款面向自动化及相关专业学习者的本机控制实验工作台。</p><p>选择任务、动手调参、观察曲线，再由 AI 提出候选方案并调用计算验证。实验过程可以保存、恢复和导出。</p><p class="kx-dialog-note">当前展示的是独立主页设计预览。下方交互使用标准二阶系统的解析响应，不读取你的实验记录。</p>')}else if(el.hasAttribute('data-icon')){showDialog('响应之形 · 图标草案','<div class="kx-icon-board"><div><canvas class="kx-icon-canvas" width="512" height="512" style="width:160px;height:160px" role="img" aria-label="响应之形品牌图标大图"></canvas><span>主图形</span></div><div><canvas class="kx-icon-canvas" width="96" height="96" style="width:48px;height:48px" role="img" aria-label="48 像素图标预览"></canvas><span>48 px</span></div><div><canvas class="kx-icon-canvas" width="48" height="48" style="width:24px;height:24px" role="img" aria-label="24 像素图标预览"></canvas><span>24 px</span></div></div><p>把响应从起伏到收敛的轮廓，压缩成三条连续线。主页与桌面图标共用这一形态。</p><p class="kx-dialog-note">草案预览，尚未替换软件图标。</p>');$$('.kx-icon-canvas').forEach(drawMark)}else if(el.dataset.case){const c=descriptions[el.dataset.case];showDialog(c.name,`<p>${c.focus}</p><ol class="kx-steps">${c.steps.map(s=>'<li>'+s+'</li>').join('')}</ol><button type="button" class="kx-back cursor-interaction" data-library>返回实验选择</button><p class="kx-dialog-note">正式版从此入口进入已有实验工作台；当前为独立视觉预览。</p>`)}else if(el.dataset.view){rotX=el.dataset.view==='front'?-0.29:.18;rotY=el.dataset.view==='front'?-0.63:-.37;if(camera&&el.dataset.view==='front'){camera.position.set(0,1.7,14.5);camera.lookAt(0,0,0);rotX=0;rotY=0}else resizeScene();dirty=true;requestFrame()}else if(el.classList.contains('kx-close'))closeDialog()});
+$('.kx-overlay').addEventListener('click',e=>{if(e.target===$('.kx-overlay'))closeDialog()});root.addEventListener('keydown',e=>{if($('.kx-overlay').hidden)return;if(e.key==='Escape'){e.preventDefault();closeDialog()}if(e.key==='Tab'){const focusables=Array.from($('.kx-dialog').querySelectorAll('button,a,input,select')).filter(el=>!el.disabled&&!el.hidden);const first=focusables[0],last=focusables[focusables.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+$('#kx-zeta').addEventListener('input',e=>{zeta=Number(e.target.value);updateLabels()});$('#kx-zeta').addEventListener('change',save);
+new ResizeObserver(()=>{drawChart();drawFallback()}).observe($('.kx-trace'));new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible){dirty=true;requestFrame()}},{threshold:0}).observe($('.kx-scene'));document.addEventListener('visibilitychange',()=>{if(!document.hidden){dirty=true;requestFrame()}});
+window.addEventListener('openai:set_globals',e=>{const s=e.detail?.globals?.widgetState;if(!s)return;const d=s.modelContent?.design;if(d?.theme&&['深蓝工作台','浅色仪器'].includes(d.theme))design.theme=d.theme;if(d?.material&&['金属','陶瓷'].includes(d.material))design.material=d.material;if(Number.isFinite(s.privateContent?.zeta))zeta=Math.min(1.3,Math.max(.15,s.privateContent.zeta));applyDesign();updateLabels()});
+applyDesign();updateLabels();initialize3d();
+if(globalThis.Tweak){const tweak=new Tweak({container:root,onChange:()=>{applyDesign();save()}});tweak.addSelect(design,'theme',{label:'整体配色',options:['深蓝工作台','浅色仪器']});tweak.addSelect(design,'material',{label:'雕塑材质',options:['金属','陶瓷']})}
+})();
+</script>

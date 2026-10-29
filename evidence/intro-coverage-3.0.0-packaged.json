@@ -1,0 +1,1287 @@
+{
+  "version": "3.0.0",
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-3.0.0-win32-x64\\控小助.exe",
+  "status": "passed",
+  "checks": [
+    {
+      "label": "16x10",
+      "phase": "early",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x10-early.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.742000000000186,
+        "progress": 0.16271929824565484
+      },
+      "stats": {
+        "decryption": {
+          "time": 27.742000000000186,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          353,
+          458
+        ],
+        "topRight": [
+          427,
+          141
+        ],
+        "labelTopLeft": [
+          396,
+          447
+        ],
+        "labelBottomLeft": [
+          401,
+          484
+        ],
+        "modelPosition": [
+          0,
+          -3.9952,
+          -2.17
+        ],
+        "cameraPosition": [
+          -21.6123,
+          16.56,
+          2.8862
+        ],
+        "fieldOfView": 21.79335485136118,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 121,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 836724,
+        "archiveCount": 197,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 341,
+        "archiveCulled": 144,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 27.74,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -65.2612530996579,
+            "y": 309.424740127516
+          },
+          "row": {
+            "x": -56.09514504006734,
+            "y": -0.7270853628255497
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -3,
+          "maxLane": 4,
+          "minRow": -9,
+          "maxRow": 49
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -5.429523068840881,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0,
+        "appearance": 0,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 28.04265017464842,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 33.042650174648415,
+        "fogFar": 53.042650174648415,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x10",
+      "phase": "middle",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x10-middle.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 2.2573000000001855,
+        "progress": 0.49502192982460214
+      },
+      "stats": {
+        "decryption": {
+          "time": 29.257300000000185,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          354,
+          400
+        ],
+        "topRight": [
+          590,
+          162
+        ],
+        "labelTopLeft": [
+          414,
+          410
+        ],
+        "labelBottomLeft": [
+          417,
+          450
+        ],
+        "modelPosition": [
+          0,
+          -4.6,
+          -2.17
+        ],
+        "cameraPosition": [
+          -27.4848,
+          17.9252,
+          13.6762
+        ],
+        "fieldOfView": 16.74117938910601,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 371,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 970516,
+        "archiveCount": 229,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 385,
+        "archiveCulled": 156,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 29.26,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -220.1018968719675,
+            "y": 237.81562735641234
+          },
+          "row": {
+            "x": -49.67273907158507,
+            "y": -12.003417248562076
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 5,
+          "minRow": -22,
+          "maxRow": 40
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.7600098751951077,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0,
+        "appearance": 0,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 35.000035685711104,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 40.000035685711104,
+        "fogFar": 60.000035685711104,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x10",
+      "phase": "late",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x10-late.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 3.9665000000001704,
+        "progress": 0.8698464912281076
+      },
+      "stats": {
+        "decryption": {
+          "time": 30.96650000000017,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          559,
+          310
+        ],
+        "topRight": [
+          916,
+          109
+        ],
+        "labelTopLeft": [
+          638,
+          347
+        ],
+        "labelBottomLeft": [
+          638,
+          408
+        ],
+        "modelPosition": [
+          0,
+          -2.3644,
+          -2.17
+        ],
+        "cameraPosition": [
+          -107.5136,
+          45.4109,
+          61.621
+        ],
+        "fieldOfView": 3.3349218835726964,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 619,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 935652,
+        "archiveCount": 222,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 412,
+        "archiveCulled": 190,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 30.97,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -341.80534571129215,
+            "y": 199.76749242285183
+          },
+          "row": {
+            "x": -68.80286213844235,
+            "y": -13.902017161536731
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -6,
+          "maxLane": 6,
+          "minRow": -27,
+          "maxRow": 48
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.4958052361207166,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.179,
+        "appearance": 0.4,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 130.50888572288753,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 135.50888572288753,
+        "fogFar": 155.50888572288753,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x10",
+      "phase": "settled",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x10-settled.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 1000
+      },
+      "intro": {
+        "phase": "done",
+        "active": false,
+        "completed": true,
+        "elapsed": 4.559999999999999,
+        "progress": 0.9999999999999998
+      },
+      "stats": {
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          458,
+          308
+        ],
+        "topRight": [
+          808,
+          131
+        ],
+        "labelTopLeft": [
+          534,
+          345
+        ],
+        "labelBottomLeft": [
+          535,
+          404
+        ],
+        "modelPosition": [
+          0,
+          -1.9843,
+          -2.17
+        ],
+        "cameraPosition": [
+          -114.6154,
+          45.5573,
+          68.6937
+        ],
+        "fieldOfView": 3.2747460229489294,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 772,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 1098904,
+        "archiveCount": 261,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 467,
+        "archiveCulled": 206,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 31.91,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -335.56082705893044,
+            "y": 176.01869332223959
+          },
+          "row": {
+            "x": -64.88935884715532,
+            "y": -12.607416275704677
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -6,
+          "maxLane": 7,
+          "minRow": -28,
+          "maxRow": 53
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.2869437129203325,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.4,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "idleGain": 0.24506226248406368,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 145,
+        "fogFar": 165,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x9",
+      "phase": "early",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x9-early.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 0.6883999999998133,
+        "progress": 0.1509649122806608
+      },
+      "stats": {
+        "decryption": {
+          "time": 27.688399999999813,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          446,
+          432
+        ],
+        "topRight": [
+          519,
+          116
+        ],
+        "labelTopLeft": [
+          489,
+          423
+        ],
+        "labelBottomLeft": [
+          494,
+          460
+        ],
+        "modelPosition": [
+          0,
+          -3.6852,
+          -2.17
+        ],
+        "cameraPosition": [
+          -21.5776,
+          16.5495,
+          2.8498
+        ],
+        "fieldOfView": 21.82198381605279,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 113,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 941184,
+        "archiveCount": 223,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 375,
+        "archiveCulled": 152,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 27.69,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -58.837819161464466,
+            "y": 278.2293176262856
+          },
+          "row": {
+            "x": -50.875082312383626,
+            "y": -0.5961056005367726
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -3,
+          "maxLane": 4,
+          "minRow": -12,
+          "maxRow": 52
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -5.222559095730794,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0,
+        "appearance": 0,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 28.010849003736762,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 29.010849003736762,
+        "fogFar": 44.010849003736766,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x9",
+      "phase": "middle",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x9-middle.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 2.2762999999998144,
+        "progress": 0.4991885964911874
+      },
+      "stats": {
+        "decryption": {
+          "time": 29.276299999999814,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          451,
+          400
+        ],
+        "topRight": [
+          687,
+          162
+        ],
+        "labelTopLeft": [
+          511,
+          410
+        ],
+        "labelBottomLeft": [
+          514,
+          450
+        ],
+        "modelPosition": [
+          0,
+          -4.6,
+          -2.17
+        ],
+        "cameraPosition": [
+          -27.4895,
+          17.926,
+          13.6689
+        ],
+        "fieldOfView": 16.740346262559,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 375,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 1066872,
+        "archiveCount": 252,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 417,
+        "archiveCulled": 165,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 29.28,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -198.01942307525243,
+            "y": 214.0347045134768
+          },
+          "row": {
+            "x": -44.709491867879336,
+            "y": -10.803174622562976
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 5,
+          "minRow": -25,
+          "maxRow": 41
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.76002733508703,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0,
+        "appearance": 0,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 35.00164764274788,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 36.00164764274788,
+        "fogFar": 51.00164764274788,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x9",
+      "phase": "late",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x9-late.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "running",
+        "active": true,
+        "completed": false,
+        "elapsed": 3.973499999999803,
+        "progress": 0.8713815789473253
+      },
+      "stats": {
+        "decryption": {
+          "time": 30.973499999999802,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          651,
+          310
+        ],
+        "topRight": [
+          1009,
+          109
+        ],
+        "labelTopLeft": [
+          730,
+          346
+        ],
+        "labelBottomLeft": [
+          730,
+          408
+        ],
+        "modelPosition": [
+          0,
+          -2.3569,
+          -2.17
+        ],
+        "cameraPosition": [
+          -107.7639,
+          45.4229,
+          61.8567
+        ],
+        "fieldOfView": 3.3228932170928087,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 620,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 1004604,
+        "archiveCount": 242,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 401,
+        "archiveCulled": 159,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 30.97,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -308.30940087734535,
+            "y": 179.5605368094918
+          },
+          "row": {
+            "x": -61.978256858954964,
+            "y": -12.507939343154437
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -6,
+          "maxLane": 5,
+          "minRow": -21,
+          "maxRow": 49
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.4889804055184688,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.185,
+        "appearance": 0.43,
+        "cameraDetail": 0,
+        "idleGain": 0,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 130.82664904519402,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 131.82664904519402,
+        "fogFar": 146.82664904519402,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    },
+    {
+      "label": "16x9",
+      "phase": "settled",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "screenshot": "evidence/screenshots/welcome-packaged-array-16x9-settled.png",
+      "screenshotSize": {
+        "width": 1600,
+        "height": 900
+      },
+      "intro": {
+        "phase": "done",
+        "active": false,
+        "completed": true,
+        "elapsed": 4.559999999999999,
+        "progress": 0.9999999999999998
+      },
+      "stats": {
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting",
+          "modelClarity": 0
+        },
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 0,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "waiting",
+          "clarity": 0,
+          "visible": true
+        },
+        "topLeft": [
+          518,
+          288
+        ],
+        "topRight": [
+          899,
+          95
+        ],
+        "labelTopLeft": [
+          600,
+          328
+        ],
+        "labelBottomLeft": [
+          601,
+          392
+        ],
+        "modelPosition": [
+          0,
+          -1.994,
+          -2.17
+        ],
+        "cameraPosition": [
+          -114.8409,
+          45.6443,
+          68.8306
+        ],
+        "fieldOfView": 2.999158312912754,
+        "loaded": true,
+        "drawCalls": 22,
+        "renderedFrames": 716,
+        "reusedFrames": 0,
+        "superPerformance": false,
+        "presentation": 1,
+        "triangles": 976816,
+        "archiveCount": 236,
+        "sharedCartridgeGeometry": true,
+        "archivePartCount": 7,
+        "archiveCandidates": 396,
+        "archiveCulled": 160,
+        "archiveCapacity": 576,
+        "archiveCoverage": "standard",
+        "returningFiles": 0,
+        "selectionPhase": "settled",
+        "pendingPulse": null,
+        "pulses": [],
+        "referenceTime": 31.59,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "hoverCell": null,
+        "hoverLifts": {},
+        "dragTrack": null,
+        "archiveMomentum": null,
+        "holdingArchive": false,
+        "dragProjection": {
+          "lane": {
+            "x": -329.11186060577603,
+            "y": 172.66448474160083
+          },
+          "row": {
+            "x": -63.64438816198843,
+            "y": -12.367180244136737
+          }
+        },
+        "dragMapping": null,
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -6,
+          "maxLane": 5,
+          "minRow": -20,
+          "maxRow": 51
+        },
+        "laneFocus": 0,
+        "columnCamera": -10.4,
+        "rotation": 0,
+        "clearance": -3.286899709434297,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.4,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "idleGain": 0.028700098515212148,
+        "flatten": 0,
+        "spectrumActivity": 0,
+        "selectedIndexDim": 0,
+        "returningIndexDims": [],
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 141,
+        "fogFar": 156,
+        "returningAppearance": [],
+        "rail": 0
+      },
+      "assertions": {
+        "sharedCurrentCartridgeGeometry": true,
+        "sharedPartCountSeven": true,
+        "adaptiveCandidatesBeyondOldLimit": true,
+        "instanceCountWithinCapacity": true
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "16:10 与 16:9 的真实早期、中期、后期及静止帧；共享模型与动态实例容量断言。",
+  "visualInspection": {
+    "performed": true,
+    "time": "2026-10-29T08:09:54.073Z",
+    "note": "Inspected all 8 actual packaged Electron screenshots with view_image: 16:10 light and 16:9 dark, each at early/middle/late/settled. The current signal-cartridge model is visible throughout. Rows extend continuously into the bottom foreground; no missing-row gap or finite array edge is visible. Existing edge fade remains. Branding, entry captions, skip buttons, and revealed navigation/experiment controls are complete and within the viewport. This is visual review of the captured frames, not a claim about every animation frame."
+  },
+  "verifiedAt": "2026-10-29T08:05:37.505Z"
+}

@@ -1,0 +1,347 @@
+{
+  "version": "3.0.0",
+  "packaged": true,
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-3.0.0-win32-x64\\控小助.exe",
+  "startedAt": "2026-10-29T08:06:49.449Z",
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\homepage-packaged-1793261209448",
+  "checks": [
+    {
+      "name": "离线阵列入场后显示自研信号匣，无原品牌 Logo 或旧 GLB",
+      "detail": {
+        "renderer": true,
+        "quality": "performance"
+      }
+    },
+    {
+      "name": "四实验按钮、上下键与滚轮全局循环，计数标题和空间档案一致，保留分组记忆",
+      "detail": true
+    },
+    {
+      "name": "鼠标拖动与惯性浏览改变真实阵列位置",
+      "detail": {
+        "before": {
+          "lane": 4,
+          "row": 18
+        },
+        "after": {
+          "lane": 1,
+          "row": 10
+        },
+        "selected": 2,
+        "momentum": null,
+        "tracks": {
+          "columnCamera": -5.2,
+          "rail": 1.24,
+          "laneFocus": 1.0009918375573104
+        }
+      }
+    },
+    {
+      "name": "傅里叶教学信号使用真实数值分解，大屏显示与右侧说明沿同一时轴揭示",
+      "detail": {
+        "protected": {
+          "signal": {
+            "caseId": "motor",
+            "kind": "fourier-demonstration",
+            "progress": 0.023382352941176812,
+            "sampleCount": 256,
+            "componentsCount": 3,
+            "finite": true,
+            "reconstructionMaxError": 2.192690473634684e-15,
+            "frequencies": [
+              1,
+              3,
+              7
+            ],
+            "screenWidth": 4.26,
+            "screenHeight": 2.38,
+            "screenAreaRatio": 0.546906770973161,
+            "geometrySource": "procedural-signal-cartridge",
+            "phase": "joining",
+            "clarity": 0,
+            "visible": true
+          },
+          "document": {
+            "covers": 10,
+            "title": "电机调速",
+            "inert": false,
+            "opacity": 1
+          }
+        },
+        "revealed": {
+          "signal": {
+            "caseId": "motor",
+            "kind": "fourier-demonstration",
+            "progress": 1,
+            "sampleCount": 256,
+            "componentsCount": 3,
+            "finite": true,
+            "reconstructionMaxError": 2.192690473634684e-15,
+            "frequencies": [
+              1,
+              3,
+              7
+            ],
+            "screenWidth": 4.26,
+            "screenHeight": 2.38,
+            "screenAreaRatio": 0.546906770973161,
+            "geometrySource": "procedural-signal-cartridge",
+            "phase": "clear",
+            "clarity": 1,
+            "visible": true
+          },
+          "document": {
+            "covers": 0,
+            "title": "电机调速",
+            "inert": false,
+            "opacity": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "信号匣抽取、说明揭示和详情页签，移除独立 360° 查看入口",
+      "detail": true
+    },
+    {
+      "name": "归位返回与本地收藏",
+      "detail": true
+    },
+    {
+      "name": "浅色信号匣实际渲染，配色与减少动态效果可切换",
+      "detail": {
+        "caseId": "motor",
+        "kind": "fourier-demonstration",
+        "progress": 1,
+        "sampleCount": 256,
+        "componentsCount": 3,
+        "finite": true,
+        "reconstructionMaxError": 2.192690473634684e-15,
+        "frequencies": [
+          1,
+          3,
+          7
+        ],
+        "screenWidth": 4.26,
+        "screenHeight": 2.38,
+        "screenAreaRatio": 0.546906770973161,
+        "geometrySource": "procedural-signal-cartridge",
+        "phase": "clear",
+        "clarity": 1,
+        "visible": true
+      }
+    },
+    {
+      "name": "motor：信号分解展示、真实入口、仿真、保存并返回主页",
+      "detail": {
+        "signal": {
+          "caseId": "motor",
+          "kind": "fourier-demonstration",
+          "progress": 1,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 2.192690473634684e-15,
+          "frequencies": [
+            1,
+            3,
+            7
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "clear",
+          "clarity": 1,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "temperature：信号分解展示、真实入口、仿真、保存并返回主页",
+      "detail": {
+        "signal": {
+          "caseId": "temperature",
+          "kind": "fourier-demonstration",
+          "progress": 1,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 1.4432899320127035e-15,
+          "frequencies": [
+            1,
+            2.5,
+            4
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "clear",
+          "clarity": 1,
+          "visible": true
+        },
+        "reducedFirstFrame": {
+          "framesElapsed": 1,
+          "mode": "detail",
+          "caseId": "temperature",
+          "reduced": true,
+          "signal": {
+            "caseId": "temperature",
+            "kind": "fourier-demonstration",
+            "progress": 1,
+            "sampleCount": 256,
+            "componentsCount": 3,
+            "finite": true,
+            "reconstructionMaxError": 1.4432899320127035e-15,
+            "frequencies": [
+              1,
+              2.5,
+              4
+            ],
+            "screenWidth": 4.26,
+            "screenHeight": 2.38,
+            "screenAreaRatio": 0.546906770973161,
+            "geometrySource": "procedural-signal-cartridge",
+            "phase": "clear",
+            "clarity": 1,
+            "visible": true
+          },
+          "documentCovers": 0
+        }
+      }
+    },
+    {
+      "name": "position：信号分解展示、真实入口、仿真、保存并返回主页",
+      "detail": {
+        "signal": {
+          "caseId": "position",
+          "kind": "fourier-demonstration",
+          "progress": 1,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 1.1102230246251565e-15,
+          "frequencies": [
+            0.5,
+            2,
+            5
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "clear",
+          "clarity": 1,
+          "visible": true
+        },
+        "reducedFirstFrame": {
+          "framesElapsed": 1,
+          "mode": "detail",
+          "caseId": "position",
+          "reduced": true,
+          "signal": {
+            "caseId": "position",
+            "kind": "fourier-demonstration",
+            "progress": 1,
+            "sampleCount": 256,
+            "componentsCount": 3,
+            "finite": true,
+            "reconstructionMaxError": 1.1102230246251565e-15,
+            "frequencies": [
+              0.5,
+              2,
+              5
+            ],
+            "screenWidth": 4.26,
+            "screenHeight": 2.38,
+            "screenAreaRatio": 0.546906770973161,
+            "geometrySource": "procedural-signal-cartridge",
+            "phase": "clear",
+            "clarity": 1,
+            "visible": true
+          },
+          "documentCovers": 0
+        }
+      }
+    },
+    {
+      "name": "challenge：信号分解展示、真实入口、仿真、保存并返回主页",
+      "detail": {
+        "signal": {
+          "caseId": "challenge",
+          "kind": "fourier-demonstration",
+          "progress": 1,
+          "sampleCount": 256,
+          "componentsCount": 3,
+          "finite": true,
+          "reconstructionMaxError": 1.9984014443252818e-15,
+          "frequencies": [
+            1.5,
+            4,
+            8
+          ],
+          "screenWidth": 4.26,
+          "screenHeight": 2.38,
+          "screenAreaRatio": 0.546906770973161,
+          "geometrySource": "procedural-signal-cartridge",
+          "phase": "clear",
+          "clarity": 1,
+          "visible": true
+        },
+        "reducedFirstFrame": {
+          "framesElapsed": 1,
+          "mode": "detail",
+          "caseId": "challenge",
+          "reduced": true,
+          "signal": {
+            "caseId": "challenge",
+            "kind": "fourier-demonstration",
+            "progress": 1,
+            "sampleCount": 256,
+            "componentsCount": 3,
+            "finite": true,
+            "reconstructionMaxError": 1.9984014443252818e-15,
+            "frequencies": [
+              1.5,
+              4,
+              8
+            ],
+            "screenWidth": 4.26,
+            "screenHeight": 2.38,
+            "screenAreaRatio": 0.546906770973161,
+            "geometrySource": "procedural-signal-cartridge",
+            "phase": "clear",
+            "clarity": 1,
+            "visible": true
+          },
+          "documentCovers": 0
+        }
+      }
+    },
+    {
+      "name": "四个实验实际落盘，AI 草稿跨主页保留",
+      "detail": true
+    },
+    {
+      "name": "我的实验与模型设置入口可用",
+      "detail": true
+    },
+    {
+      "name": "1040 × 720 主页无横向溢出",
+      "detail": true
+    },
+    {
+      "name": "重载后默认主页、收藏与实验数量保留",
+      "detail": true
+    },
+    {
+      "name": "全部资源离线，无旧 GLB 加载、renderer 异常或外部网络请求",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "scope": "真实 Electron 本地文件、实际 3D 和本机仿真；独立数据目录，不请求在线模型。",
+  "passed": true,
+  "finishedAt": "2026-10-29T08:07:35.637Z"
+}

@@ -1,0 +1,100 @@
+/* Workspace arrangement is independent of the visual theme and experiment state. */
+.workbench{--workspace-gap:14px;max-width:1920px;padding:18px 24px}
+.workbench-toolbar{gap:16px;margin-bottom:12px;flex-shrink:0}
+.workbench-toolbar>div:first-child{min-width:0}
+.workbench-toolbar h1{font-size:20px;overflow-wrap:anywhere}
+.workbench-toolbar .eyebrow{margin-bottom:3px}
+.workbench-toolbar>.action-row{max-width:none;flex-shrink:0}
+.workbench .guide-strip{padding:8px 14px;margin-bottom:12px;flex-shrink:0}
+.workbench .guide-steps button{padding:3px 4px 7px}
+.workbench .guide-copy{padding-top:7px;min-height:33px;gap:12px}
+.workbench .guide-copy>p{font-size:11px}
+.workbench-grid{grid-template-columns:300px minmax(0,1fr);gap:var(--workspace-gap)}
+.parameter-pane{min-width:0;scrollbar-gutter:stable;overscroll-behavior:contain}
+.configuration-stack{gap:12px}
+.configuration-stack>.controller-panel{order:-1}
+.configuration-stack .panel{padding:15px}
+.configuration-stack .field{margin-bottom:10px}
+.configuration-stack details{margin-top:12px;padding-top:9px}
+.workbench-main{gap:0;min-height:0}
+.workspace-tabs{display:flex;align-items:stretch;gap:3px;flex-shrink:0;border:1px solid var(--border);border-bottom:0;border-radius:5px 5px 0 0;background:var(--surface-inset);padding:0 8px}
+.workspace-tabs>button{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 14px;border:0;border-bottom:2px solid transparent;color:var(--muted);background:transparent;min-width:0;font-size:12px;white-space:nowrap}
+.workspace-tabs>button:hover{color:var(--text);background:var(--surface)}
+.workspace-tabs>button[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent);background:var(--surface)}
+.workspace-tabs>button>span{font:10px Consolas,monospace;border:1px solid var(--border);padding:0 5px;border-radius:4px;color:var(--muted)}
+.workspace-body{min-height:0;min-width:0}
+.workspace-view{border-radius:0 0 5px 5px;overscroll-behavior:contain;scrollbar-gutter:stable;min-width:0}
+.workspace-view.panel{padding:17px 19px}
+.workspace-view .section-heading{margin-bottom:11px}
+.workspace-view .section-heading h2{font-size:16px}
+.workspace-view .response-chart{min-height:0}
+.chart-plot{height:290px;width:100%;min-width:0}
+.chart-plot svg{height:100%;width:100%}
+.chart-comparison-control{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:5px 12px}
+.chart-comparison-control>.hint{font-size:10px;margin:0}
+.workspace-view .chart-readout{padding:5px 0 10px;gap:5px 15px}
+.workspace-view .result-summary{margin:11px 0 10px;padding-top:10px}
+.workspace-view .result-summary>span:last-child{flex-basis:auto;margin:0}
+.workspace-view .metric-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.workspace-view .metric{padding:10px 11px}
+.workspace-view .metric>span{font-size:10px;margin-bottom:5px}
+.workspace-view .metric>strong{font-size:20px;overflow-wrap:anywhere}
+.workspace-view .metric>.hint{margin:4px 0 0;font-size:10px}
+.workspace-view>details{margin-top:13px;padding-top:9px}
+.workspace-view .candidate-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+.workspace-view .run-history{max-height:none;overflow:visible}
+.learning-view>.panel{min-height:100%;border-radius:0 0 5px 5px}
+.learning-view .field textarea{max-height:260px}
+.history-view .run-item{padding:14px 9px}
+@media(min-width:1000px){
+  .module-content:has(>.workbench){height:calc(100dvh - 100px);min-height:0}
+  .workbench{height:100%;min-height:0;display:flex;flex-direction:column;padding-bottom:16px}
+  .workbench-grid{flex:1;min-height:0;align-items:stretch}
+  .parameter-pane{overflow:auto;padding-right:4px;min-height:0}
+  .workbench-main{display:grid;grid-template-rows:auto minmax(0,1fr)}
+  .workspace-body{overflow:hidden}
+  .workspace-view{height:100%;overflow:auto}
+  .workspace-view .chart-plot{height:clamp(160px,calc(100dvh - 650px),320px)}
+  .module-content:has(>.workbench)>.toast{position:fixed;top:auto;bottom:16px;left:24px;right:auto;width:min(560px,calc(100vw - 48px));margin:0;z-index:45;padding:9px 12px;font-size:12px;pointer-events:none}
+  .module-content:has(>.workbench)>.toast .button{pointer-events:auto}
+  .module-content:has(>.workbench)>.transition-notice{position:absolute;z-index:44;top:8px;left:24px;right:24px}
+}
+@media(min-width:1550px){.workbench-grid{grid-template-columns:320px minmax(0,1fr)}.workspace-view .candidate-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:1000px) and (max-width:1200px){
+  .workbench{padding:12px 15px}
+  .workbench-grid{grid-template-columns:265px minmax(0,1fr);gap:12px}
+  .workbench-toolbar{align-items:center}
+  .workspace-tabs>button{padding:10px 10px;font-size:11px;gap:5px}
+  .workspace-view.panel{padding:14px}
+  .workspace-view .metric{padding:9px 7px}
+  .workspace-view .metric>strong{font-size:17px}
+  .chart-panel>.section-heading{display:flex}
+  .chart-panel .segmented{margin-top:0}
+  .chart-panel .segmented .button{font-size:10px;padding:4px 6px}
+  .chart-comparison-control>.hint{display:none}
+}
+@media(max-width:999px){
+  .workbench{padding:16px}
+  .workbench-grid{grid-template-columns:250px minmax(0,1fr);gap:12px}
+  .parameter-pane{max-height:calc(100dvh - 130px);overflow:auto;position:sticky;top:110px}
+  .workspace-view{overflow:auto}
+  .workspace-tabs{flex-wrap:wrap;padding:0 4px}
+  .workspace-tabs>button{flex:1;padding:10px 7px;font-size:11px}
+  .workspace-view .metric-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .workspace-view .candidate-list{grid-template-columns:1fr}
+  .chart-comparison-control>.hint{display:none}
+}
+@media(max-width:760px){
+  .workbench{padding:14px 12px 88px}
+  .workbench-grid{display:flex;flex-direction:column}
+  .parameter-pane{max-height:none;position:static;overflow:visible}
+  .workbench-main{width:100%}
+  .workspace-view.panel{padding:15px}
+  .workbench-toolbar{display:block}
+  .workbench .guide-copy{display:flex;align-items:center}
+  .workbench .guide-copy>.action-row{margin-top:0;flex-wrap:nowrap}
+  .workspace-tabs>button{padding:10px 5px;font-size:11px;gap:4px}
+  .workspace-tabs>button>span{display:none}
+  .workspace-view .chart-plot{height:250px}
+}
+@media(max-width:480px){.workspace-view .metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.workbench .guide-steps button{padding-inline:1px}.workspace-view .section-heading{flex-wrap:wrap}.workspace-view .chart-plot{height:220px}}

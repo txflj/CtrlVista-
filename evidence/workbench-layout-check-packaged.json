@@ -1,0 +1,431 @@
+{
+  "startedAt": "2026-10-29T08:06:29.757Z",
+  "version": "3.0.0",
+  "packaged": true,
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-3.0.0-win32-x64\\控小助.exe",
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\workbench-layout-1793261189754",
+  "checks": [
+    {
+      "name": "真实参数仿真与五项指标正常，四个工作区均具备标签语义",
+      "details": true
+    },
+    {
+      "name": "1366×768 无页面长滚动或横向溢出，左右区域分别滚动",
+      "details": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "document": {
+          "width": 1366,
+          "height": 768,
+          "scrollY": 0
+        },
+        "parameters": {
+          "x": 24,
+          "y": 263.72918701171875,
+          "right": 314,
+          "bottom": 752.0000305175781,
+          "width": 290,
+          "height": 488.2708435058594,
+          "scrollHeight": 1014,
+          "clientHeight": 488,
+          "overflowY": "auto"
+        },
+        "main": {
+          "x": 334,
+          "y": 263.72918701171875,
+          "right": 1342,
+          "bottom": 752.0000305175781,
+          "width": 1008,
+          "height": 488.2708435058594,
+          "scrollHeight": 488,
+          "clientHeight": 488,
+          "overflowY": "visible"
+        },
+        "active": {
+          "x": 354.66668701171875,
+          "y": 305.59375,
+          "right": 1342.0000610351562,
+          "bottom": 752,
+          "width": 987.3333740234375,
+          "height": 446.40625,
+          "scrollHeight": 502,
+          "clientHeight": 446,
+          "overflowY": "auto"
+        },
+        "lastMetric": {
+          "x": 1134.125,
+          "y": 641.4479370117188,
+          "right": 1328.9895935058594,
+          "bottom": 746.4271087646484,
+          "width": 194.86459350585938,
+          "height": 104.97917175292969,
+          "scrollHeight": 105,
+          "clientHeight": 105,
+          "overflowY": "visible"
+        },
+        "controller": {
+          "x": 24,
+          "y": 263.72918701171875,
+          "right": 296,
+          "bottom": 622.2187805175781,
+          "width": 272,
+          "height": 358.4895935058594,
+          "scrollHeight": 358,
+          "clientHeight": 358,
+          "overflowY": "visible"
+        },
+        "toolbar": {
+          "x": 24,
+          "y": 114,
+          "right": 1342,
+          "bottom": 167.39583587646484,
+          "width": 1318,
+          "height": 53.395835876464844,
+          "scrollHeight": 53,
+          "clientHeight": 53,
+          "overflowY": "visible"
+        },
+        "aiLauncher": {
+          "x": 1094.8125,
+          "y": 60,
+          "right": 1186,
+          "bottom": 92,
+          "width": 91.1875,
+          "height": 32,
+          "scrollHeight": 31,
+          "clientHeight": 31,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "1440×900 无页面长滚动或横向溢出，左右区域分别滚动",
+      "details": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 0
+        },
+        "parameters": {
+          "x": 24,
+          "y": 263.72918701171875,
+          "right": 314,
+          "bottom": 884.0000610351562,
+          "width": 290,
+          "height": 620.2708740234375,
+          "scrollHeight": 1014,
+          "clientHeight": 620,
+          "overflowY": "auto"
+        },
+        "main": {
+          "x": 334,
+          "y": 263.72918701171875,
+          "right": 1416,
+          "bottom": 884.0000610351562,
+          "width": 1082,
+          "height": 620.2708740234375,
+          "scrollHeight": 620,
+          "clientHeight": 620,
+          "overflowY": "visible"
+        },
+        "active": {
+          "x": 354.66668701171875,
+          "y": 305.59375,
+          "right": 1416.0000610351562,
+          "bottom": 884,
+          "width": 1061.3333740234375,
+          "height": 578.40625,
+          "scrollHeight": 592,
+          "clientHeight": 578,
+          "overflowY": "auto"
+        },
+        "lastMetric": {
+          "x": 1193.3333740234375,
+          "y": 731.4479370117188,
+          "right": 1403.0000457763672,
+          "bottom": 836.4271087646484,
+          "width": 209.6666717529297,
+          "height": 104.97917175292969,
+          "scrollHeight": 105,
+          "clientHeight": 105,
+          "overflowY": "visible"
+        },
+        "controller": {
+          "x": 24,
+          "y": 263.72918701171875,
+          "right": 296,
+          "bottom": 622.2187805175781,
+          "width": 272,
+          "height": 358.4895935058594,
+          "scrollHeight": 358,
+          "clientHeight": 358,
+          "overflowY": "visible"
+        },
+        "toolbar": {
+          "x": 24,
+          "y": 114,
+          "right": 1416,
+          "bottom": 167.39583587646484,
+          "width": 1392,
+          "height": 53.395835876464844,
+          "scrollHeight": 53,
+          "clientHeight": 53,
+          "overflowY": "visible"
+        },
+        "aiLauncher": {
+          "x": 1313.8125,
+          "y": 836.6666870117188,
+          "right": 1416,
+          "bottom": 880.0000228881836,
+          "width": 102.1875,
+          "height": 43.333335876464844,
+          "scrollHeight": 42,
+          "clientHeight": 42,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "1920×1080 无页面长滚动或横向溢出，左右区域分别滚动",
+      "details": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "document": {
+          "width": 1920,
+          "height": 1080,
+          "scrollY": 0
+        },
+        "parameters": {
+          "x": 32,
+          "y": 282.72918701171875,
+          "right": 352,
+          "bottom": 1064.0000610351562,
+          "width": 320,
+          "height": 781.2708740234375,
+          "scrollHeight": 1014,
+          "clientHeight": 781,
+          "overflowY": "auto"
+        },
+        "main": {
+          "x": 378,
+          "y": 282.72918701171875,
+          "right": 1888,
+          "bottom": 1064.0000610351562,
+          "width": 1510,
+          "height": 781.2708740234375,
+          "scrollHeight": 781,
+          "clientHeight": 781,
+          "overflowY": "visible"
+        },
+        "active": {
+          "x": 404.66668701171875,
+          "y": 328.59375,
+          "right": 1888.0000610351562,
+          "bottom": 1064,
+          "width": 1483.3333740234375,
+          "height": 735.40625,
+          "scrollHeight": 735,
+          "clientHeight": 735,
+          "overflowY": "auto"
+        },
+        "lastMetric": {
+          "x": 1580.9271240234375,
+          "y": 872.4479370117188,
+          "right": 1875.0000610351562,
+          "bottom": 992.4271087646484,
+          "width": 294.07293701171875,
+          "height": 119.97917175292969,
+          "scrollHeight": 120,
+          "clientHeight": 120,
+          "overflowY": "visible"
+        },
+        "controller": {
+          "x": 32,
+          "y": 282.72918701171875,
+          "right": 334,
+          "bottom": 641.2187805175781,
+          "width": 302,
+          "height": 358.4895935058594,
+          "scrollHeight": 358,
+          "clientHeight": 358,
+          "overflowY": "visible"
+        },
+        "toolbar": {
+          "x": 32,
+          "y": 120,
+          "right": 1888,
+          "bottom": 173.39583587646484,
+          "width": 1856,
+          "height": 53.395835876464844,
+          "scrollHeight": 53,
+          "clientHeight": 53,
+          "overflowY": "visible"
+        },
+        "aiLauncher": {
+          "x": 1793.8125,
+          "y": 1016.6666870117188,
+          "right": 1896,
+          "bottom": 1060.0000228881836,
+          "width": 102.1875,
+          "height": 43.333335876464844,
+          "scrollHeight": 42,
+          "clientHeight": 42,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "1040×720 无页面长滚动或横向溢出，左右区域分别滚动",
+      "details": {
+        "viewport": {
+          "width": 1040,
+          "height": 720
+        },
+        "document": {
+          "width": 1040,
+          "height": 720,
+          "scrollY": 0
+        },
+        "parameters": {
+          "x": 17,
+          "y": 256.72918701171875,
+          "right": 267,
+          "bottom": 706.0000305175781,
+          "width": 250,
+          "height": 449.2708435058594,
+          "scrollHeight": 1014,
+          "clientHeight": 449,
+          "overflowY": "auto"
+        },
+        "main": {
+          "x": 279,
+          "y": 256.72918701171875,
+          "right": 1023,
+          "bottom": 706.0000305175781,
+          "width": 744,
+          "height": 449.2708435058594,
+          "scrollHeight": 449,
+          "clientHeight": 449,
+          "overflowY": "visible"
+        },
+        "active": {
+          "x": 293.66668701171875,
+          "y": 292.9895935058594,
+          "right": 1023.0000610351562,
+          "bottom": 706.0000305175781,
+          "width": 729.3333740234375,
+          "height": 413.01043701171875,
+          "scrollHeight": 461,
+          "clientHeight": 413,
+          "overflowY": "auto"
+        },
+        "lastMetric": {
+          "x": 866.7291870117188,
+          "y": 606.84375,
+          "right": 1009.9896087646484,
+          "bottom": 692.5416717529297,
+          "width": 143.2604217529297,
+          "height": 85.69792175292969,
+          "scrollHeight": 86,
+          "clientHeight": 86,
+          "overflowY": "visible"
+        },
+        "controller": {
+          "x": 17,
+          "y": 256.72918701171875,
+          "right": 249,
+          "bottom": 615.2187805175781,
+          "width": 232,
+          "height": 358.4895935058594,
+          "scrollHeight": 358,
+          "clientHeight": 358,
+          "overflowY": "visible"
+        },
+        "toolbar": {
+          "x": 17,
+          "y": 114,
+          "right": 1023,
+          "bottom": 167.39583587646484,
+          "width": 1006,
+          "height": 53.395835876464844,
+          "scrollHeight": 53,
+          "clientHeight": 53,
+          "overflowY": "visible"
+        },
+        "aiLauncher": {
+          "x": 768.8125,
+          "y": 60,
+          "right": 860,
+          "bottom": 92,
+          "width": 91.1875,
+          "height": 32,
+          "scrollHeight": 31,
+          "clientHeight": 31,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "预测草稿跨标签保留，预测、观察、笔记和结论可以编辑",
+      "details": true
+    },
+    {
+      "name": "自动整定和候选比较可用，切回响应保留所选叠加曲线",
+      "details": {
+        "comparisonRows": 2
+      }
+    },
+    {
+      "name": "AI 侧窗为非模态，主区可调参，关闭重开保留草稿，Escape 恢复入口焦点",
+      "details": true
+    },
+    {
+      "name": "模型设置置于侧窗上层，Escape 只关闭设置而不丢失侧窗草稿",
+      "details": true
+    },
+    {
+      "name": "AI 侧窗可直接进入方案对比并收起窗口",
+      "details": true
+    },
+    {
+      "name": "工作区标签支持 Enter 激活并保留焦点、方向键与 End 键导航",
+      "details": true
+    },
+    {
+      "name": "运行记录支持复算、保存和导出，标签切换后的笔记完整保存",
+      "details": true
+    },
+    {
+      "name": "760 像素窄窗口无横向溢出，AI 侧窗保持可读和可关闭",
+      "details": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-1366x768.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-1440x900.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-1920x1080.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-1040x720.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-learning.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-comparison.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-ai-drawer.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-history.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\workbench-layout-packaged-narrow-ai-drawer.png"
+  ],
+  "scope": "真实 Electron 与正式桌面桥在独立测试目录中验证布局、参数计算、候选比较、记录与导出。AI 仅检查未配置状态和侧窗交互，不调用在线模型，也不读取正式用户数据。",
+  "runtime": {
+    "electron": "44.9.3",
+    "chromium": "152.0.7977.167"
+  },
+  "passed": true,
+  "rendererErrors": [],
+  "finishedAt": "2026-10-29T08:06:48.800Z"
+}

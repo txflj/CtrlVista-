@@ -1,0 +1,69 @@
+.welcome-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  overflow: hidden;
+  background: #e8e5e1;
+  color: #172b40;
+  isolation: isolate;
+}
+.welcome-screen[data-theme="dark"] {
+  background: #17212e;
+  color: #f0ede5;
+}
+.welcome-screen-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.welcome-screen .welcome-screen-skip {
+  position: absolute;
+  right: clamp(20px, 3.5vw, 64px);
+  bottom: clamp(20px, 4vh, 52px);
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 42px;
+  padding: 10px 18px;
+  border: 1px solid #bdbcb6;
+  border-radius: 3px;
+  background: #efede8;
+  color: inherit;
+  font:
+    13px/1.4 "Microsoft YaHei UI",
+    "Microsoft YaHei",
+    sans-serif;
+  cursor: pointer;
+}
+.welcome-screen[data-theme="dark"] .welcome-screen-skip {
+  border-color: #344657;
+  background: #1d2d3e;
+}
+.welcome-screen .welcome-screen-skip kbd {
+  border: 0;
+  padding: 0;
+  color: #66717b;
+  font:
+    10px/1.4 Consolas,
+    monospace;
+}
+.welcome-screen[data-theme="dark"] .welcome-screen-skip kbd {
+  color: #a2b0bf;
+}
+.welcome-screen .welcome-screen-skip:hover {
+  border-color: #446b98;
+}
+.welcome-screen .welcome-screen-skip:focus-visible {
+  outline: 2px solid #446b98;
+  outline-offset: 4px;
+}
+.welcome-screen[data-theme="dark"] .welcome-screen-skip:focus-visible {
+  outline-color: #91afd3;
+}
+@media (max-width: 600px) {
+  .welcome-screen .welcome-screen-skip {
+    right: 20px;
+    bottom: 20px;
+    gap: 14px;
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "version": "3.0.0",
+  "packaged": true,
+  "executablePath": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\release\\控小助-3.0.0-win32-x64\\控小助.exe",
+  "dataDir": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\global-theme-packaged-1793261255941",
+  "startedAt": "2026-10-29T08:07:35.942Z",
+  "checks": [
+    {
+      "name": "没有已保存偏好时，首次启动的主页与外层默认浅色",
+      "details": true
+    },
+    {
+      "name": "从原设置入口选择深色后，重启仍保留手动选择",
+      "details": true
+    },
+    {
+      "name": "仅有旧主页 dark=false 偏好的用户重启后，主页与外层均迁移为亮色",
+      "details": true
+    },
+    {
+      "name": "工作区底色与主页实际浅米白背景完全一致",
+      "details": {
+        "homePaper": "rgb(232, 229, 225)",
+        "workspacePaper": "rgb(232, 229, 225)"
+      }
+    },
+    {
+      "name": "实验索引底部实验库入口字体放大且按钮可操作",
+      "details": true
+    },
+    {
+      "name": "主页亮色同步至实验库、导航与案例卡",
+      "details": [
+        {
+          "selector": "html",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".app-chrome",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".module-navigation",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".case-card",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.964539376347135
+        },
+        {
+          "selector": ".case-card h2",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.964539376347135
+        },
+        {
+          "selector": ".case-card p",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 5.502984567044784
+        },
+        {
+          "selector": ".case-card li",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 5.502984567044784
+        }
+      ]
+    },
+    {
+      "name": "工作台参数、指标、图表与字段使用亮色",
+      "details": [
+        {
+          "selector": ".workbench",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".controller-panel",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".controller-panel input:not(:disabled)",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            238,
+            236,
+            232
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.225201376711288
+        },
+        {
+          "selector": ".metric",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".metric strong",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".chart-readout",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 4.897536005613949
+        }
+      ]
+    },
+    {
+      "name": "light：实际响应与固定对照曲线、坐标和读数清晰可辨",
+      "details": {
+        "samples": [
+          {
+            "selector": ".response-chart svg",
+            "foreground": [
+              32,
+              37,
+              31
+            ],
+            "background": [
+              232,
+              229,
+              225
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(0, 0, 0)"
+          },
+          {
+            "selector": ".response-chart .axis-label",
+            "foreground": [
+              94,
+              99,
+              92
+            ],
+            "background": [
+              232,
+              229,
+              225
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(94, 99, 92)"
+          },
+          {
+            "selector": ".chart-readout strong",
+            "foreground": [
+              32,
+              37,
+              31
+            ],
+            "background": [
+              232,
+              229,
+              225
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "traces": [
+          {
+            "runId": "9153790d-e893-4479-97ee-3913c050edb7",
+            "stroke": "rgb(65, 110, 168)",
+            "dash": "none",
+            "contrast": 4.160143876380749
+          },
+          {
+            "runId": "cbe8454a-9386-458c-9c12-93bcd259012e",
+            "stroke": "rgb(121, 84, 158)",
+            "dash": "7px, 4px",
+            "contrast": 4.678843751791232
+          }
+        ]
+      }
+    },
+    {
+      "name": "AI 抽屉及输入框使用亮色，未配置模型不能发起请求",
+      "details": [
+        {
+          "selector": ".ai-drawer",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.964539376347135
+        },
+        {
+          "selector": ".ai-drawer textarea",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            238,
+            236,
+            232
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.225201376711288
+        },
+        {
+          "selector": ".ai-drawer .callout",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            236,
+            235,
+            229
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 5.147944947786059
+        }
+      ]
+    },
+    {
+      "name": "模型设置同步配色与可读字段",
+      "details": [
+        {
+          "selector": ".modal",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.964539376347135
+        },
+        {
+          "selector": ".modal input:not([type=\"checkbox\"])",
+          "foreground": [
+            16,
+            16,
+            16
+          ],
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 19.028110547666497
+        },
+        {
+          "selector": ".modal select",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            238,
+            236,
+            232
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.225201376711288
+        },
+        {
+          "selector": ".modal p.muted",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            244,
+            242,
+            239
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 5.502984567044784
+        }
+      ]
+    },
+    {
+      "name": "我的实验与已保存记录使用亮色",
+      "details": [
+        {
+          "selector": ".record-card",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".record-card h2",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".record-note",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 4.897536005613949
+        }
+      ]
+    },
+    {
+      "name": "开放与验证内容使用亮色",
+      "details": [
+        {
+          "selector": ".verification-page",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".verification-grid .panel",
+          "foreground": [
+            32,
+            37,
+            31
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 12.42813487194671
+        },
+        {
+          "selector": ".verification-grid .panel p",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 4.897536005613949
+        },
+        {
+          "selector": ".verification-grid li",
+          "foreground": [
+            94,
+            99,
+            92
+          ],
+          "background": [
+            232,
+            229,
+            225
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 4.897536005613949
+        }
+      ]
+    },
+    {
+      "name": "外层设置切换暗色后工作台与字段同步恢复",
+      "details": [
+        {
+          "selector": ".workbench",
+          "foreground": [
+            231,
+            238,
+            248
+          ],
+          "background": [
+            23,
+            33,
+            46
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.903436666010519
+        },
+        {
+          "selector": ".controller-panel",
+          "foreground": [
+            231,
+            238,
+            248
+          ],
+          "background": [
+            23,
+            33,
+            46
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 13.903436666010519
+        },
+        {
+          "selector": ".controller-panel input:not(:disabled)",
+          "foreground": [
+            231,
+            238,
+            248
+          ],
+          "background": [
+            20,
+            32,
+            46
+          ],
+          "backgroundImage": "none",
+          "stroke": "none",
+          "fill": "rgb(0, 0, 0)",
+          "contrast": 14.095511034616424
+        }
+      ]
+    },
+    {
+      "name": "dark：实际响应与固定对照曲线、坐标和读数清晰可辨",
+      "details": {
+        "samples": [
+          {
+            "selector": ".response-chart svg",
+            "foreground": [
+              231,
+              238,
+              248
+            ],
+            "background": [
+              23,
+              33,
+              46
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(0, 0, 0)"
+          },
+          {
+            "selector": ".response-chart .axis-label",
+            "foreground": [
+              169,
+              185,
+              206
+            ],
+            "background": [
+              23,
+              33,
+              46
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(169, 185, 206)"
+          },
+          {
+            "selector": ".chart-readout strong",
+            "foreground": [
+              199,
+              212,
+              230
+            ],
+            "background": [
+              23,
+              33,
+              46
+            ],
+            "backgroundImage": "none",
+            "stroke": "none",
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "traces": [
+          {
+            "runId": "9153790d-e893-4479-97ee-3913c050edb7",
+            "stroke": "rgb(141, 183, 255)",
+            "dash": "none",
+            "contrast": 8.001958774270856
+          },
+          {
+            "runId": "cbe8454a-9386-458c-9c12-93bcd259012e",
+            "stroke": "rgb(195, 165, 239)",
+            "dash": "7px, 4px",
+            "contrast": 7.691878541888482
+          }
+        ]
+      }
+    },
+    {
+      "name": "外层模型设置反向同步主页暗色按钮与三维主题",
+      "details": true
+    },
+    {
+      "name": "退出并以同一隔离目录重启后，外层与主页均记住亮色",
+      "details": true
+    },
+    {
+      "name": "全部检查未触发 HTTP(S) 请求或 renderer 异常",
+      "details": true
+    }
+  ],
+  "screenshots": [
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-legacy-migration-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-home-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-index-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-library-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-workbench-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-ai-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-settings-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-records-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-verification-light.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-workbench-dark.png",
+    "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\evidence\\screenshots\\global-theme-packaged-restart-light.png"
+  ],
+  "errors": [],
+  "scope": "真实 Electron、隔离用户目录和实际页面操作；验证全软件主题、计算曲线对比与关闭重启持久化。仅查看未配置的 AI 界面，不调用在线模型；阻止并记录 renderer 的 HTTP(S) 请求。颜色检查基于计算样式，截图另供人工复核。",
+  "passed": true,
+  "rendererErrors": [],
+  "networkAttempts": [],
+  "finishedAt": "2026-10-29T08:09:16.855Z"
+}

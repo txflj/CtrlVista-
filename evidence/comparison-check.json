@@ -1,0 +1,121 @@
+{
+  "startedAt": "2026-10-28T10:25:15.953Z",
+  "fixture": "<USER_HOME>\\Desktop\\ai软件大赛\\控小助\\.test-data\\comparison-1793183115945",
+  "checks": [
+    {
+      "name": "首次完成初始化对照，后续自动预览不推进",
+      "details": {
+        "version": 2,
+        "activeRunId": "17a51e0f-8220-48d6-895d-a4daf970131f",
+        "comparisonRunId": "18266daa-195c-4362-ba6c-268b31b0a67c",
+        "lastManualRunId": null,
+        "runCount": 2,
+        "activeVersion": 2,
+        "comparisonVersion": 1
+      }
+    },
+    {
+      "name": "同实际配置手动重跑及仅版本变化均保留紫线",
+      "details": {
+        "version": 3,
+        "activeRunId": "5136e394-ca04-4a4b-aa40-c726c78e9e90",
+        "comparisonRunId": "18266daa-195c-4362-ba6c-268b31b0a67c",
+        "lastManualRunId": "5136e394-ca04-4a4b-aa40-c726c78e9e90",
+        "runCount": 5,
+        "activeVersion": 3,
+        "comparisonVersion": 1
+      }
+    },
+    {
+      "name": "自动预览保持已有紫线，改参手动确认才推进",
+      "details": {
+        "previewState": {
+          "version": 4,
+          "activeRunId": "7726c86d-15bc-4eb8-886c-e3c9bf642bf4",
+          "comparisonRunId": "18266daa-195c-4362-ba6c-268b31b0a67c",
+          "lastManualRunId": "5136e394-ca04-4a4b-aa40-c726c78e9e90",
+          "runCount": 6,
+          "activeVersion": 4,
+          "comparisonVersion": 1
+        },
+        "confirmedState": {
+          "version": 4,
+          "activeRunId": "80275cd9-8c1a-4def-bdcb-761bf36562f5",
+          "comparisonRunId": "5136e394-ca04-4a4b-aa40-c726c78e9e90",
+          "lastManualRunId": "80275cd9-8c1a-4def-bdcb-761bf36562f5",
+          "runCount": 7,
+          "activeVersion": 4,
+          "comparisonVersion": 3
+        }
+      }
+    },
+    {
+      "name": "不同评价条件保留历史指针但不混画紫线",
+      "details": {
+        "version": 5,
+        "activeRunId": "8cb67ae5-4b1c-4520-8aef-e5d17092507b",
+        "comparisonRunId": "80275cd9-8c1a-4def-bdcb-761bf36562f5",
+        "lastManualRunId": "8cb67ae5-4b1c-4520-8aef-e5d17092507b",
+        "runCount": 9,
+        "activeVersion": 5,
+        "comparisonVersion": 4
+      }
+    },
+    {
+      "name": "乱序旧请求不覆盖当前结果或对照指针",
+      "details": {
+        "newerState": {
+          "version": 8,
+          "activeRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+          "comparisonRunId": "bb96fec1-d96f-433f-bf40-1f335d1b064d",
+          "lastManualRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+          "runCount": 11,
+          "activeVersion": 8,
+          "comparisonVersion": 6
+        },
+        "afterOld": {
+          "version": 8,
+          "activeRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+          "comparisonRunId": "bb96fec1-d96f-433f-bf40-1f335d1b064d",
+          "lastManualRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+          "runCount": 12,
+          "activeVersion": 8,
+          "comparisonVersion": 6
+        }
+      }
+    },
+    {
+      "name": "保存并恢复实验保留固定对照状态",
+      "details": {
+        "version": 8,
+        "activeRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+        "comparisonRunId": "bb96fec1-d96f-433f-bf40-1f335d1b064d",
+        "lastManualRunId": "df274a60-6cee-41ad-8c48-1475dd44f3f9",
+        "runCount": 12,
+        "activeVersion": 8,
+        "comparisonVersion": 6
+      }
+    },
+    {
+      "name": "旧实验一次迁移跳过同参数重复结果",
+      "details": {
+        "version": 2,
+        "activeRunId": "7c0a9e14-36ff-4cb9-81b5-1dffbbf54aba",
+        "comparisonRunId": "eec14a7d-4f13-45d0-b730-bf5a89cb79c7",
+        "lastManualRunId": null,
+        "runCount": 3,
+        "activeVersion": 2,
+        "comparisonVersion": 1
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "独立 Electron 中真实挂载 React Hook 与 Workbench，仿真使用产品计算引擎；保存为内存 Map，延迟 API 仅控制回包顺序。不读取正式数据、不调用在线模型、不启动正式主进程。",
+  "runtime": {
+    "electron": "44.9.3",
+    "chromium": "152.0.7977.167"
+  },
+  "status": "passed",
+  "rendererErrors": [],
+  "finishedAt": "2026-10-28T10:25:17.088Z"
+}

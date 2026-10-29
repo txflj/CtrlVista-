@@ -1,0 +1,9 @@
+{
+  "appFiles": [
+    "desktop/main.cjs", "desktop/preload.cjs", "desktop/compute-worker.mjs",
+    "desktop/services/ai.mjs", "desktop/services/storage.mjs", "desktop/services/exports.mjs", "desktop/services/validation.mjs",
+    "src/core/index.mjs", "src/core/config.mjs", "src/core/numerics.mjs", "src/core/engine.mjs", "src/core/metrics.mjs", "src/core/cases.mjs", "src/core/autotune.mjs"
+  ],
+  "runtimePackages": ["ml-matrix"],
+  "deliveryDocs": ["使用说明.txt", "docs/软件版产品基线.md", "docs/VALIDATION.md"]
+}
